@@ -3,14 +3,21 @@ import sixCitiesModels from "../models/sixCitiesModels.js";
 // Object?
 
 // GET routes
-const getCityOrigen = (req, res, next)=>{
+const getSelectedCities = (req, res, next)=>{
 console.log('city origen');
-// must need a params name
-if (!req.params.nameOne)
-     console.log('Error');
-    
-  const origen = req.params.origen;   
+const origen = req.query.origen;  
+const destination = req.query.destination;
 
+if (!origen || !destination){
+  console.log('Error');
+} else {
+  console.log(`${origen}  ${destination}`);
+  const routeSelected = sixCitiesModels.getRouteSelected(origen, destination);
+  console.log(routeSelected);
+  //res.json({origen : origen, destination: destination});
+  res.json(routeSelected);
+}
+ 
 }
 // GET origen
 
@@ -25,5 +32,5 @@ const getOneCity = (str) =>{
 // use filter here
 }
 export default{
-    getCityOrigen
+    getSelectedCities
 }

@@ -1,13 +1,13 @@
 const routes = [{
-    "airline_iata": "3O",
-    "airline_icao": null,
-    "departure_airport_iata": "BCN",
-    "departure_airport_icao": null,
-    "arrival_airport_iata": "CMN",
-    "arrival_airport_icao": null,
-    "codeshare": false,
-    "transfers": 0,
-    "planes": [
+    airline_iata: "3O",
+    airline_icao: null,
+    departure_airport_iata: "BCN",
+    departure_airport_icao: null,
+    arrival_airport_iata: "CMN",
+    arrival_airport_icao: null,
+    codeshare: false,
+    transfers: 0,
+    planes: [
         "320"
     ]
 },
