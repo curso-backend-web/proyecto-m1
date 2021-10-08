@@ -1,4 +1,4 @@
-[
+const countries = [
     {
         "code": "GA",
         "name": "",
@@ -2757,3 +2757,4 @@
         }
     }
 ]
+export default countries;
