@@ -1,4 +1,4 @@
-[
+const airports = [
     {
         "city_code": "HOU",
         "country_code": "US",
@@ -158128,3 +158128,4 @@
         "iata_type": "airport"
     }
 ]
+export default airports;
