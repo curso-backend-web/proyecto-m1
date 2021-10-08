@@ -121,3 +121,22 @@ Se incorporará dentro de la carpeta __middleware__.
 |Se ha introducido el middleware de autenticación|1pt|
 |Se ha introducido el middleware de tratamiento de errores|1pt|
 |El código está limpio, no hay acoplamientos y se mantiene el principio de responsabilidad única|1pt|
+
+## Steps
+
+**npm init**
+
+  * npm i express
+
+  * npm i -D jest
+
+  * npm dotenv
+
+  ## Architecture
+
+  |_ Controller
+    |_ Model
+    |_ Routes
+    |_ app.js
+    |_ server
+

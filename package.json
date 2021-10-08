@@ -1,0 +1,32 @@
+{
+  "name": "proyecto-m1",
+  "version": "1.0.0",
+  "description": "first API project",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backEndLaVioleta/proyecto-m1.git"
+  },
+  "keywords": [
+    "express",
+    "Nodejs"
+  ],
+  "author": "naranjito72",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/backEndLaVioleta/proyecto-m1/issues"
+  },
+  "homepage": "https://github.com/backEndLaVioleta/proyecto-m1#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.2.4"
+  }
+}
