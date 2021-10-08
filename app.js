@@ -20,6 +20,9 @@ app.use('/api/countries', countriesRoute);
 
 // routes In&Out
 app.use('/api/routes', sixCitiesRoute);
+
+// routes in params
+app.use('/api/routes/?origin:name', sixCitiesRoute);
 // userPersonalRoutes
     // CRUD
 

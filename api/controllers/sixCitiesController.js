@@ -3,17 +3,14 @@ import sixCitiesModels from "../models/sixCitiesModels.js";
 // Object?
 
 // GET routes
-const getRoutes = (req, res, next)=>{
-const routes = sixCitiesModels.getSixRoutes();
+const getCityOrigen = (req, res, next)=>{
+console.log('city origen');
+// must need a params name
+if (!req.params.nameOne)
+     console.log('Error');
+    
+  const origen = req.params.origen;   
 
-const nameOrigin = req.params.departure_airport_iata;
-
-const nameDeparture = sixCitiesModels.getOneName(nameOrigin);
-console.log(nameDeparture);
-res.json(nameDeparture).status(200);
-
-// get now the origin city in routes
- // res.json((routes)).status(200);  
 }
 // GET origen
 
@@ -28,5 +25,5 @@ const getOneCity = (str) =>{
 // use filter here
 }
 export default{
-    getRoutes
+    getCityOrigen
 }

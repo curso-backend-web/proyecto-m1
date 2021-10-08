@@ -6,8 +6,8 @@ class RoutesModel {
         return routes;
     }
 
-    getOneName(str){
-        return routes.filter((el) => el.departure_airport_iata == str);
+    getOneName(obj){
+        return routes.filter((el) => el.departure_airport_iata == obj.departure_airport_iata);
     }
 }
 export default new RoutesModel();
