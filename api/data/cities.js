@@ -1,4 +1,4 @@
-[
+const cities = [
     {
         "country_code": "UY",
         "code": "BUV",
@@ -130998,3 +130998,4 @@
         "cases": null
     }
 ]
+export default cities;
