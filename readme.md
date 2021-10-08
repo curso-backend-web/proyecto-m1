@@ -132,7 +132,7 @@ Se incorporará dentro de la carpeta __middleware__.
 
   * npm dotenv
 
-  ## Architecture
+## Architecture
 
   |_ Controller
     |_ Model
@@ -140,3 +140,4 @@ Se incorporará dentro de la carpeta __middleware__.
     |_ app.js
     |_ server
 
+## 
