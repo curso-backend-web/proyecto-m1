@@ -56,7 +56,7 @@ _El usuario administrador se escribe directamente en el fichero, no se dará de 
 |Countries|list| El usuario lista todos los códigos de países |no|
 |Rutas | List | El usuario accede a una lista de rutas |origen, destino|
 |RutasUsuario| Crea varias |Un usuario con el rol de usuario, autenticado, guarda un array de rutas en su perfil |array de rutas|
-|RutasUsuario| List | Un usuario con el rol de usuario, autenticado, lee todas las rutas de su perfil |array de rutas|
+|RutasUsuario| List | Un usuario con el rol de usuario, autenticado, lee todas las rutas de su perfil |no|
 |RutasUsuario| Remove |Un usuario con el rol de usuario, autenticado, borra todas sus rutas de su perfil| no|
 |Admin | List | Un usuario con el rol de administrador, autenticado, lista todos los usuarios |no|
 |Admin | Remove One | Un usuario con el rol de administrador, autenticado, elimina un usuario |idUsuario|
