@@ -1,4 +1,4 @@
-{
+[{
     "airline_iata": "3O",
     "airline_icao": null,
     "departure_airport_iata": "BCN",
@@ -122,8 +122,8 @@
     "planes": [
         "320",
         "319",
-        "767",
-
+        "767"]
+    },
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -164,7 +164,7 @@
     "planes": [
         "321",
         "738",
-        "320",
+        "320"
     ]
 },
 {
@@ -193,8 +193,8 @@
     "planes": [
         "738",
         "320",
-        "321",
-
+        "321"]
+    },
 {
     "airline_iata": "AB",
     "airline_icao": null,
@@ -221,8 +221,8 @@
     "planes": [
         "320",
         "319",
-        "738",
-
+        "738"]
+    },
 {
     "airline_iata": "AB",
     "airline_icao": null,
@@ -305,7 +305,7 @@
     "planes": [
         "320",
         "319",
-        "321",
+        "321"
     ]
 },
 {
@@ -362,7 +362,7 @@
     "planes": [
         "738",
         "ATR",
-        "736",
+        "736"
     ]
 },
 {
@@ -601,8 +601,8 @@
     "planes": [
         "320",
         "319",
-        "767",
-
+        "767"]
+    },
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -1707,7 +1707,7 @@
     "planes": [
         "321",
         "738",
-        "320",
+        "320"
     ]
 },
 {
@@ -1988,8 +1988,8 @@
     "planes": [
         "320",
         "319",
-        "767",
-
+        "767"]
+    },
 {
     "airline_iata": "IB",
     "airline_icao": null,
@@ -2058,8 +2058,8 @@
     "planes": [
         "319",
         "320",
-        "321",
-
+        "321"]
+    },
 {
     "airline_iata": "IB",
     "airline_icao": null,
@@ -2450,7 +2450,7 @@
     "planes": [
         "73G",
         "CR9",
-        "738",
+        "738"
     ]
 },
 {
@@ -2465,8 +2465,8 @@
     "planes": [
         "320",
         "319",
-        "738",
-
+        "738"]
+    },
 {
     "airline_iata": "IB",
     "airline_icao": null,
@@ -2619,7 +2619,7 @@
     "planes": [
         "320",
         "733",
-        "735",
+        "735"
     ]
 },
 {
@@ -2662,7 +2662,7 @@
     "planes": [
         "320",
         "321",
-        "319",
+        "319"
     ]
 },
 {
@@ -2873,8 +2873,8 @@
     "planes": [
         "319",
         "320",
-        "738",
-
+        "738"]
+    },
 {
     "airline_iata": "OU",
     "airline_icao": null,
@@ -3013,8 +3013,8 @@
     "planes": [
         "319",
         "100",
-        "320",
-
+        "320"]
+    },
 {
     "airline_iata": "S4",
     "airline_icao": null,
@@ -3083,8 +3083,8 @@
     "planes": [
         "73G",
         "73H",
-        "73W",
-
+        "73W"]
+    },
 {
     "airline_iata": "SN",
     "airline_icao": null,
@@ -3097,8 +3097,8 @@
     "planes": [
         "733",
         "319",
-        "320",
-
+        "320"]
+    },
 {
     "airline_iata": "SQ",
     "airline_icao": null,
@@ -3195,7 +3195,7 @@
     "planes": [
         "321",
         "320",
-        "738",
+        "738"
     ]
 },
 {
@@ -3210,8 +3210,8 @@
     "planes": [
         "100",
         "ER4",
-        "319",
-
+        "319"]
+    },
 {
     "airline_iata": "TP",
     "airline_icao": null,
@@ -3252,7 +3252,7 @@
     "planes": [
         "320",
         "319",
-        "735",
+        "735"
     ]
 },
 {
@@ -4833,7 +4833,7 @@
         "735"
     ]
 },
-{
+
 
 {
     "airline_iata": "AF",
@@ -4863,7 +4863,7 @@
         "320",
         "763",
         "321",
-        "319",
+        "319"
     ]
 },
 {
@@ -4893,7 +4893,7 @@
         "320"
     ]
 },
-{
+
 
 {
     "airline_iata": "AH",
@@ -4908,7 +4908,7 @@
         "736"
     ]
 },
-{
+
 
 {
     "airline_iata": "AI",
@@ -4966,7 +4966,7 @@
         "319"
     ]
 },
-{
+
 
 {
     "airline_iata": "AZ",
@@ -5107,7 +5107,7 @@
         "320"
     ]
 },
-{
+
 
 {
     "airline_iata": "CA",
@@ -5122,7 +5122,7 @@
         "777"
     ]
 },
-{
+
 
 {
     "airline_iata": "CU",
@@ -5137,7 +5137,7 @@
         "332"
     ]
 },
-{
+
 
 {
     "airline_iata": "CY",
@@ -5181,7 +5181,7 @@
         "752"
     ]
 },
-{
+
 
 {
     "airline_iata": "D9",
@@ -5223,7 +5223,7 @@
         "319"
     ]
 },
-{
+
 
 {
     "airline_iata": "DL",
@@ -5265,7 +5265,7 @@
         "332"
     ]
 },
-{
+
 
 {
     "airline_iata": "FB",
@@ -5306,7 +5306,7 @@
         "319"
     ]
 },
-{
+
 
 {
     "airline_iata": "FG",
@@ -5321,7 +5321,7 @@
         "310"
     ]
 },
-{
+
 
 {
     "airline_iata": "FV",
@@ -5432,7 +5432,7 @@
         "320",
         "319",
         "321",
-        "SU9",
+        "SU9"
     ]
 },
 {
@@ -5560,7 +5560,7 @@
         "330"
     ]
 },
-{
+
 
 {
     "airline_iata": "IR",
@@ -5575,7 +5575,7 @@
         "722"
     ]
 },
-{
+
 
 {
     "airline_iata": "JP",
@@ -5618,7 +5618,7 @@
         "320"
     ]
 },
-{
+
 
 {
     "airline_iata": "KC",
@@ -5647,7 +5647,7 @@
         "320"
     ]
 },
-{
+
 
 {
     "airline_iata": "KE",
@@ -5675,7 +5675,7 @@
         "333"
     ]
 },
-{
+
 
 {
     "airline_iata": "KL",
@@ -5703,7 +5703,7 @@
         "32S"
     ]
 },
-{
+
 
 {
     "airline_iata": "KM",
@@ -5718,7 +5718,7 @@
         "319"
     ]
 },
-{
+
 
 {
     "airline_iata": "KQ",
@@ -5733,7 +5733,7 @@
         "320"
     ]
 },
-{
+
 
 {
     "airline_iata": "LO",
@@ -5778,7 +5778,7 @@
         "767"
     ]
 },
-{
+
 
 {
     "airline_iata": "OK",
@@ -5877,7 +5877,7 @@
         "320"
     ]
 },
-{
+
 
 {
     "airline_iata": "OV",
@@ -5933,7 +5933,7 @@
         "738"
     ]
 },
-{
+
 
 {
     "airline_iata": "RO",
@@ -5948,7 +5948,7 @@
         "319"
     ]
 },
-{
+
 
 {
     "airline_iata": "SK",
@@ -6033,7 +6033,7 @@
         "319"
     ]
 },
-{
+
 
 {
     "airline_iata": "SU",
@@ -6387,7 +6387,7 @@
         "320",
         "763",
         "321",
-        "319",
+        "319"
     ]
 },
 {
@@ -6903,7 +6903,7 @@
         "321",
         "320",
         "IL9",
-        "763",
+        "763"
     ]
 },
 {
@@ -7177,7 +7177,7 @@
         "320",
         "319",
         "321",
-        "SU9",
+        "SU9"
     ]
 },
 {
@@ -7576,7 +7576,7 @@
         "320",
         "319",
         "32S",
-        "321",
+        "321"
     ]
 },
 {
@@ -8150,7 +8150,7 @@
         "744"
     ]
 },
-{
+
 
 {
     "airline_iata": "UX",
@@ -8191,7 +8191,7 @@
         "32S"
     ]
 },
-{
+
 
 {
     "airline_iata": "VV",
@@ -8462,7 +8462,7 @@
     "planes": [
         "319",
         "320",
-        "321",
+        "321"
     ]
 },
 {
@@ -8477,8 +8477,8 @@
     "planes": [
         "320",
         "763",
-        "321",
-
+        "321"]
+    },
 {
     "airline_iata": "AF",
     "airline_icao": null,
@@ -8603,7 +8603,7 @@
     "planes": [
         "320",
         "32S",
-        "321",
+        "321"
     ]
 },
 {
@@ -8618,7 +8618,7 @@
     "planes": [
         "321",
         "763",
-        "320",
+        "320"
     ]
 },
 {
@@ -8773,7 +8773,7 @@
     "planes": [
         "321",
         "320",
-        "IL9",
+        "IL9"
     ]
 },
 {
@@ -8998,7 +8998,7 @@
     "planes": [
         "320",
         "319",
-        "321",
+        "321"
     ]
 },
 {
@@ -9041,7 +9041,7 @@
     "planes": [
         "A81",
         "319",
-        "735",
+        "735"
     ]
 },
 {
@@ -9056,8 +9056,8 @@
     "planes": [
         "320",
         "319",
-        "321",
-
+        "321"]
+    },
 {
     "airline_iata": "FV",
     "airline_icao": null,
@@ -9154,7 +9154,7 @@
     "planes": [
         "321",
         "320",
-        "319",
+        "319"
     ]
 },
 {
@@ -9365,7 +9365,7 @@
     "planes": [
         "E95",
         "E75",
-        "735",
+        "735"
     ]
 },
 {
@@ -9408,7 +9408,7 @@
     "planes": [
         "32S",
         "320",
-        "319",
+        "319"
     ]
 },
 {
@@ -9437,7 +9437,7 @@
     "planes": [
         "319",
         "32S",
-        "320",
+        "320"
     ]
 },
 {
@@ -9634,7 +9634,7 @@
     "planes": [
         "736",
         "73H",
-        "73W",
+        "73W"
     ]
 },
 {
@@ -9775,7 +9775,7 @@
     "planes": [
         "321",
         "319",
-        "320",
+        "320"
     ]
 },
 {
@@ -9804,7 +9804,7 @@
     "planes": [
         "320",
         "SU9",
-        "319",
+        "319"
     ]
 },
 {
@@ -9819,7 +9819,7 @@
     "planes": [
         "320",
         "321",
-        "763",
+        "763"
     ]
 },
 {
@@ -9834,7 +9834,7 @@
     "planes": [
         "763",
         "IL9",
-        "321",
+        "321"
     ]
 },
 {
@@ -9975,7 +9975,7 @@
     "planes": [
         "320",
         "319",
-        "321",
+        "321"
     ]
 },
 {
@@ -10018,8 +10018,8 @@
     "planes": [
         "320",
         "763",
-        "321",
-
+        "321"]
+    },
 {
     "airline_iata": "SU",
     "airline_icao": null,
@@ -10060,7 +10060,7 @@
     "planes": [
         "320",
         "SU9",
-        "319",
+        "319"
     ]
 },
 {
@@ -10215,7 +10215,7 @@
     "planes": [
         "321",
         "763",
-        "320",
+        "320"
     ]
 },
 {
@@ -10286,7 +10286,7 @@
     "planes": [
         "SU9",
         "320",
-        "319",
+        "319"
     ]
 },
 {
@@ -10483,7 +10483,7 @@
     "planes": [
         "763",
         "332",
-        "333",
+        "333"
     ]
 },
 {
@@ -10554,8 +10554,8 @@
     "planes": [
         "IL9",
         "321",
-        "320",
-
+        "320"]
+    },
 {
     "airline_iata": "SU",
     "airline_icao": null,
@@ -10638,7 +10638,7 @@
     "planes": [
         "320",
         "319",
-        "321",
+        "321"
     ]
 },
 {
@@ -10737,7 +10737,7 @@
     "planes": [
         "SU9",
         "320",
-        "319",
+        "319"
     ]
 },
 {
@@ -10808,7 +10808,7 @@
     "planes": [
         "321",
         "320",
-        "IL9",
+        "IL9"
     ]
 },
 {
@@ -10837,8 +10837,8 @@
     "planes": [
         "320",
         "319",
-        "321",
-
+        "321"]
+    },
 {
     "airline_iata": "SU",
     "airline_icao": null,
@@ -10865,7 +10865,7 @@
     "planes": [
         "320",
         "321",
-        "319",
+        "319"
     ]
 },
 {
@@ -10880,7 +10880,7 @@
     "planes": [
         "CR9",
         "319",
-        "CR2",
+        "CR2"
     ]
 },
 {
@@ -11189,7 +11189,7 @@
     "planes": [
         "319",
         "320",
-        "SU9",
+        "SU9"
     ]
 },
 {
@@ -11246,7 +11246,7 @@
     "planes": [
         "319",
         "320",
-        "321",
+        "321"
     ]
 },
 {
@@ -11457,7 +11457,7 @@
     "planes": [
         "320",
         "319",
-        "321",
+        "321"
     ]
 },
 {
@@ -11570,7 +11570,7 @@
     "planes": [
         "319",
         "SU9",
-        "320",
+        "320"
     ]
 },
 {
@@ -11683,7 +11683,7 @@
     "planes": [
         "320",
         "321",
-        "319",
+        "319"
     ]
 },
 {
@@ -11712,7 +11712,7 @@
     "planes": [
         "320",
         "SU9",
-        "319",
+        "319"
     ]
 },
 {
@@ -11769,7 +11769,7 @@
     "planes": [
         "E95",
         "735",
-        "E75",
+        "E75"
     ]
 },
 {
@@ -12220,8 +12220,8 @@
     "planes": [
         "319",
         "767",
-        "320",
-
+        "320"]
+    },
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -12248,7 +12248,7 @@
     "planes": [
         "321",
         "738",
-        "320"
+        "320"]},
 
 {
     "airline_iata": "AB",
@@ -12277,8 +12277,8 @@
     "planes": [
         "738",
         "320",
-        "321",
-
+        "321"]
+    },
 {
     "airline_iata": "AB",
     "airline_icao": null,
@@ -12306,8 +12306,8 @@
     "planes": [
         "320",
         "319",
-        "738",
-
+        "738"]
+    },
 {
     "airline_iata": "AB",
     "airline_icao": null,
@@ -12391,7 +12391,7 @@
     "planes": [
         "321",
         "320",
-        "319"
+        "319"]},
 
 {
     "airline_iata": "AF",
@@ -12448,7 +12448,7 @@
     "planes": [
         "738",
         "ATR",
-        "736"
+        "736"]},
 
 {
     "airline_iata": "AH",
@@ -12705,8 +12705,8 @@
     "planes": [
         "319",
         "767",
-        "320",
-
+        "320"]
+    },
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -13817,7 +13817,7 @@
     "planes": [
         "321",
         "738",
-        "320"
+        "320"]},
 
 {
     "airline_iata": "IB",
@@ -14102,8 +14102,8 @@
     "planes": [
         "319",
         "767",
-        "320",
-
+        "320"]
+    },
 {
     "airline_iata": "IB",
     "airline_icao": null,
@@ -14172,8 +14172,8 @@
     "planes": [
         "320",
         "321",
-        "319",
-
+        "319"]
+    },
 {
     "airline_iata": "IB",
     "airline_icao": null,
@@ -14569,7 +14569,7 @@
     "planes": [
         "73G",
         "CR9",
-        "738"
+        "738"]},
 
 {
     "airline_iata": "IB",
@@ -14583,8 +14583,8 @@
     "planes": [
         "320",
         "319",
-        "738",
-
+        "738"]
+    },
 {
     "airline_iata": "IB",
     "airline_icao": null,
@@ -14740,7 +14740,7 @@
     "planes": [
         "320",
         "733",
-        "735"
+        "735"]},
 
 {
     "airline_iata": "LH",
@@ -15000,8 +15000,8 @@
     "planes": [
         "320",
         "738",
-        "319",
-
+        "319"]
+    },
 {
     "airline_iata": "OU",
     "airline_icao": null,
@@ -15144,8 +15144,8 @@
     "planes": [
         "100",
         "320",
-        "319",
-
+        "319"]
+    },
 {
     "airline_iata": "S4",
     "airline_icao": null,
@@ -15216,8 +15216,8 @@
     "planes": [
         "73G",
         "73H",
-        "73W",
-
+        "73W"]
+    },
 {
     "airline_iata": "SN",
     "airline_icao": null,
@@ -15230,8 +15230,8 @@
     "planes": [
         "733",
         "319",
-        "320",
-
+        "320"]
+    },
 {
     "airline_iata": "SQ",
     "airline_icao": null,
@@ -15329,7 +15329,7 @@
     "planes": [
         "321",
         "320",
-        "738"
+        "738"]},
 
 {
     "airline_iata": "TP",
@@ -15343,8 +15343,8 @@
     "planes": [
         "ER4",
         "319",
-        "320",
-
+        "320"]
+    },
 {
     "airline_iata": "TP",
     "airline_icao": null,
@@ -15386,7 +15386,7 @@
     "planes": [
         "320",
         "319",
-        "735"
+        "735"]},
 
 {
     "airline_iata": "U2",
@@ -16910,7 +16910,7 @@
     "planes": [
         "763",
         "330",
-        "737"
+        "737"]},
 
 {
     "airline_iata": "AA",
@@ -16924,7 +16924,7 @@
     "planes": [
         "737",
         "763",
-        "330"
+        "330"]},
 
 {
     "airline_iata": "AZ",
@@ -16939,7 +16939,7 @@
         "346",
         "345"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -17064,7 +17064,7 @@
     "planes": [
         "E90",
         "73H",
-        "73W"
+        "73W"]},
 
 {
     "airline_iata": "DJ",
@@ -17093,7 +17093,7 @@
         "73H",
         "73W"
     ]
-
+},
 {
     "airline_iata": "DJ",
     "airline_icao": null,
@@ -17106,7 +17106,7 @@
     "planes": [
         "73H",
         "E90",
-        "73W"
+        "73W"]},
 
 {
     "airline_iata": "DJ",
@@ -17190,7 +17190,7 @@
     "planes": [
         "73H",
         "73W",
-        "E90"
+        "E90"]},
 
 {
     "airline_iata": "DJ",
@@ -17218,7 +17218,7 @@
     "planes": [
         "73H",
         "E90",
-        "73W"
+        "73W"]},
 
 {
     "airline_iata": "DJ",
@@ -17275,7 +17275,7 @@
         "73H",
         "73W"
     ]
-
+},
 {
     "airline_iata": "DJ",
     "airline_icao": null,
@@ -17289,7 +17289,7 @@
         "73H",
         "73W"
     ]
-
+},
 {
     "airline_iata": "DJ",
     "airline_icao": null,
@@ -17316,7 +17316,7 @@
     "planes": [
         "73H",
         "73W",
-        "E90"
+        "E90"]},
 
 {
     "airline_iata": "DL",
@@ -17401,7 +17401,7 @@
         "346",
         "345"
     ]
-
+},
 {
     "airline_iata": "FJ",
     "airline_icao": null,
@@ -17415,7 +17415,7 @@
         "73H",
         "744"
     ]
-
+},
 {
     "airline_iata": "GA",
     "airline_icao": null,
@@ -17443,7 +17443,7 @@
         "333",
         "332"
     ]
-
+},
 {
     "airline_iata": "JQ",
     "airline_icao": null,
@@ -17499,7 +17499,7 @@
         "320",
         "321"
     ]
-
+},
 {
     "airline_iata": "JQ",
     "airline_icao": null,
@@ -17541,7 +17541,7 @@
         "321",
         "320"
     ]
-
+},
 {
     "airline_iata": "JQ",
     "airline_icao": null,
@@ -17583,7 +17583,7 @@
         "320",
         "321"
     ]
-
+},
 {
     "airline_iata": "JQ",
     "airline_icao": null,
@@ -17653,7 +17653,7 @@
         "320",
         "321"
     ]
-
+},
 {
     "airline_iata": "JQ",
     "airline_icao": null,
@@ -17694,7 +17694,7 @@
     "planes": [
         "320",
         "332",
-        "321"
+        "321"]},
 
 {
     "airline_iata": "JQ",
@@ -17834,7 +17834,7 @@
     "planes": [
         "773",
         "320",
-        "763"
+        "763"]},
 
 {
     "airline_iata": "NZ",
@@ -17946,7 +17946,7 @@
     "planes": [
         "73H",
         "734",
-        "763"
+        "763"]},
 
 {
     "airline_iata": "QF",
@@ -17975,7 +17975,7 @@
         "73H",
         "332"
     ]
-
+},
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -18017,7 +18017,7 @@
         "73H",
         "734"
     ]
-
+},
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -18030,7 +18030,7 @@
     "planes": [
         "734",
         "763",
-        "73H"
+        "73H"]},
 
 {
     "airline_iata": "QF",
@@ -18045,7 +18045,7 @@
         "DH3",
         "DH4"
     ]
-
+},
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -18073,7 +18073,7 @@
         "DH3",
         "DH4"
     ]
-
+},
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -18115,7 +18115,7 @@
         "734",
         "73H"
     ]
-
+},
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -18185,7 +18185,7 @@
         "DH4",
         "DH3"
     ]
-
+},
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -18199,7 +18199,7 @@
         "73H",
         "744"
     ]
-
+},
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -18212,8 +18212,8 @@
     "planes": [
         "333",
         "763",
-        "332",
-
+        "332"]
+    },
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -18268,8 +18268,8 @@
     "planes": [
         "73H",
         "763",
-        "333",
-
+        "333"]
+    },
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -18325,7 +18325,7 @@
         "388",
         "773"
     ]
-
+},
 {
     "airline_iata": "TG",
     "airline_icao": null,
@@ -18339,7 +18339,7 @@
         "777",
         "773"
     ]
-
+},
 {
     "airline_iata": "TK",
     "airline_icao": null,
@@ -18353,7 +18353,7 @@
         "777",
         "773"
     ]
-
+},
 {
     "airline_iata": "TN",
     "airline_icao": null,
@@ -18493,7 +18493,7 @@
         "346",
         "345"
     ]
-
+},
 {
     "airline_iata": "VA",
     "airline_icao": null,
@@ -18521,7 +18521,7 @@
         "388",
         "773"
     ]
-
+},
 {
     "airline_iata": "VN",
     "airline_icao": null,
@@ -18716,7 +18716,7 @@
         "330",
         "763"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -18729,7 +18729,7 @@
     "planes": [
         "763",
         "330",
-        "737"
+        "737"]},
 
 {
     "airline_iata": "AZ",
@@ -18744,7 +18744,7 @@
         "345",
         "346"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -18855,7 +18855,7 @@
     "planes": [
         "E90",
         "73H",
-        "73W"
+        "73W"]},
 
 {
     "airline_iata": "DJ",
@@ -18884,7 +18884,7 @@
         "73H",
         "73W"
     ]
-
+},
 {
     "airline_iata": "DJ",
     "airline_icao": null,
@@ -18897,7 +18897,7 @@
     "planes": [
         "E90",
         "73H",
-        "73W"
+        "73W"]},
 
 {
     "airline_iata": "DJ",
@@ -18981,7 +18981,7 @@
     "planes": [
         "73W",
         "73H",
-        "E90"
+        "E90"]},
 
 {
     "airline_iata": "DJ",
@@ -19009,7 +19009,7 @@
     "planes": [
         "73H",
         "E90",
-        "73W"
+        "73W"]},
 
 {
     "airline_iata": "DJ",
@@ -19066,7 +19066,7 @@
         "73H",
         "73W"
     ]
-
+},
 {
     "airline_iata": "DJ",
     "airline_icao": null,
@@ -19080,7 +19080,7 @@
         "73H",
         "73W"
     ]
-
+},
 {
     "airline_iata": "DJ",
     "airline_icao": null,
@@ -19107,7 +19107,7 @@
     "planes": [
         "73H",
         "73W",
-        "E90"
+        "E90"]},
 
 {
     "airline_iata": "DL",
@@ -19192,7 +19192,7 @@
         "345",
         "346"
     ]
-
+},
 {
     "airline_iata": "FJ",
     "airline_icao": null,
@@ -19206,7 +19206,7 @@
         "73H",
         "744"
     ]
-
+},
 {
     "airline_iata": "GA",
     "airline_icao": null,
@@ -19234,7 +19234,7 @@
         "333",
         "332"
     ]
-
+},
 {
     "airline_iata": "JQ",
     "airline_icao": null,
@@ -19290,7 +19290,7 @@
         "320",
         "321"
     ]
-
+},
 {
     "airline_iata": "JQ",
     "airline_icao": null,
@@ -19318,7 +19318,7 @@
         "320",
         "321"
     ]
-
+},
 {
     "airline_iata": "JQ",
     "airline_icao": null,
@@ -19360,7 +19360,7 @@
         "320",
         "321"
     ]
-
+},
 {
     "airline_iata": "JQ",
     "airline_icao": null,
@@ -19430,7 +19430,7 @@
         "320",
         "321"
     ]
-
+},
 {
     "airline_iata": "JQ",
     "airline_icao": null,
@@ -19471,7 +19471,7 @@
     "planes": [
         "320",
         "332",
-        "321"
+        "321"]},
 
 {
     "airline_iata": "JQ",
@@ -19597,7 +19597,7 @@
     "planes": [
         "320",
         "773",
-        "763"
+        "763"]},
 
 {
     "airline_iata": "NZ",
@@ -19709,7 +19709,7 @@
     "planes": [
         "73H",
         "734",
-        "763"
+        "763"]},
 
 {
     "airline_iata": "QF",
@@ -19738,7 +19738,7 @@
         "73H",
         "320"
     ]
-
+},
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -19793,7 +19793,7 @@
     "planes": [
         "73H",
         "763",
-        "734"
+        "734"]},
 
 {
     "airline_iata": "QF",
@@ -19807,7 +19807,7 @@
     "planes": [
         "763",
         "734",
-        "73H"
+        "73H"]},
 
 {
     "airline_iata": "QF",
@@ -19822,7 +19822,7 @@
         "DH3",
         "DH4"
     ]
-
+},
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -19850,7 +19850,7 @@
         "DH4",
         "DH3"
     ]
-
+},
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -19962,7 +19962,7 @@
         "DH4",
         "DH3"
     ]
-
+},
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -19976,7 +19976,7 @@
         "73H",
         "744"
     ]
-
+},
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -19989,8 +19989,8 @@
     "planes": [
         "333",
         "332",
-        "763",
-
+        "763"]
+    },
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -20059,8 +20059,8 @@
     "planes": [
         "763",
         "332",
-        "73H",
-
+        "73H"]
+    },
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -20116,7 +20116,7 @@
         "388",
         "773"
     ]
-
+},
 {
     "airline_iata": "TG",
     "airline_icao": null,
@@ -20130,7 +20130,7 @@
         "773",
         "777"
     ]
-
+},
 {
     "airline_iata": "TK",
     "airline_icao": null,
@@ -20144,7 +20144,7 @@
         "773",
         "777"
     ]
-
+},
 {
     "airline_iata": "TN",
     "airline_icao": null,
@@ -20284,7 +20284,7 @@
         "345",
         "346"
     ]
-
+},
 {
     "airline_iata": "VA",
     "airline_icao": null,
@@ -20312,7 +20312,7 @@
         "388",
         "773"
     ]
-
+},
 {
     "airline_iata": "VN",
     "airline_icao": null,
@@ -20465,7 +20465,7 @@
         "787",
         "777"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -20633,7 +20633,7 @@
         "388",
         "77W"
     ]
-
+},
 {
     "airline_iata": "AF",
     "airline_icao": null,
@@ -20661,7 +20661,7 @@
         "77W",
         "77L"
     ]
-
+},
 {
     "airline_iata": "AI",
     "airline_icao": null,
@@ -20982,7 +20982,7 @@
     "planes": [
         "321",
         "320",
-        "738"
+        "738"]},
 
 {
     "airline_iata": "CA",
@@ -20997,7 +20997,7 @@
         "763",
         "737"
     ]
-
+},
 {
     "airline_iata": "CA",
     "airline_icao": null,
@@ -21011,7 +21011,7 @@
         "321",
         "738"
     ]
-
+},
 {
     "airline_iata": "CA",
     "airline_icao": null,
@@ -21025,7 +21025,7 @@
         "777",
         "763"
     ]
-
+},
 {
     "airline_iata": "CA",
     "airline_icao": null,
@@ -21108,7 +21108,7 @@
     "planes": [
         "343",
         "744",
-        "333"
+        "333"]},
 
 {
     "airline_iata": "CX",
@@ -21122,7 +21122,7 @@
     "planes": [
         "333",
         "343",
-        "773"
+        "773"]},
 
 {
     "airline_iata": "CX",
@@ -21207,7 +21207,7 @@
         "319",
         "321"
     ]
-
+},
 {
     "airline_iata": "CZ",
     "airline_icao": null,
@@ -21305,7 +21305,7 @@
         "767",
         "752"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -21332,7 +21332,7 @@
     "planes": [
         "744",
         "767",
-        "333"
+        "333"]},
 
 {
     "airline_iata": "DL",
@@ -21725,7 +21725,7 @@
         "767",
         "777"
     ]
-
+},
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -21739,7 +21739,7 @@
         "788",
         "777"
     ]
-
+},
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -21795,7 +21795,7 @@
         "388",
         "773"
     ]
-
+},
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -22046,7 +22046,7 @@
     "planes": [
         "333",
         "343",
-        "773"
+        "773"]},
 
 {
     "airline_iata": "JL",
@@ -22088,8 +22088,8 @@
     "planes": [
         "773",
         "332",
-        "772",
-
+        "772"]
+    },
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -22257,7 +22257,7 @@
         "773",
         "777"
     ]
-
+},
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -22467,7 +22467,7 @@
         "330",
         "321"
     ]
-
+},
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -22495,7 +22495,7 @@
         "788",
         "767"
     ]
-
+},
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -22523,7 +22523,7 @@
         "767",
         "73H"
     ]
-
+},
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -22662,8 +22662,8 @@
     "planes": [
         "773",
         "332",
-        "772",
-
+        "772"]
+    },
 {
     "airline_iata": "KE",
     "airline_icao": null,
@@ -22732,7 +22732,7 @@
     "planes": [
         "747",
         "74M",
-        "777"
+        "777"]},
 
 {
     "airline_iata": "LH",
@@ -22984,7 +22984,7 @@
     "planes": [
         "744",
         "773",
-        "747"
+        "747"]},
 
 {
     "airline_iata": "NH",
@@ -23069,7 +23069,7 @@
         "320",
         "737"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -23097,7 +23097,7 @@
         "738",
         "763"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -23153,7 +23153,7 @@
         "737",
         "735"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -23195,7 +23195,7 @@
         "CRJ",
         "CR7"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -23223,7 +23223,7 @@
         "777",
         "763"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -23292,8 +23292,8 @@
     "planes": [
         "744",
         "321",
-        "777",
-
+        "777"]
+    },
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -23320,8 +23320,8 @@
     "planes": [
         "773",
         "320",
-        "738",
-
+        "738"]
+    },
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -23447,7 +23447,7 @@
         "320",
         "319"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -23503,7 +23503,7 @@
         "738",
         "320"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -23517,7 +23517,7 @@
         "772",
         "767"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -23559,7 +23559,7 @@
         "763",
         "737"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -23572,7 +23572,7 @@
     "planes": [
         "321",
         "320",
-        "738"
+        "738"]},
 
 {
     "airline_iata": "NH",
@@ -23587,7 +23587,7 @@
         "777",
         "763"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -23601,7 +23601,7 @@
         "321",
         "738"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -23699,7 +23699,7 @@
         "744",
         "777"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -23754,7 +23754,7 @@
     "planes": [
         "777",
         "388",
-        "77W"
+        "77W"]},
 
 {
     "airline_iata": "NH",
@@ -23797,7 +23797,7 @@
         "332",
         "777"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -23895,7 +23895,7 @@
         "320",
         "319"
     ]
-
+},
 {
     "airline_iata": "NZ",
     "airline_icao": null,
@@ -23950,8 +23950,8 @@
     "planes": [
         "744",
         "321",
-        "74E",
-
+        "74E"]
+    },
 {
     "airline_iata": "OZ",
     "airline_icao": null,
@@ -23965,7 +23965,7 @@
         "777",
         "320"
     ]
-
+},
 {
     "airline_iata": "OZ",
     "airline_icao": null,
@@ -24133,7 +24133,7 @@
         "343",
         "332"
     ]
-
+},
 {
     "airline_iata": "SC",
     "airline_icao": null,
@@ -24189,7 +24189,7 @@
         "388",
         "77W"
     ]
-
+},
 {
     "airline_iata": "SQ",
     "airline_icao": null,
@@ -24272,7 +24272,7 @@
     "planes": [
         "773",
         "744",
-        "747"
+        "747"]},
 
 {
     "airline_iata": "TG",
@@ -24371,7 +24371,7 @@
         "777",
         "738"
     ]
-
+},
 {
     "airline_iata": "UA",
     "airline_icao": null,
@@ -24581,7 +24581,7 @@
         "744",
         "777"
     ]
-
+},
 {
     "airline_iata": "UA",
     "airline_icao": null,
@@ -24651,7 +24651,7 @@
         "777",
         "763"
     ]
-
+},
 {
     "airline_iata": "US",
     "airline_icao": null,
@@ -24692,7 +24692,7 @@
     "planes": [
         "77W",
         "777",
-        "388"
+        "388"]},
 
 {
     "airline_iata": "US",
@@ -24707,7 +24707,7 @@
         "777",
         "744"
     ]
-
+},
 {
     "airline_iata": "US",
     "airline_icao": null,
@@ -24721,7 +24721,7 @@
         "777",
         "788"
     ]
-
+},
 {
     "airline_iata": "US",
     "airline_icao": null,
@@ -24734,7 +24734,7 @@
     "planes": [
         "744",
         "77W",
-        "777"
+        "777"]},
 
 {
     "airline_iata": "US",
@@ -24791,7 +24791,7 @@
         "330",
         "321"
     ]
-
+},
 {
     "airline_iata": "VN",
     "airline_icao": null,
@@ -24958,7 +24958,7 @@
         "787",
         "777"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -25126,7 +25126,7 @@
         "388",
         "77W"
     ]
-
+},
 {
     "airline_iata": "AF",
     "airline_icao": null,
@@ -25475,7 +25475,7 @@
     "planes": [
         "320",
         "321",
-        "738"
+        "738"]},
 
 {
     "airline_iata": "CA",
@@ -25490,7 +25490,7 @@
         "763",
         "737"
     ]
-
+},
 {
     "airline_iata": "CA",
     "airline_icao": null,
@@ -25504,7 +25504,7 @@
         "738",
         "321"
     ]
-
+},
 {
     "airline_iata": "CA",
     "airline_icao": null,
@@ -25518,7 +25518,7 @@
         "763",
         "777"
     ]
-
+},
 {
     "airline_iata": "CA",
     "airline_icao": null,
@@ -25601,7 +25601,7 @@
     "planes": [
         "333",
         "744",
-        "343"
+        "343"]},
 
 {
     "airline_iata": "CX",
@@ -25615,7 +25615,7 @@
     "planes": [
         "773",
         "333",
-        "343"
+        "343"]},
 
 {
     "airline_iata": "CX",
@@ -25700,7 +25700,7 @@
         "319",
         "321"
     ]
-
+},
 {
     "airline_iata": "CZ",
     "airline_icao": null,
@@ -25798,7 +25798,7 @@
         "752",
         "767"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -25825,7 +25825,7 @@
     "planes": [
         "744",
         "767",
-        "333"
+        "333"]},
 
 {
     "airline_iata": "DL",
@@ -26218,7 +26218,7 @@
         "777",
         "767"
     ]
-
+},
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -26232,7 +26232,7 @@
         "788",
         "777"
     ]
-
+},
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -26288,7 +26288,7 @@
         "388",
         "773"
     ]
-
+},
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -26553,7 +26553,7 @@
     "planes": [
         "773",
         "333",
-        "343"
+        "343"]},
 
 {
     "airline_iata": "JL",
@@ -26595,8 +26595,8 @@
     "planes": [
         "773",
         "332",
-        "772",
-
+        "772"]
+    },
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -26764,7 +26764,7 @@
         "773",
         "777"
     ]
-
+},
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -26974,7 +26974,7 @@
         "330",
         "321"
     ]
-
+},
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -27002,7 +27002,7 @@
         "767",
         "788"
     ]
-
+},
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -27030,7 +27030,7 @@
         "73H",
         "767"
     ]
-
+},
 {
     "airline_iata": "JL",
     "airline_icao": null,
@@ -27169,8 +27169,8 @@
     "planes": [
         "77W",
         "773",
-        "332",
-
+        "332"]
+    },
 {
     "airline_iata": "KE",
     "airline_icao": null,
@@ -27239,7 +27239,7 @@
     "planes": [
         "74M",
         "747",
-        "777"
+        "777"]},
 
 {
     "airline_iata": "LH",
@@ -27491,7 +27491,7 @@
     "planes": [
         "744",
         "773",
-        "747"
+        "747"]},
 
 {
     "airline_iata": "NH",
@@ -27576,7 +27576,7 @@
         "738",
         "320"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -27604,7 +27604,7 @@
         "763",
         "738"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -27660,7 +27660,7 @@
         "737",
         "735"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -27702,7 +27702,7 @@
         "CR7",
         "CRJ"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -27730,7 +27730,7 @@
         "777",
         "763"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -27799,8 +27799,8 @@
     "planes": [
         "333",
         "744",
-        "321",
-
+        "321"]
+    },
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -27827,7 +27827,7 @@
     "planes": [
         "320",
         "773",
-        "767"
+        "767"]},
 
 {
     "airline_iata": "NH",
@@ -27954,7 +27954,7 @@
         "320",
         "319"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -28009,7 +28009,7 @@
     "planes": [
         "320",
         "737",
-        "738"
+        "738"]},
 
 {
     "airline_iata": "NH",
@@ -28024,7 +28024,7 @@
         "772",
         "767"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -28066,7 +28066,7 @@
         "763",
         "737"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -28079,7 +28079,7 @@
     "planes": [
         "320",
         "321",
-        "738"
+        "738"]},
 
 {
     "airline_iata": "NH",
@@ -28094,7 +28094,7 @@
         "763",
         "777"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -28107,7 +28107,7 @@
     "planes": [
         "738",
         "340",
-        "321"
+        "321"]},
 
 {
     "airline_iata": "NH",
@@ -28206,7 +28206,7 @@
         "744",
         "777"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -28261,8 +28261,8 @@
     "planes": [
         "77W",
         "763",
-        "777",
-
+        "777"]
+    },
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -28304,7 +28304,7 @@
         "332",
         "777"
     ]
-
+},
 {
     "airline_iata": "NH",
     "airline_icao": null,
@@ -28402,7 +28402,7 @@
         "320",
         "319"
     ]
-
+},
 {
     "airline_iata": "NZ",
     "airline_icao": null,
@@ -28457,8 +28457,8 @@
     "planes": [
         "333",
         "744",
-        "321",
-
+        "321"]
+    },
 {
     "airline_iata": "OZ",
     "airline_icao": null,
@@ -28472,7 +28472,7 @@
         "320",
         "777"
     ]
-
+},
 {
     "airline_iata": "OZ",
     "airline_icao": null,
@@ -28640,7 +28640,7 @@
         "343",
         "332"
     ]
-
+},
 {
     "airline_iata": "SC",
     "airline_icao": null,
@@ -28696,7 +28696,7 @@
         "77W",
         "388"
     ]
-
+},
 {
     "airline_iata": "SQ",
     "airline_icao": null,
@@ -28779,7 +28779,7 @@
     "planes": [
         "744",
         "773",
-        "747"
+        "747"]},
 
 {
     "airline_iata": "TG",
@@ -28878,7 +28878,7 @@
         "777",
         "738"
     ]
-
+},
 {
     "airline_iata": "UA",
     "airline_icao": null,
@@ -29088,7 +29088,7 @@
         "744",
         "777"
     ]
-
+},
 {
     "airline_iata": "UA",
     "airline_icao": null,
@@ -29158,7 +29158,7 @@
         "777",
         "763"
     ]
-
+},
 {
     "airline_iata": "US",
     "airline_icao": null,
@@ -29199,7 +29199,7 @@
     "planes": [
         "77W",
         "777",
-        "388"
+        "388"]},
 
 {
     "airline_iata": "US",
@@ -29214,7 +29214,7 @@
         "777",
         "744"
     ]
-
+},
 {
     "airline_iata": "US",
     "airline_icao": null,
@@ -29228,7 +29228,7 @@
         "777",
         "788"
     ]
-
+},
 {
     "airline_iata": "US",
     "airline_icao": null,
@@ -29241,7 +29241,7 @@
     "planes": [
         "744",
         "777",
-        "77W"
+        "77W"]},
 
 {
     "airline_iata": "US",
@@ -29298,7 +29298,7 @@
         "330",
         "321"
     ]
-
+},
 {
     "airline_iata": "VN",
     "airline_icao": null,
@@ -29675,7 +29675,7 @@
         "CR7",
         "ER4"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -29717,7 +29717,7 @@
         "ERD",
         "CR7"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -29941,7 +29941,7 @@
         "744",
         "777"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -30025,7 +30025,7 @@
         "763",
         "757"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -30193,7 +30193,7 @@
         "763",
         "762"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -30207,7 +30207,7 @@
         "757",
         "738"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -30319,7 +30319,7 @@
         "CR7",
         "ERD"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -30402,8 +30402,8 @@
     "planes": [
         "332",
         "772",
-        "388",
-
+        "388"]
+    },
 {
     "airline_iata": "AF",
     "airline_icao": null,
@@ -30529,7 +30529,7 @@
         "738",
         "737"
     ]
-
+},
 {
     "airline_iata": "AM",
     "airline_icao": null,
@@ -30542,7 +30542,7 @@
     "planes": [
         "738",
         "762",
-        "737"
+        "737"]},
 
 {
     "airline_iata": "AM",
@@ -30571,7 +30571,7 @@
         "752",
         "762"
     ]
-
+},
 {
     "airline_iata": "AS",
     "airline_icao": null,
@@ -30598,7 +30598,7 @@
     "planes": [
         "73H",
         "738",
-        "752"
+        "752"]},
 
 {
     "airline_iata": "AS",
@@ -30612,7 +30612,7 @@
     "planes": [
         "752",
         "763",
-        "762"
+        "762"]},
 
 {
     "airline_iata": "AT",
@@ -30641,7 +30641,7 @@
         "319",
         "330"
     ]
-
+},
 {
     "airline_iata": "AV",
     "airline_icao": null,
@@ -30696,8 +30696,8 @@
     "planes": [
         "332",
         "767",
-        "388",
-
+        "388"]
+    },
 {
     "airline_iata": "AZ",
     "airline_icao": null,
@@ -30711,7 +30711,7 @@
         "330",
         "772"
     ]
-
+},
 {
     "airline_iata": "AZ",
     "airline_icao": null,
@@ -30739,7 +30739,7 @@
         "762",
         "738"
     ]
-
+},
 {
     "airline_iata": "AZ",
     "airline_icao": null,
@@ -30865,7 +30865,7 @@
         "320",
         "E90"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -30907,7 +30907,7 @@
         "320",
         "E90"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -30935,7 +30935,7 @@
         "320",
         "E90"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -30949,7 +30949,7 @@
         "320",
         "E90"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -31019,7 +31019,7 @@
         "320",
         "E90"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -31061,7 +31061,7 @@
         "E90",
         "320"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -31173,7 +31173,7 @@
         "E90",
         "320"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -31187,7 +31187,7 @@
         "E90",
         "320"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -31201,7 +31201,7 @@
         "320",
         "E90"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -31229,7 +31229,7 @@
         "E90",
         "320"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -31383,7 +31383,7 @@
         "E90",
         "320"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -31565,7 +31565,7 @@
         "E90",
         "320"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -31663,7 +31663,7 @@
         "744",
         "777"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -31690,7 +31690,7 @@
     "planes": [
         "757",
         "343",
-        "346"
+        "346"]},
 
 {
     "airline_iata": "BA",
@@ -31845,7 +31845,7 @@
         "738",
         "73G"
     ]
-
+},
 {
     "airline_iata": "CX",
     "airline_icao": null,
@@ -31915,7 +31915,7 @@
         "332",
         "333"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -31928,7 +31928,7 @@
     "planes": [
         "777",
         "74M",
-        "77W"
+        "77W"]},
 
 {
     "airline_iata": "DL",
@@ -31956,8 +31956,8 @@
     "planes": [
         "73H",
         "767",
-        "752",
-
+        "752"]
+    },
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -32040,7 +32040,7 @@
     "planes": [
         "M88",
         "319",
-        "738"
+        "738"]},
 
 {
     "airline_iata": "DL",
@@ -32083,7 +32083,7 @@
         "CRJ",
         "CR9"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -32110,8 +32110,8 @@
     "planes": [
         "332",
         "772",
-        "388",
-
+        "388"]
+    },
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -32195,7 +32195,7 @@
         "738",
         "737"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -32209,7 +32209,7 @@
         "CR7",
         "CR9"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -32377,7 +32377,7 @@
         "330",
         "772"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -32390,7 +32390,7 @@
     "planes": [
         "M88",
         "73W",
-        "320"
+        "320"]},
 
 {
     "airline_iata": "DL",
@@ -32475,7 +32475,7 @@
         "CRJ",
         "ERJ"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -32489,7 +32489,7 @@
         "388",
         "77W"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -32544,7 +32544,7 @@
     "planes": [
         "738",
         "73H",
-        "757"
+        "757"]},
 
 {
     "airline_iata": "DL",
@@ -32628,8 +32628,8 @@
     "planes": [
         "73H",
         "M88",
-        "320",
-
+        "320"]
+    },
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -32656,7 +32656,7 @@
     "planes": [
         "738",
         "757",
-        "737"
+        "737"]},
 
 {
     "airline_iata": "DL",
@@ -32671,7 +32671,7 @@
         "738",
         "762"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -32684,8 +32684,8 @@
     "planes": [
         "738",
         "320",
-        "M88",
-
+        "M88"]
+    },
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -32881,7 +32881,7 @@
         "ERJ",
         "CRJ"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -32895,7 +32895,7 @@
         "738",
         "73H"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -32909,7 +32909,7 @@
         "CR9",
         "CR7"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -32950,7 +32950,7 @@
     "planes": [
         "CRJ",
         "ERJ",
-        "CR9"
+        "CR9"]},
 
 {
     "airline_iata": "DL",
@@ -32993,7 +32993,7 @@
         "CRJ",
         "ERJ"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -33063,7 +33063,7 @@
         "73H",
         "752"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -33104,7 +33104,7 @@
     "planes": [
         "757",
         "73H",
-        "320"
+        "320"]},
 
 {
     "airline_iata": "DL",
@@ -33161,7 +33161,7 @@
         "764",
         "333"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -33203,7 +33203,7 @@
         "320",
         "M88"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -33287,7 +33287,7 @@
         "77W",
         "388"
     ]
-
+},
 {
     "airline_iata": "EY",
     "airline_icao": null,
@@ -33301,7 +33301,7 @@
         "346",
         "345"
     ]
-
+},
 {
     "airline_iata": "EY",
     "airline_icao": null,
@@ -33329,7 +33329,7 @@
         "75W",
         "75T"
     ]
-
+},
 {
     "airline_iata": "HA",
     "airline_icao": null,
@@ -33413,7 +33413,7 @@
         "744",
         "777"
     ]
-
+},
 {
     "airline_iata": "IB",
     "airline_icao": null,
@@ -33426,7 +33426,7 @@
     "planes": [
         "342",
         "346",
-        "340"
+        "340"]},
 
 {
     "airline_iata": "IB",
@@ -33581,7 +33581,7 @@
         "388",
         "77W"
     ]
-
+},
 {
     "airline_iata": "KL",
     "airline_icao": null,
@@ -33595,7 +33595,7 @@
         "777",
         "74M"
     ]
-
+},
 {
     "airline_iata": "KL",
     "airline_icao": null,
@@ -33791,7 +33791,7 @@
         "388",
         "744"
     ]
-
+},
 {
     "airline_iata": "LH",
     "airline_icao": null,
@@ -33833,7 +33833,7 @@
         "319",
         "320"
     ]
-
+},
 {
     "airline_iata": "LX",
     "airline_icao": null,
@@ -33875,7 +33875,7 @@
         "744",
         "772"
     ]
-
+},
 {
     "airline_iata": "MS",
     "airline_icao": null,
@@ -34169,7 +34169,7 @@
         "738",
         "73G"
     ]
-
+},
 {
     "airline_iata": "TA",
     "airline_icao": null,
@@ -34182,7 +34182,7 @@
     "planes": [
         "320",
         "321",
-        "319"
+        "319"]},
 
 {
     "airline_iata": "TA",
@@ -34281,7 +34281,7 @@
         "388",
         "744"
     ]
-
+},
 {
     "airline_iata": "UA",
     "airline_icao": null,
@@ -34379,7 +34379,7 @@
         "752",
         "757"
     ]
-
+},
 {
     "airline_iata": "UA",
     "airline_icao": null,
@@ -34435,7 +34435,7 @@
         "738",
         "73G"
     ]
-
+},
 {
     "airline_iata": "UA",
     "airline_icao": null,
@@ -34448,7 +34448,7 @@
     "planes": [
         "320",
         "321",
-        "319"
+        "319"]},
 
 {
     "airline_iata": "UA",
@@ -34491,7 +34491,7 @@
         "319",
         "320"
     ]
-
+},
 {
     "airline_iata": "UA",
     "airline_icao": null,
@@ -34561,7 +34561,7 @@
         "346",
         "345"
     ]
-
+},
 {
     "airline_iata": "UN",
     "airline_icao": null,
@@ -34602,7 +34602,7 @@
     "planes": [
         "319",
         "321",
-        "320"
+        "320"]},
 
 {
     "airline_iata": "US",
@@ -34659,7 +34659,7 @@
         "752",
         "757"
     ]
-
+},
 {
     "airline_iata": "US",
     "airline_icao": null,
@@ -34728,7 +34728,7 @@
     "planes": [
         "320",
         "321",
-        "319"
+        "319"]},
 
 {
     "airline_iata": "US",
@@ -34757,7 +34757,7 @@
         "319",
         "320"
     ]
-
+},
 {
     "airline_iata": "UX",
     "airline_icao": null,
@@ -34798,8 +34798,8 @@
     "planes": [
         "333",
         "744",
-        "346",
-
+        "346"]
+    },
 {
     "airline_iata": "VV",
     "airline_icao": null,
@@ -34897,7 +34897,7 @@
         "CR7",
         "ERD"
     ]
-
+},
 {
     "airline_iata": "XL",
     "airline_icao": null,
@@ -35148,7 +35148,7 @@
         "ER4",
         "CR7"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -35190,7 +35190,7 @@
         "ERD",
         "CR7"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -35414,7 +35414,7 @@
         "744",
         "777"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -35498,7 +35498,7 @@
         "757",
         "763"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -35666,7 +35666,7 @@
         "762",
         "763"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -35680,7 +35680,7 @@
         "738",
         "757"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -35792,7 +35792,7 @@
         "CR7",
         "ERD"
     ]
-
+},
 {
     "airline_iata": "AA",
     "airline_icao": null,
@@ -35875,8 +35875,8 @@
     "planes": [
         "332",
         "772",
-        "388",
-
+        "388"]
+    },
 {
     "airline_iata": "AF",
     "airline_icao": null,
@@ -36002,7 +36002,7 @@
         "737",
         "738"
     ]
-
+},
 {
     "airline_iata": "AM",
     "airline_icao": null,
@@ -36015,7 +36015,7 @@
     "planes": [
         "738",
         "762",
-        "737"
+        "737"]},
 
 {
     "airline_iata": "AM",
@@ -36044,7 +36044,7 @@
         "762",
         "752"
     ]
-
+},
 {
     "airline_iata": "AS",
     "airline_icao": null,
@@ -36071,7 +36071,7 @@
     "planes": [
         "73H",
         "752",
-        "738"
+        "738"]},
 
 {
     "airline_iata": "AS",
@@ -36085,7 +36085,7 @@
     "planes": [
         "752",
         "762",
-        "763"
+        "763"]},
 
 {
     "airline_iata": "AT",
@@ -36114,7 +36114,7 @@
         "330",
         "319"
     ]
-
+},
 {
     "airline_iata": "AV",
     "airline_icao": null,
@@ -36169,8 +36169,8 @@
     "planes": [
         "332",
         "388",
-        "767",
-
+        "767"]
+    },
 {
     "airline_iata": "AZ",
     "airline_icao": null,
@@ -36184,7 +36184,7 @@
         "330",
         "772"
     ]
-
+},
 {
     "airline_iata": "AZ",
     "airline_icao": null,
@@ -36212,7 +36212,7 @@
         "762",
         "738"
     ]
-
+},
 {
     "airline_iata": "AZ",
     "airline_icao": null,
@@ -36324,7 +36324,7 @@
         "320",
         "E90"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -36366,7 +36366,7 @@
         "E90",
         "320"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -36394,7 +36394,7 @@
         "E90",
         "320"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -36408,7 +36408,7 @@
         "E90",
         "320"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -36478,7 +36478,7 @@
         "320",
         "E90"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -36520,7 +36520,7 @@
         "320",
         "E90"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -36632,7 +36632,7 @@
         "320",
         "E90"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -36646,7 +36646,7 @@
         "320",
         "E90"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -36660,7 +36660,7 @@
         "320",
         "E90"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -36688,7 +36688,7 @@
         "320",
         "E90"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -36842,7 +36842,7 @@
         "E90",
         "320"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -37024,7 +37024,7 @@
         "E90",
         "320"
     ]
-
+},
 {
     "airline_iata": "B6",
     "airline_icao": null,
@@ -37136,7 +37136,7 @@
         "744",
         "777"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -37163,7 +37163,7 @@
     "planes": [
         "343",
         "757",
-        "346"
+        "346"]},
 
 {
     "airline_iata": "BA",
@@ -37318,7 +37318,7 @@
         "738",
         "73G"
     ]
-
+},
 {
     "airline_iata": "CX",
     "airline_icao": null,
@@ -37401,7 +37401,7 @@
     "planes": [
         "777",
         "74M",
-        "77W"
+        "77W"]},
 
 {
     "airline_iata": "DL",
@@ -37429,8 +37429,8 @@
     "planes": [
         "757",
         "M88",
-        "752",
-
+        "752"]
+    },
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -37513,7 +37513,7 @@
     "planes": [
         "M88",
         "319",
-        "738"
+        "738"]},
 
 {
     "airline_iata": "DL",
@@ -37556,7 +37556,7 @@
         "CRJ",
         "CR9"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -37583,8 +37583,8 @@
     "planes": [
         "332",
         "772",
-        "388",
-
+        "388"]
+    },
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -37626,7 +37626,7 @@
         "CRJ",
         "CR9"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -37654,7 +37654,7 @@
         "737",
         "738"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -37765,8 +37765,8 @@
     "planes": [
         "320",
         "319",
-        "738",
-
+        "738"]
+    },
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -37836,7 +37836,7 @@
         "330",
         "772"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -37849,7 +37849,7 @@
     "planes": [
         "73W",
         "320",
-        "M88"
+        "M88"]},
 
 {
     "airline_iata": "DL",
@@ -37934,7 +37934,7 @@
         "CRJ",
         "ERJ"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -37948,7 +37948,7 @@
         "77W",
         "388"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -38017,7 +38017,7 @@
     "planes": [
         "73H",
         "738",
-        "757"
+        "757"]},
 
 {
     "airline_iata": "DL",
@@ -38101,7 +38101,7 @@
     "planes": [
         "738",
         "M88",
-        "73H"
+        "73H"]},
 
 {
     "airline_iata": "DL",
@@ -38129,8 +38129,8 @@
     "planes": [
         "757",
         "738",
-        "762",
-
+        "762"]
+    },
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -38157,7 +38157,7 @@
     "planes": [
         "320",
         "738",
-        "73H"
+        "73H"]},
 
 {
     "airline_iata": "DL",
@@ -38298,7 +38298,7 @@
         "ERJ",
         "CRJ"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -38340,7 +38340,7 @@
         "CRJ",
         "ERJ"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -38354,7 +38354,7 @@
         "738",
         "73H"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -38382,7 +38382,7 @@
         "CRJ",
         "CR9"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -38423,7 +38423,7 @@
     "planes": [
         "CRJ",
         "CR9",
-        "ERJ"
+        "ERJ"]},
 
 {
     "airline_iata": "DL",
@@ -38438,7 +38438,7 @@
         "CRJ",
         "ERJ"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -38452,7 +38452,7 @@
         "ERJ",
         "CRJ"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -38522,7 +38522,7 @@
         "73H",
         "752"
     ]
-
+},
 {
     "airline_iata": "DL",
     "airline_icao": null,
@@ -38563,7 +38563,7 @@
     "planes": [
         "73H",
         "757",
-        "320"
+        "320"]},
 
 {
     "airline_iata": "DL",
@@ -38746,7 +38746,7 @@
         "77W",
         "388"
     ]
-
+},
 {
     "airline_iata": "EY",
     "airline_icao": null,
@@ -38760,7 +38760,7 @@
         "346",
         "345"
     ]
-
+},
 {
     "airline_iata": "EY",
     "airline_icao": null,
@@ -38788,7 +38788,7 @@
         "75W",
         "75T"
     ]
-
+},
 {
     "airline_iata": "HA",
     "airline_icao": null,
@@ -38886,7 +38886,7 @@
         "744",
         "777"
     ]
-
+},
 {
     "airline_iata": "IB",
     "airline_icao": null,
@@ -38899,7 +38899,7 @@
     "planes": [
         "342",
         "346",
-        "340"
+        "340"]},
 
 {
     "airline_iata": "IB",
@@ -39040,7 +39040,7 @@
         "77W",
         "388"
     ]
-
+},
 {
     "airline_iata": "KL",
     "airline_icao": null,
@@ -39054,7 +39054,7 @@
         "777",
         "74M"
     ]
-
+},
 {
     "airline_iata": "KL",
     "airline_icao": null,
@@ -39236,7 +39236,7 @@
         "388",
         "744"
     ]
-
+},
 {
     "airline_iata": "LH",
     "airline_icao": null,
@@ -39278,7 +39278,7 @@
         "320",
         "319"
     ]
-
+},
 {
     "airline_iata": "LX",
     "airline_icao": null,
@@ -39320,7 +39320,7 @@
         "772",
         "744"
     ]
-
+},
 {
     "airline_iata": "MS",
     "airline_icao": null,
@@ -39600,7 +39600,7 @@
         "738",
         "73G"
     ]
-
+},
 {
     "airline_iata": "TA",
     "airline_icao": null,
@@ -39613,7 +39613,7 @@
     "planes": [
         "321",
         "320",
-        "319"
+        "319"]},
 
 {
     "airline_iata": "TA",
@@ -39712,7 +39712,7 @@
         "388",
         "744"
     ]
-
+},
 {
     "airline_iata": "UA",
     "airline_icao": null,
@@ -39810,7 +39810,7 @@
         "752",
         "757"
     ]
-
+},
 {
     "airline_iata": "UA",
     "airline_icao": null,
@@ -39866,7 +39866,7 @@
         "738",
         "73G"
     ]
-
+},
 {
     "airline_iata": "UA",
     "airline_icao": null,
@@ -39879,7 +39879,7 @@
     "planes": [
         "321",
         "320",
-        "319"
+        "319"]},
 
 {
     "airline_iata": "UA",
@@ -39922,7 +39922,7 @@
         "320",
         "319"
     ]
-
+},
 {
     "airline_iata": "UA",
     "airline_icao": null,
@@ -39992,7 +39992,7 @@
         "346",
         "345"
     ]
-
+},
 {
     "airline_iata": "UN",
     "airline_icao": null,
@@ -40033,7 +40033,7 @@
     "planes": [
         "320",
         "319",
-        "321"
+        "321"]},
 
 {
     "airline_iata": "US",
@@ -40090,7 +40090,7 @@
         "752",
         "757"
     ]
-
+},
 {
     "airline_iata": "US",
     "airline_icao": null,
@@ -40159,7 +40159,7 @@
     "planes": [
         "321",
         "320",
-        "319"
+        "319"]},
 
 {
     "airline_iata": "US",
@@ -40188,7 +40188,7 @@
         "320",
         "319"
     ]
-
+},
 {
     "airline_iata": "UX",
     "airline_icao": null,
@@ -40229,8 +40229,8 @@
     "planes": [
         "333",
         "744",
-        "346",
-
+        "346"]
+    },
 {
     "airline_iata": "VV",
     "airline_icao": null,
@@ -40328,7 +40328,7 @@
         "CR7",
         "ERD"
     ]
-
+},
 {
     "airline_iata": "XL",
     "airline_icao": null,
@@ -40369,7 +40369,7 @@
         "744",
         "777"
     ]
-
+},
 {
     "airline_iata": "AF",
     "airline_icao": null,
@@ -40439,7 +40439,7 @@
         "733",
         "734"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -40453,7 +40453,7 @@
         "733",
         "734"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -40467,7 +40467,7 @@
         "733",
         "734"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -40481,7 +40481,7 @@
         "744",
         "777"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -40495,7 +40495,7 @@
         "734",
         "733"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -40523,7 +40523,7 @@
         "733",
         "734"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -40537,7 +40537,7 @@
         "734",
         "733"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -40551,7 +40551,7 @@
         "733",
         "734"
     ]
-
+},
 {
     "airline_iata": "BP",
     "airline_icao": null,
@@ -40593,7 +40593,7 @@
         "AT7",
         "AT5"
     ]
-
+},
 {
     "airline_iata": "BP",
     "airline_icao": null,
@@ -40607,7 +40607,7 @@
         "146",
         "AT5"
     ]
-
+},
 {
     "airline_iata": "CA",
     "airline_icao": null,
@@ -40635,7 +40635,7 @@
         "77W",
         "744"
     ]
-
+},
 {
     "airline_iata": "D6",
     "airline_icao": null,
@@ -40858,8 +40858,8 @@
     "planes": [
         "738",
         "73W",
-        "733",
-
+        "733"]
+    },
 {
     "airline_iata": "LH",
     "airline_icao": null,
@@ -40900,7 +40900,7 @@
     "planes": [
         "346",
         "332",
-        "343"
+        "343"]},
 
 {
     "airline_iata": "LX",
@@ -40956,7 +40956,7 @@
     "planes": [
         "332",
         "343",
-        "319"
+        "319"]},
 
 {
     "airline_iata": "MK",
@@ -40985,7 +40985,7 @@
         "738",
         "734"
     ]
-
+},
 {
     "airline_iata": "MN",
     "airline_icao": null,
@@ -40999,7 +40999,7 @@
         "734",
         "738"
     ]
-
+},
 {
     "airline_iata": "MN",
     "airline_icao": null,
@@ -41013,7 +41013,7 @@
         "738",
         "734"
     ]
-
+},
 {
     "airline_iata": "MS",
     "airline_icao": null,
@@ -41055,7 +41055,7 @@
         "343",
         "346"
     ]
-
+},
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -41111,7 +41111,7 @@
         "77W",
         "77L"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41180,7 +41180,7 @@
     "planes": [
         "CR7",
         "DH4",
-        "CR2"
+        "CR2"]},
 
 {
     "airline_iata": "SA",
@@ -41292,8 +41292,8 @@
     "planes": [
         "738",
         "346",
-        "332",
-
+        "332"]
+    },
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41307,7 +41307,7 @@
         "319",
         "738"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41334,7 +41334,7 @@
     "planes": [
         "319",
         "738",
-        "320"
+        "320"]},
 
 {
     "airline_iata": "SA",
@@ -41377,7 +41377,7 @@
         "319",
         "738"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41390,7 +41390,7 @@
     "planes": [
         "DH4",
         "CR7",
-        "CR2"
+        "CR2"]},
 
 {
     "airline_iata": "SA",
@@ -41433,7 +41433,7 @@
         "738",
         "343"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41475,7 +41475,7 @@
         "DH4",
         "CR2"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41489,7 +41489,7 @@
         "CR7",
         "DH4"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41502,7 +41502,7 @@
     "planes": [
         "332",
         "343",
-        "342"
+        "342"]},
 
 {
     "airline_iata": "SA",
@@ -41544,7 +41544,7 @@
     "planes": [
         "738",
         "319",
-        "332"
+        "332"]},
 
 {
     "airline_iata": "SA",
@@ -41559,7 +41559,7 @@
         "ER3",
         "AR8"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41586,7 +41586,7 @@
     "planes": [
         "DH4",
         "CR7",
-        "CR2"
+        "CR2"]},
 
 {
     "airline_iata": "SA",
@@ -41628,7 +41628,7 @@
     "planes": [
         "343",
         "332",
-        "346"
+        "346"]},
 
 {
     "airline_iata": "SA",
@@ -41643,7 +41643,7 @@
         "738",
         "332"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41657,7 +41657,7 @@
         "343",
         "346"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41671,7 +41671,7 @@
         "738",
         "319"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41726,7 +41726,7 @@
     "planes": [
         "E90",
         "DH4",
-        "737"
+        "737"]},
 
 {
     "airline_iata": "SA",
@@ -41740,7 +41740,7 @@
     "planes": [
         "ER3",
         "AR8",
-        "J41"
+        "J41"]},
 
 {
     "airline_iata": "SA",
@@ -41768,7 +41768,7 @@
     "planes": [
         "332",
         "343",
-        "319"
+        "319"]},
 
 {
     "airline_iata": "SA",
@@ -41811,7 +41811,7 @@
         "ER3",
         "AR8"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41824,7 +41824,7 @@
     "planes": [
         "346",
         "332",
-        "343"
+        "343"]},
 
 {
     "airline_iata": "SA",
@@ -41839,7 +41839,7 @@
         "319",
         "738"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41867,7 +41867,7 @@
         "ER3",
         "AR8"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41895,7 +41895,7 @@
         "343",
         "346"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41923,7 +41923,7 @@
         "319",
         "738"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41979,7 +41979,7 @@
         "ER3",
         "J41"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -41993,7 +41993,7 @@
         "AR8",
         "J41"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -42119,7 +42119,7 @@
         "738",
         "319"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -42216,7 +42216,7 @@
     "planes": [
         "735",
         "319",
-        "ERJ"
+        "ERJ"]},
 
 {
     "airline_iata": "TG",
@@ -42300,7 +42300,7 @@
     "planes": [
         "E90",
         "DH4",
-        "735"
+        "735"]},
 
 {
     "airline_iata": "TM",
@@ -42482,7 +42482,7 @@
         "777",
         "744"
     ]
-
+},
 {
     "airline_iata": "AF",
     "airline_icao": null,
@@ -42552,7 +42552,7 @@
         "734",
         "733"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -42566,7 +42566,7 @@
         "734",
         "733"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -42580,7 +42580,7 @@
         "733",
         "734"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -42594,7 +42594,7 @@
         "777",
         "744"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -42608,7 +42608,7 @@
         "734",
         "733"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -42636,7 +42636,7 @@
         "733",
         "734"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -42650,7 +42650,7 @@
         "734",
         "733"
     ]
-
+},
 {
     "airline_iata": "BA",
     "airline_icao": null,
@@ -42664,7 +42664,7 @@
         "733",
         "734"
     ]
-
+},
 {
     "airline_iata": "BP",
     "airline_icao": null,
@@ -42705,7 +42705,7 @@
     "planes": [
         "146",
         "AT7",
-        "AT5"
+        "AT5"]},
 
 {
     "airline_iata": "BP",
@@ -42720,7 +42720,7 @@
         "AT5",
         "146"
     ]
-
+},
 {
     "airline_iata": "CA",
     "airline_icao": null,
@@ -42748,7 +42748,7 @@
         "744",
         "77W"
     ]
-
+},
 {
     "airline_iata": "D6",
     "airline_icao": null,
@@ -42971,8 +42971,8 @@
     "planes": [
         "73W",
         "738",
-        "733",
-
+        "733"]
+    },
 {
     "airline_iata": "LH",
     "airline_icao": null,
@@ -43013,7 +43013,7 @@
     "planes": [
         "343",
         "346",
-        "332"
+        "332"]},
 
 {
     "airline_iata": "LX",
@@ -43069,7 +43069,7 @@
     "planes": [
         "332",
         "343",
-        "319"
+        "319"]},
 
 {
     "airline_iata": "MK",
@@ -43098,7 +43098,7 @@
         "738",
         "734"
     ]
-
+},
 {
     "airline_iata": "MN",
     "airline_icao": null,
@@ -43112,7 +43112,7 @@
         "738",
         "734"
     ]
-
+},
 {
     "airline_iata": "MN",
     "airline_icao": null,
@@ -43126,7 +43126,7 @@
         "738",
         "734"
     ]
-
+},
 {
     "airline_iata": "MS",
     "airline_icao": null,
@@ -43140,7 +43140,7 @@
         "333",
         "330"
     ]
-
+},
 {
     "airline_iata": "PW",
     "airline_icao": null,
@@ -43168,7 +43168,7 @@
         "346",
         "343"
     ]
-
+},
 {
     "airline_iata": "QF",
     "airline_icao": null,
@@ -43224,7 +43224,7 @@
         "77W",
         "77L"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -43293,7 +43293,7 @@
     "planes": [
         "DH4",
         "CR7",
-        "CR2"
+        "CR2"]},
 
 {
     "airline_iata": "SA",
@@ -43392,7 +43392,7 @@
         "333",
         "330"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -43405,8 +43405,8 @@
     "planes": [
         "738",
         "346",
-        "332",
-
+        "332"]
+    },
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -43420,7 +43420,7 @@
         "319",
         "738"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -43447,7 +43447,7 @@
     "planes": [
         "320",
         "319",
-        "738"
+        "738"]},
 
 {
     "airline_iata": "SA",
@@ -43490,7 +43490,7 @@
         "319",
         "738"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -43503,7 +43503,7 @@
     "planes": [
         "DH4",
         "CR7",
-        "CR2"
+        "CR2"]},
 
 {
     "airline_iata": "SA",
@@ -43546,7 +43546,7 @@
         "738",
         "343"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -43588,7 +43588,7 @@
         "DH4",
         "CR2"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -43602,7 +43602,7 @@
         "CR7",
         "DH4"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -43615,7 +43615,7 @@
     "planes": [
         "343",
         "332",
-        "342"
+        "342"]},
 
 {
     "airline_iata": "SA",
@@ -43657,7 +43657,7 @@
     "planes": [
         "738",
         "319",
-        "332"
+        "332"]},
 
 {
     "airline_iata": "SA",
@@ -43672,7 +43672,7 @@
         "ER3",
         "AR8"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -43699,7 +43699,7 @@
     "planes": [
         "DH4",
         "CR7",
-        "CR2"
+        "CR2"]},
 
 {
     "airline_iata": "SA",
@@ -43741,7 +43741,7 @@
     "planes": [
         "346",
         "332",
-        "343"
+        "343"]},
 
 {
     "airline_iata": "SA",
@@ -43756,7 +43756,7 @@
         "738",
         "332"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -43770,7 +43770,7 @@
         "343",
         "346"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -43784,7 +43784,7 @@
         "738",
         "319"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -43839,7 +43839,7 @@
     "planes": [
         "E90",
         "DH4",
-        "737"
+        "737"]},
 
 {
     "airline_iata": "SA",
@@ -43853,7 +43853,7 @@
     "planes": [
         "ER3",
         "AR8",
-        "J41"
+        "J41"]},
 
 {
     "airline_iata": "SA",
@@ -43881,7 +43881,7 @@
     "planes": [
         "332",
         "343",
-        "319"
+        "319"]},
 
 {
     "airline_iata": "SA",
@@ -43924,7 +43924,7 @@
         "ER3",
         "AR8"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -43937,7 +43937,7 @@
     "planes": [
         "343",
         "346",
-        "332"
+        "332"]},
 
 {
     "airline_iata": "SA",
@@ -43952,7 +43952,7 @@
         "319",
         "738"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -43980,7 +43980,7 @@
         "ER3",
         "AR8"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -44008,7 +44008,7 @@
         "346",
         "343"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -44036,7 +44036,7 @@
         "738",
         "319"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -44092,7 +44092,7 @@
         "ER3",
         "J41"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -44106,7 +44106,7 @@
         "AR8",
         "J41"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -44232,7 +44232,7 @@
         "319",
         "738"
     ]
-
+},
 {
     "airline_iata": "SA",
     "airline_icao": null,
@@ -44329,7 +44329,7 @@
     "planes": [
         "319",
         "ERJ",
-        "735"
+        "735"]},
 
 {
     "airline_iata": "TG",
@@ -44413,7 +44413,7 @@
     "planes": [
         "E90",
         "DH4",
-        "735"
+        "735"]},
 
 {
     "airline_iata": "TM",
@@ -44655,5 +44655,7 @@
         "321",
         "320"
     ]
+}
 
+]
 
