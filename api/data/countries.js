@@ -1,2759 +1,2759 @@
 const countries = [
     {
-        "code": "GA",
-        "name": "",
-        "currency": "XAF",
-        "name_translations": {
-            "en": "Gabon"
+        code: "GA",
+        name: "",
+        currency: "XAF",
+        name_translations: {
+            en: "Gabon"
         },
-        "cases": null
+        cases: null
     },
     {
-        "code": "AZ",
-        "name": "Azerbaiyán",
-        "currency": "AZN",
-        "name_translations": {
-            "en": "Azerbaijan"
+        code: "AZ",
+        name: "Azerbaiyán",
+        currency: "AZN",
+        name_translations: {
+            en: "Azerbaijan"
         },
-        "cases": {
-            "su": "Azerbaiyán"
+        cases: {
+            su: "Azerbaiyán"
         }
     },
     {
-        "code": "IN",
-        "name": "India",
-        "currency": "INR",
-        "name_translations": {
-            "en": "India"
+        code: "IN",
+        name: "India",
+        currency: "INR",
+        name_translations: {
+            en: "India"
         },
-        "cases": {
-            "su": "India"
+        cases: {
+            su: "India"
         }
     },
     {
-        "code": "KW",
-        "name": "Kuwait",
-        "currency": "KWD",
-        "name_translations": {
-            "en": "Kuwait"
+        code: "KW",
+        name: "Kuwait",
+        currency: "KWD",
+        name_translations: {
+            en: "Kuwait"
         },
-        "cases": {
-            "su": "Kuwait"
+        cases: {
+            su: "Kuwait"
         }
     },
     {
-        "code": "AR",
-        "name": "Argentina",
-        "currency": "ARS",
-        "name_translations": {
-            "en": "Argentina"
+        code: "AR",
+        name: "Argentina",
+        currency: "ARS",
+        name_translations: {
+            en: "Argentina"
         },
-        "cases": {
-            "su": "Argentina"
+        cases: {
+            su: "Argentina"
         }
     },
     {
-        "code": "AW",
-        "name": "Aruba",
-        "currency": "AWG",
-        "name_translations": {
-            "en": "Aruba"
+        code: "AW",
+        name: "Aruba",
+        currency: "AWG",
+        name_translations: {
+            en: "Aruba"
         },
-        "cases": {
-            "su": "Aruba"
+        cases: {
+            su: "Aruba"
         }
     },
     {
-        "code": "CX",
-        "name": "Isla Christmas",
-        "currency": "AUD",
-        "name_translations": {
-            "en": "Christmas Island"
+        code: "CX",
+        name: "Isla Christmas",
+        currency: "AUD",
+        name_translations: {
+            en: "Christmas Island"
         },
-        "cases": {
-            "su": "Isla Christmas"
+        cases: {
+            su: "Isla Christmas"
         }
     },
     {
-        "code": "KM",
-        "name": "Comoras",
-        "currency": "KMF",
-        "name_translations": {
-            "en": "Comoros"
+        code: "KM",
+        name: "Comoras",
+        currency: "KMF",
+        name_translations: {
+            en: "Comoros"
         },
-        "cases": {
-            "su": "Comoras"
+        cases: {
+            su: "Comoras"
         }
     },
     {
-        "code": "SL",
-        "name": "Sierra Leona",
-        "currency": "SLL",
-        "name_translations": {
-            "en": "Sierra Leone"
+        code: "SL",
+        name: "Sierra Leona",
+        currency: "SLL",
+        name_translations: {
+            en: "Sierra Leone"
         },
-        "cases": {
-            "su": "Sierra Leona"
+        cases: {
+            su: "Sierra Leona"
         }
     },
     {
-        "code": "AG",
-        "name": "Antigua y Barbuda",
-        "currency": "XCD",
-        "name_translations": {
-            "en": "Antigua and Barbuda"
+        code: "AG",
+        name: "Antigua y Barbuda",
+        currency: "XCD",
+        name_translations: {
+            en: "Antigua and Barbuda"
         },
-        "cases": {
-            "su": "Antigua y Barbuda"
+        cases: {
+            su: "Antigua y Barbuda"
         }
     },
     {
-        "code": "AM",
-        "name": "Armenia",
-        "currency": "AMD",
-        "name_translations": {
-            "en": "Armenia"
+        code: "AM",
+        name: "Armenia",
+        currency: "AMD",
+        name_translations: {
+            en: "Armenia"
         },
-        "cases": {
-            "su": "Armenia"
+        cases: {
+            su: "Armenia"
         }
     },
     {
-        "code": "NF",
-        "name": "Isla Norfolk",
-        "currency": "AUD",
-        "name_translations": {
-            "en": "Norfolk Island"
+        code: "NF",
+        name: "Isla Norfolk",
+        currency: "AUD",
+        name_translations: {
+            en: "Norfolk Island"
         },
-        "cases": {
-            "su": "Isla Norfolk"
+        cases: {
+            su: "Isla Norfolk"
         }
     },
     {
-        "code": "SG",
-        "name": "Singapur",
-        "currency": "SGD",
-        "name_translations": {
-            "en": "Singapore"
+        code: "SG",
+        name: "Singapur",
+        currency: "SGD",
+        name_translations: {
+            en: "Singapore"
         },
-        "cases": {
-            "su": "Singapur"
+        cases: {
+            su: "Singapur"
         }
     },
     {
-        "code": "VC",
-        "name": "San Vicente y las Granadinas",
-        "currency": "XCD",
-        "name_translations": {
-            "en": "Saint Vincent and the Grenadines"
+        code: "VC",
+        name: "San Vicente y las Granadinas",
+        currency: "XCD",
+        name_translations: {
+            en: "Saint Vincent and the Grenadines"
         },
-        "cases": {
-            "su": "San Vicente y las Granadinas"
+        cases: {
+            su: "San Vicente y las Granadinas"
         }
     },
     {
-        "code": "PF",
-        "name": "Polinesia Francesa",
-        "currency": "XPF",
-        "name_translations": {
-            "en": "French Polynesia"
+        code: "PF",
+        name: "Polinesia Francesa",
+        currency: "XPF",
+        name_translations: {
+            en: "French Polynesia"
         },
-        "cases": {
-            "su": "Polinesia Francesa"
+        cases: {
+            su: "Polinesia Francesa"
         }
     },
     {
-        "code": "DK",
-        "name": "Dinamarca",
-        "currency": "DKK",
-        "name_translations": {
-            "en": "Denmark"
+        code: "DK",
+        name: "Dinamarca",
+        currency: "DKK",
+        name_translations: {
+            en: "Denmark"
         },
-        "cases": {
-            "su": "Dinamarca"
+        cases: {
+            su: "Dinamarca"
         }
     },
     {
-        "code": "NA",
-        "name": "Namibia",
-        "currency": "NAD",
-        "name_translations": {
-            "en": "Namibia"
+        code: "NA",
+        name: "Namibia",
+        currency: "NAD",
+        name_translations: {
+            en: "Namibia"
         },
-        "cases": {
-            "su": "Namibia"
+        cases: {
+            su: "Namibia"
         }
     },
     {
-        "code": "EG",
-        "name": "Egipto",
-        "currency": "EGP",
-        "name_translations": {
-            "en": "Egypt"
+        code: "EG",
+        name: "Egipto",
+        currency: "EGP",
+        name_translations: {
+            en: "Egypt"
         },
-        "cases": {
-            "su": "Egipto"
+        cases: {
+            su: "Egipto"
         }
     },
     {
-        "code": "CM",
-        "name": "Camerún",
-        "currency": "XAF",
-        "name_translations": {
-            "en": "Cameroon"
+        code: "CM",
+        name: "Camerún",
+        currency: "XAF",
+        name_translations: {
+            en: "Cameroon"
         },
-        "cases": {
-            "su": "Camerún"
+        cases: {
+            su: "Camerún"
         }
     },
     {
-        "code": "GW",
-        "name": "Guinea-Bisáu",
-        "currency": "XOF",
-        "name_translations": {
-            "en": "Guinea-Bissau"
+        code: "GW",
+        name: "Guinea-Bisáu",
+        currency: "XOF",
+        name_translations: {
+            en: "Guinea-Bissau"
         },
-        "cases": {
-            "su": "Guinea-Bisáu"
+        cases: {
+            su: "Guinea-Bisáu"
         }
     },
     {
-        "code": "ST",
-        "name": "Santo Tomé y Príncipe",
-        "currency": "STD",
-        "name_translations": {
-            "en": "São Tomé and Príncipe"
+        code: "ST",
+        name: "Santo Tomé y Príncipe",
+        currency: "STD",
+        name_translations: {
+            en: "São Tomé and Príncipe"
         },
-        "cases": {
-            "su": "Santo Tomé y Príncipe"
+        cases: {
+            su: "Santo Tomé y Príncipe"
         }
     },
     {
-        "code": "AO",
-        "name": "Angola",
-        "currency": "AOA",
-        "name_translations": {
-            "en": "Angola"
+        code: "AO",
+        name: "Angola",
+        currency: "AOA",
+        name_translations: {
+            en: "Angola"
         },
-        "cases": {
-            "su": "Angola"
+        cases: {
+            su: "Angola"
         }
     },
     {
-        "code": "KP",
-        "name": "Corea del Norte",
-        "currency": "KPW",
-        "name_translations": {
-            "en": "North Korea"
+        code: "KP",
+        name: "Corea del Norte",
+        currency: "KPW",
+        name_translations: {
+            en: "North Korea"
         },
-        "cases": {
-            "su": "Corea del Norte"
+        cases: {
+            su: "Corea del Norte"
         }
     },
     {
-        "code": "TH",
-        "name": "Tailandia",
-        "currency": "THB",
-        "name_translations": {
-            "en": "Thailand"
+        code: "TH",
+        name: "Tailandia",
+        currency: "THB",
+        name_translations: {
+            en: "Thailand"
         },
-        "cases": {
-            "su": "Tailandia"
+        cases: {
+            su: "Tailandia"
         }
     },
     {
-        "code": "MC",
-        "name": "Mónaco",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Monaco"
+        code: "MC",
+        name: "Mónaco",
+        currency: "EUR",
+        name_translations: {
+            en: "Monaco"
         },
-        "cases": {
-            "su": "Mónaco"
+        cases: {
+            su: "Mónaco"
         }
     },
     {
-        "code": "GG",
-        "name": "Guernsey",
-        "currency": "GBP",
-        "name_translations": {
-            "en": "Guernsey"
+        code: "GG",
+        name: "Guernsey",
+        currency: "GBP",
+        name_translations: {
+            en: "Guernsey"
         },
-        "cases": {
-            "su": "Guernsey"
+        cases: {
+            su: "Guernsey"
         }
     },
     {
-        "code": "BW",
-        "name": "Botsuana",
-        "currency": "BWP",
-        "name_translations": {
-            "en": "Botswana"
+        code: "BW",
+        name: "Botsuana",
+        currency: "BWP",
+        name_translations: {
+            en: "Botswana"
         },
-        "cases": {
-            "su": "Botsuana"
+        cases: {
+            su: "Botsuana"
         }
     },
     {
-        "code": "US",
-        "name": "EE. UU.",
-        "currency": "USD",
-        "name_translations": {
-            "en": "United States"
+        code: "US",
+        name: "EE. UU.",
+        currency: "USD",
+        name_translations: {
+            en: "United States"
         },
-        "cases": {
-            "su": "EE. UU."
+        cases: {
+            su: "EE. UU."
         }
     },
     {
-        "code": "IO",
-        "name": "Territorio Británico del Océano Índico",
-        "currency": "USD",
-        "name_translations": {
-            "en": "British Indian Ocean Territory"
+        code: "IO",
+        name: "Territorio Británico del Océano Índico",
+        currency: "USD",
+        name_translations: {
+            en: "British Indian Ocean Territory"
         },
-        "cases": {
-            "su": "Territorio Británico del Océano Índico"
+        cases: {
+            su: "Territorio Británico del Océano Índico"
         }
     },
     {
-        "code": "SD",
-        "name": "Sudán",
-        "currency": "SDG",
-        "name_translations": {
-            "en": "Sudan"
+        code: "SD",
+        name: "Sudán",
+        currency: "SDG",
+        name_translations: {
+            en: "Sudan"
         },
-        "cases": {
-            "su": "Sudán"
+        cases: {
+            su: "Sudán"
         }
     },
     {
-        "code": "SK",
-        "name": "Eslovaquia",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Slovakia"
+        code: "SK",
+        name: "Eslovaquia",
+        currency: "EUR",
+        name_translations: {
+            en: "Slovakia"
         },
-        "cases": {
-            "su": "Eslovaquia"
+        cases: {
+            su: "Eslovaquia"
         }
     },
     {
-        "code": "IL",
-        "name": "Israel",
-        "currency": "ILS",
-        "name_translations": {
-            "en": "Israel"
+        code: "IL",
+        name: "Israel",
+        currency: "ILS",
+        name_translations: {
+            en: "Israel"
         },
-        "cases": {
-            "su": "Israel"
+        cases: {
+            su: "Israel"
         }
     },
     {
-        "code": "NI",
-        "name": "Nicaragua",
-        "currency": "NIO",
-        "name_translations": {
-            "en": "Nicaragua"
+        code: "NI",
+        name: "Nicaragua",
+        currency: "NIO",
+        name_translations: {
+            en: "Nicaragua"
         },
-        "cases": {
-            "su": "Nicaragua"
+        cases: {
+            su: "Nicaragua"
         }
     },
     {
-        "code": "ES",
-        "name": "España",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Spain"
+        code: "ES",
+        name: "España",
+        currency: "EUR",
+        name_translations: {
+            en: "Spain"
         },
-        "cases": {
-            "su": "España"
+        cases: {
+            su: "España"
         }
     },
     {
-        "code": "BH",
-        "name": "Baréin",
-        "currency": "BHD",
-        "name_translations": {
-            "en": "Bahrain"
+        code: "BH",
+        name: "Baréin",
+        currency: "BHD",
+        name_translations: {
+            en: "Bahrain"
         },
-        "cases": {
-            "su": "Baréin"
+        cases: {
+            su: "Baréin"
         }
     },
     {
-        "code": "DE",
-        "name": "Alemania",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Germany"
+        code: "DE",
+        name: "Alemania",
+        currency: "EUR",
+        name_translations: {
+            en: "Germany"
         },
-        "cases": {
-            "su": "Alemania"
+        cases: {
+            su: "Alemania"
         }
     },
     {
-        "code": "MP",
-        "name": "Islas Marianas del Norte",
-        "currency": "USD",
-        "name_translations": {
-            "en": "Northern Mariana Islands"
+        code: "MP",
+        name: "Islas Marianas del Norte",
+        currency: "USD",
+        name_translations: {
+            en: "Northern Mariana Islands"
         },
-        "cases": {
-            "su": "Islas Marianas del Norte"
+        cases: {
+            su: "Islas Marianas del Norte"
         }
     },
     {
-        "code": "HU",
-        "name": "Hungría",
-        "currency": "HUF",
-        "name_translations": {
-            "en": "Hungary"
+        code: "HU",
+        name: "Hungría",
+        currency: "HUF",
+        name_translations: {
+            en: "Hungary"
         },
-        "cases": {
-            "su": "Hungría"
+        cases: {
+            su: "Hungría"
         }
     },
     {
-        "code": "GE",
-        "name": "Georgia",
-        "currency": "GEL",
-        "name_translations": {
-            "en": "Georgia"
+        code: "GE",
+        name: "Georgia",
+        currency: "GEL",
+        name_translations: {
+            en: "Georgia"
         },
-        "cases": {
-            "su": "Georgia"
+        cases: {
+            su: "Georgia"
         }
     },
     {
-        "code": "NO",
-        "name": "Noruega",
-        "currency": "NOK",
-        "name_translations": {
-            "en": "Norway"
+        code: "NO",
+        name: "Noruega",
+        currency: "NOK",
+        name_translations: {
+            en: "Norway"
         },
-        "cases": {
-            "su": "Noruega"
+        cases: {
+            su: "Noruega"
         }
     },
     {
-        "code": "BQ",
-        "name": "Caribe neerlandés",
-        "currency": "USD",
-        "name_translations": {
-            "en": "Caribbean Netherlands"
+        code: "BQ",
+        name: "Caribe neerlandés",
+        currency: "USD",
+        name_translations: {
+            en: "Caribbean Netherlands"
         },
-        "cases": {
-            "su": "Caribe neerlandés"
+        cases: {
+            su: "Caribe neerlandés"
         }
     },
     {
-        "code": "VG",
-        "name": "Islas Vírgenes Británicas",
-        "currency": "USD",
-        "name_translations": {
-            "en": "British Virgin Islands"
+        code: "VG",
+        name: "Islas Vírgenes Británicas",
+        currency: "USD",
+        name_translations: {
+            en: "British Virgin Islands"
         },
-        "cases": {
-            "su": "Islas Vírgenes Británicas"
+        cases: {
+            su: "Islas Vírgenes Británicas"
         }
     },
     {
-        "code": "PS",
-        "name": "Palestina",
-        "currency": "ILS",
-        "name_translations": {
-            "en": "Palestine"
+        code: "PS",
+        name: "Palestina",
+        currency: "ILS",
+        name_translations: {
+            en: "Palestine"
         },
-        "cases": {
-            "su": "Palestina"
+        cases: {
+            su: "Palestina"
         }
     },
     {
-        "code": "BR",
-        "name": "Brasil",
-        "currency": "BRL",
-        "name_translations": {
-            "en": "Brazil"
+        code: "BR",
+        name: "Brasil",
+        currency: "BRL",
+        name_translations: {
+            en: "Brazil"
         },
-        "cases": {
-            "su": "Brasil"
+        cases: {
+            su: "Brasil"
         }
     },
     {
-        "code": "RE",
-        "name": "Reunión",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Réunion"
+        code: "RE",
+        name: "Reunión",
+        currency: "EUR",
+        name_translations: {
+            en: "Réunion"
         },
-        "cases": {
-            "su": "Reunión"
+        cases: {
+            su: "Reunión"
         }
     },
     {
-        "code": "UG",
-        "name": "Uganda",
-        "currency": "UGX",
-        "name_translations": {
-            "en": "Uganda"
+        code: "UG",
+        name: "Uganda",
+        currency: "UGX",
+        name_translations: {
+            en: "Uganda"
         },
-        "cases": {
-            "su": "Uganda"
+        cases: {
+            su: "Uganda"
         }
     },
     {
-        "code": "YT",
-        "name": "Mayotte",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Mayotte"
+        code: "YT",
+        name: "Mayotte",
+        currency: "EUR",
+        name_translations: {
+            en: "Mayotte"
         },
-        "cases": {
-            "su": "Mayotte"
+        cases: {
+            su: "Mayotte"
         }
     },
     {
-        "code": "CU",
-        "name": "Cuba",
-        "currency": "CUP",
-        "name_translations": {
-            "en": "Cuba"
+        code: "CU",
+        name: "Cuba",
+        currency: "CUP",
+        name_translations: {
+            en: "Cuba"
         },
-        "cases": {
-            "su": "Cuba"
+        cases: {
+            su: "Cuba"
         }
     },
     {
-        "code": "LC",
-        "name": "Santa Lucía",
-        "currency": "XCD",
-        "name_translations": {
-            "en": "Saint Lucia"
+        code: "LC",
+        name: "Santa Lucía",
+        currency: "XCD",
+        name_translations: {
+            en: "Saint Lucia"
         },
-        "cases": {
-            "su": "Santa Lucía"
+        cases: {
+            su: "Santa Lucía"
         }
     },
     {
-        "code": "JE",
-        "name": "Jersey",
-        "currency": "GBP",
-        "name_translations": {
-            "en": "Jersey"
+        code: "JE",
+        name: "Jersey",
+        currency: "GBP",
+        name_translations: {
+            en: "Jersey"
         },
-        "cases": {
-            "su": "Jersey"
+        cases: {
+            su: "Jersey"
         }
     },
     {
-        "code": "SH",
-        "name": "Santa Elena, Ascensión y Tristán de Acuña",
-        "currency": "SHP",
-        "name_translations": {
-            "en": "Saint Helena, Ascension and Tristan da Cunha"
+        code: "SH",
+        name: "Santa Elena, Ascensión y Tristán de Acuña",
+        currency: "SHP",
+        name_translations: {
+            en: "Saint Helena, Ascension and Tristan da Cunha"
         },
-        "cases": {
-            "su": "Santa Elena, Ascensión y Tristán de Acuña"
+        cases: {
+            su: "Santa Elena, Ascensión y Tristán de Acuña"
         }
     },
     {
-        "code": "AL",
-        "name": "Albania",
-        "currency": "ALL",
-        "name_translations": {
-            "en": "Albania"
+        code: "AL",
+        name: "Albania",
+        currency: "ALL",
+        name_translations: {
+            en: "Albania"
         },
-        "cases": {
-            "su": "Albania"
+        cases: {
+            su: "Albania"
         }
     },
     {
-        "code": "WS",
-        "name": "Samoa",
-        "currency": "WST",
-        "name_translations": {
-            "en": "Samoa"
+        code: "WS",
+        name: "Samoa",
+        currency: "WST",
+        name_translations: {
+            en: "Samoa"
         },
-        "cases": {
-            "su": "Samoa"
+        cases: {
+            su: "Samoa"
         }
     },
     {
-        "code": "IQ",
-        "name": "Iraq",
-        "currency": "IQD",
-        "name_translations": {
-            "en": "Iraq"
+        code: "IQ",
+        name: "Iraq",
+        currency: "IQD",
+        name_translations: {
+            en: "Iraq"
         },
-        "cases": {
-            "su": "Iraq"
+        cases: {
+            su: "Iraq"
         }
     },
     {
-        "code": "BO",
-        "name": "Bolivia",
-        "currency": "BOB",
-        "name_translations": {
-            "en": "Bolivia"
+        code: "BO",
+        name: "Bolivia",
+        currency: "BOB",
+        name_translations: {
+            en: "Bolivia"
         },
-        "cases": {
-            "su": "Bolivia"
+        cases: {
+            su: "Bolivia"
         }
     },
     {
-        "code": "IE",
-        "name": "Irlanda",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Ireland"
+        code: "IE",
+        name: "Irlanda",
+        currency: "EUR",
+        name_translations: {
+            en: "Ireland"
         },
-        "cases": {
-            "su": "Irlanda"
+        cases: {
+            su: "Irlanda"
         }
     },
     {
-        "code": "BZ",
-        "name": "Belice",
-        "currency": "BZD",
-        "name_translations": {
-            "en": "Belize"
+        code: "BZ",
+        name: "Belice",
+        currency: "BZD",
+        name_translations: {
+            en: "Belize"
         },
-        "cases": {
-            "su": "Belice"
+        cases: {
+            su: "Belice"
         }
     },
     {
-        "code": "ME",
-        "name": "Montenegro",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Montenegro"
+        code: "ME",
+        name: "Montenegro",
+        currency: "EUR",
+        name_translations: {
+            en: "Montenegro"
         },
-        "cases": {
-            "su": "Montenegro"
+        cases: {
+            su: "Montenegro"
         }
     },
     {
-        "code": "BT",
-        "name": "Bután",
-        "currency": "BTN",
-        "name_translations": {
-            "en": "Bhutan"
+        code: "BT",
+        name: "Bután",
+        currency: "BTN",
+        name_translations: {
+            en: "Bhutan"
         },
-        "cases": {
-            "su": "Bután"
+        cases: {
+            su: "Bután"
         }
     },
     {
-        "code": "EC",
-        "name": "Ecuador",
-        "currency": "USD",
-        "name_translations": {
-            "en": "Ecuador"
+        code: "EC",
+        name: "Ecuador",
+        currency: "USD",
+        name_translations: {
+            en: "Ecuador"
         },
-        "cases": {
-            "su": "Ecuador"
+        cases: {
+            su: "Ecuador"
         }
     },
     {
-        "code": "YE",
-        "name": "Yemen",
-        "currency": "YER",
-        "name_translations": {
-            "en": "Yemen"
+        code: "YE",
+        name: "Yemen",
+        currency: "YER",
+        name_translations: {
+            en: "Yemen"
         },
-        "cases": {
-            "su": "Yemen"
+        cases: {
+            su: "Yemen"
         }
     },
     {
-        "code": "KG",
-        "name": "Kirguistán",
-        "currency": "KGS",
-        "name_translations": {
-            "en": "Kyrgyzstan"
+        code: "KG",
+        name: "Kirguistán",
+        currency: "KGS",
+        name_translations: {
+            en: "Kyrgyzstan"
         },
-        "cases": {
-            "su": "Kirguistán"
+        cases: {
+            su: "Kirguistán"
         }
     },
     {
-        "code": "TC",
-        "name": "Islas Turcas y Caicos",
-        "currency": "USD",
-        "name_translations": {
-            "en": "Turks and Caicos Islands"
+        code: "TC",
+        name: "Islas Turcas y Caicos",
+        currency: "USD",
+        name_translations: {
+            en: "Turks and Caicos Islands"
         },
-        "cases": {
-            "su": "Islas Turcas y Caicos"
+        cases: {
+            su: "Islas Turcas y Caicos"
         }
     },
     {
-        "code": "CY",
-        "name": "Chipre",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Cyprus"
+        code: "CY",
+        name: "Chipre",
+        currency: "EUR",
+        name_translations: {
+            en: "Cyprus"
         },
-        "cases": {
-            "su": "Chipre"
+        cases: {
+            su: "Chipre"
         }
     },
     {
-        "code": "NP",
-        "name": "Nepal",
-        "currency": "NPR",
-        "name_translations": {
-            "en": "Nepal"
+        code: "NP",
+        name: "Nepal",
+        currency: "NPR",
+        name_translations: {
+            en: "Nepal"
         },
-        "cases": {
-            "su": "Nepal"
+        cases: {
+            su: "Nepal"
         }
     },
     {
-        "code": "MG",
-        "name": "Madagascar",
-        "currency": "MGA",
-        "name_translations": {
-            "en": "Madagascar"
+        code: "MG",
+        name: "Madagascar",
+        currency: "MGA",
+        name_translations: {
+            en: "Madagascar"
         },
-        "cases": {
-            "su": "Madagascar"
+        cases: {
+            su: "Madagascar"
         }
     },
     {
-        "code": "TW",
-        "name": "Taiwán",
-        "currency": "TWD",
-        "name_translations": {
-            "en": "Taiwan"
+        code: "TW",
+        name: "Taiwán",
+        currency: "TWD",
+        name_translations: {
+            en: "Taiwan"
         },
-        "cases": {
-            "su": "Taiwán"
+        cases: {
+            su: "Taiwán"
         }
     },
     {
-        "code": "KR",
-        "name": "Corea del Sur",
-        "currency": "KRW",
-        "name_translations": {
-            "en": "South Korea"
+        code: "KR",
+        name: "Corea del Sur",
+        currency: "KRW",
+        name_translations: {
+            en: "South Korea"
         },
-        "cases": {
-            "su": "Corea del Sur"
+        cases: {
+            su: "Corea del Sur"
         }
     },
     {
-        "code": "AD",
-        "name": "Andorra",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Andorra"
+        code: "AD",
+        name: "Andorra",
+        currency: "EUR",
+        name_translations: {
+            en: "Andorra"
         },
-        "cases": {
-            "su": "Andorra"
+        cases: {
+            su: "Andorra"
         }
     },
     {
-        "code": "GH",
-        "name": "Ghana",
-        "currency": "GHS",
-        "name_translations": {
-            "en": "Ghana"
+        code: "GH",
+        name: "Ghana",
+        currency: "GHS",
+        name_translations: {
+            en: "Ghana"
         },
-        "cases": {
-            "su": "Ghana"
+        cases: {
+            su: "Ghana"
         }
     },
     {
-        "code": "VI",
-        "name": "Islas Vírgenes de los Estados Unidos",
-        "currency": "USD",
-        "name_translations": {
-            "en": "U.S. Virgin Islands"
+        code: "VI",
+        name: "Islas Vírgenes de los Estados Unidos",
+        currency: "USD",
+        name_translations: {
+            en: "U.S. Virgin Islands"
         },
-        "cases": {
-            "su": "Islas Vírgenes de los Estados Unidos"
+        cases: {
+            su: "Islas Vírgenes de los Estados Unidos"
         }
     },
     {
-        "code": "BM",
-        "name": "Bermudas",
-        "currency": "BMD",
-        "name_translations": {
-            "en": "Bermuda"
+        code: "BM",
+        name: "Bermudas",
+        currency: "BMD",
+        name_translations: {
+            en: "Bermuda"
         },
-        "cases": {
-            "su": "Bermudas"
+        cases: {
+            su: "Bermudas"
         }
     },
     {
-        "code": "CA",
-        "name": "Canadá",
-        "currency": "CAD",
-        "name_translations": {
-            "en": "Canada"
+        code: "CA",
+        name: "Canadá",
+        currency: "CAD",
+        name_translations: {
+            en: "Canada"
         },
-        "cases": {
-            "su": "Canadá"
+        cases: {
+            su: "Canadá"
         }
     },
     {
-        "code": "MU",
-        "name": "Mauricio",
-        "currency": "MUR",
-        "name_translations": {
-            "en": "Mauritius"
+        code: "MU",
+        name: "Mauricio",
+        currency: "MUR",
+        name_translations: {
+            en: "Mauritius"
         },
-        "cases": {
-            "su": "Mauricio"
+        cases: {
+            su: "Mauricio"
         }
     },
     {
-        "code": "TG",
-        "name": "Togo",
-        "currency": "XOF",
-        "name_translations": {
-            "en": "Togo"
+        code: "TG",
+        name: "Togo",
+        currency: "XOF",
+        name_translations: {
+            en: "Togo"
         },
-        "cases": {
-            "su": "Togo"
+        cases: {
+            su: "Togo"
         }
     },
     {
-        "code": "PH",
-        "name": "Filipinas",
-        "currency": "PHP",
-        "name_translations": {
-            "en": "Philippines"
+        code: "PH",
+        name: "Filipinas",
+        currency: "PHP",
+        name_translations: {
+            en: "Philippines"
         },
-        "cases": {
-            "su": "Filipinas"
+        cases: {
+            su: "Filipinas"
         }
     },
     {
-        "code": "TF",
-        "name": "Territorios Australes Franceses",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "French Southern Territories"
+        code: "TF",
+        name: "Territorios Australes Franceses",
+        currency: "EUR",
+        name_translations: {
+            en: "French Southern Territories"
         },
-        "cases": {
-            "su": "Territorios Australes Franceses"
+        cases: {
+            su: "Territorios Australes Franceses"
         }
     },
     {
-        "code": "TV",
-        "name": "Tuvalu",
-        "currency": "AUD",
-        "name_translations": {
-            "en": "Tuvalu"
+        code: "TV",
+        name: "Tuvalu",
+        currency: "AUD",
+        name_translations: {
+            en: "Tuvalu"
         },
-        "cases": {
-            "su": "Tuvalu"
+        cases: {
+            su: "Tuvalu"
         }
     },
     {
-        "code": "SM",
-        "name": "San Marino",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "San Marino"
+        code: "SM",
+        name: "San Marino",
+        currency: "EUR",
+        name_translations: {
+            en: "San Marino"
         },
-        "cases": {
-            "su": "San Marino"
+        cases: {
+            su: "San Marino"
         }
     },
     {
-        "code": "LV",
-        "name": "Letonia",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Latvia"
+        code: "LV",
+        name: "Letonia",
+        currency: "EUR",
+        name_translations: {
+            en: "Latvia"
         },
-        "cases": {
-            "su": "Letonia"
+        cases: {
+            su: "Letonia"
         }
     },
     {
-        "code": "CI",
-        "name": "Costa de Marfil",
-        "currency": "XOF",
-        "name_translations": {
-            "en": "Ivory Coast"
+        code: "CI",
+        name: "Costa de Marfil",
+        currency: "XOF",
+        name_translations: {
+            en: "Ivory Coast"
         },
-        "cases": {
-            "su": "Costa de Marfil"
+        cases: {
+            su: "Costa de Marfil"
         }
     },
     {
-        "code": "LI",
-        "name": "Liechtenstein",
-        "currency": "CHF",
-        "name_translations": {
-            "en": "Liechtenstein"
+        code: "LI",
+        name: "Liechtenstein",
+        currency: "CHF",
+        name_translations: {
+            en: "Liechtenstein"
         },
-        "cases": {
-            "su": "Liechtenstein"
+        cases: {
+            su: "Liechtenstein"
         }
     },
     {
-        "code": "TT",
-        "name": "Trinidad y Tobago",
-        "currency": "TTD",
-        "name_translations": {
-            "en": "Trinidad and Tobago"
+        code: "TT",
+        name: "Trinidad y Tobago",
+        currency: "TTD",
+        name_translations: {
+            en: "Trinidad and Tobago"
         },
-        "cases": {
-            "su": "Trinidad y Tobago"
+        cases: {
+            su: "Trinidad y Tobago"
         }
     },
     {
-        "code": "SN",
-        "name": "Senegal",
-        "currency": "XOF",
-        "name_translations": {
-            "en": "Senegal"
+        code: "SN",
+        name: "Senegal",
+        currency: "XOF",
+        name_translations: {
+            en: "Senegal"
         },
-        "cases": {
-            "su": "Senegal"
+        cases: {
+            su: "Senegal"
         }
     },
     {
-        "code": "PL",
-        "name": "Polonia",
-        "currency": "PLN",
-        "name_translations": {
-            "en": "Poland"
+        code: "PL",
+        name: "Polonia",
+        currency: "PLN",
+        name_translations: {
+            en: "Poland"
         },
-        "cases": {
-            "su": "Polonia"
+        cases: {
+            su: "Polonia"
         }
     },
     {
-        "code": "MO",
-        "name": "Macao",
-        "currency": "MOP",
-        "name_translations": {
-            "en": "Macau"
+        code: "MO",
+        name: "Macao",
+        currency: "MOP",
+        name_translations: {
+            en: "Macau"
         },
-        "cases": {
-            "su": "Macao"
+        cases: {
+            su: "Macao"
         }
     },
     {
-        "code": "TO",
-        "name": "Tonga",
-        "currency": "TOP",
-        "name_translations": {
-            "en": "Tonga"
+        code: "TO",
+        name: "Tonga",
+        currency: "TOP",
+        name_translations: {
+            en: "Tonga"
         },
-        "cases": {
-            "su": "Tonga"
+        cases: {
+            su: "Tonga"
         }
     },
     {
-        "code": "AS",
-        "name": "Samoa Americana",
-        "currency": "USD",
-        "name_translations": {
-            "en": "American Samoa"
+        code: "AS",
+        name: "Samoa Americana",
+        currency: "USD",
+        name_translations: {
+            en: "American Samoa"
         },
-        "cases": {
-            "su": "Samoa Americana"
+        cases: {
+            su: "Samoa Americana"
         }
     },
     {
-        "code": "CD",
-        "name": "República Democrática del Congo",
-        "currency": "CDF",
-        "name_translations": {
-            "en": "Democratic Republic of the Congo"
+        code: "CD",
+        name: "República Democrática del Congo",
+        currency: "CDF",
+        name_translations: {
+            en: "Democratic Republic of the Congo"
         },
-        "cases": {
-            "su": "República Democrática del Congo"
+        cases: {
+            su: "República Democrática del Congo"
         }
     },
     {
-        "code": "PN",
-        "name": "Islas Pitcairn",
-        "currency": "NZD",
-        "name_translations": {
-            "en": "Pitcairn Islands"
+        code: "PN",
+        name: "Islas Pitcairn",
+        currency: "NZD",
+        name_translations: {
+            en: "Pitcairn Islands"
         },
-        "cases": {
-            "su": "Islas Pitcairn"
+        cases: {
+            su: "Islas Pitcairn"
         }
     },
     {
-        "code": "TL",
-        "name": "Timor Oriental",
-        "currency": "USD",
-        "name_translations": {
-            "en": "East Timor"
+        code: "TL",
+        name: "Timor Oriental",
+        currency: "USD",
+        name_translations: {
+            en: "East Timor"
         },
-        "cases": {
-            "su": "Timor Oriental"
+        cases: {
+            su: "Timor Oriental"
         }
     },
     {
-        "code": "BJ",
-        "name": "Benín",
-        "currency": "XOF",
-        "name_translations": {
-            "en": "Benin"
+        code: "BJ",
+        name: "Benín",
+        currency: "XOF",
+        name_translations: {
+            en: "Benin"
         },
-        "cases": {
-            "su": "Benín"
+        cases: {
+            su: "Benín"
         }
     },
     {
-        "code": "ZM",
-        "name": "Zambia",
-        "currency": "ZMK",
-        "name_translations": {
-            "en": "Zambia"
+        code: "ZM",
+        name: "Zambia",
+        currency: "ZMK",
+        name_translations: {
+            en: "Zambia"
         },
-        "cases": {
-            "su": "Zambia"
+        cases: {
+            su: "Zambia"
         }
     },
     {
-        "code": "SV",
-        "name": "El Salvador",
-        "currency": "USD",
-        "name_translations": {
-            "en": "El Salvador"
+        code: "SV",
+        name: "El Salvador",
+        currency: "USD",
+        name_translations: {
+            en: "El Salvador"
         },
-        "cases": {
-            "su": "El Salvador"
+        cases: {
+            su: "El Salvador"
         }
     },
     {
-        "code": "FO",
-        "name": "Islas Feroe",
-        "currency": "DKK",
-        "name_translations": {
-            "en": "Faroe Islands"
+        code: "FO",
+        name: "Islas Feroe",
+        currency: "DKK",
+        name_translations: {
+            en: "Faroe Islands"
         },
-        "cases": {
-            "su": "Islas Feroe"
+        cases: {
+            su: "Islas Feroe"
         }
     },
     {
-        "code": "EE",
-        "name": "Estonia",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Estonia"
+        code: "EE",
+        name: "Estonia",
+        currency: "EUR",
+        name_translations: {
+            en: "Estonia"
         },
-        "cases": {
-            "su": "Estonia"
+        cases: {
+            su: "Estonia"
         }
     },
     {
-        "code": "BG",
-        "name": "Bulgaria",
-        "currency": "BGN",
-        "name_translations": {
-            "en": "Bulgaria"
+        code: "BG",
+        name: "Bulgaria",
+        currency: "BGN",
+        name_translations: {
+            en: "Bulgaria"
         },
-        "cases": {
-            "su": "Bulgaria"
+        cases: {
+            su: "Bulgaria"
         }
     },
     {
-        "code": "RU",
-        "name": "Rusia",
-        "currency": "RUB",
-        "name_translations": {
-            "en": "Russia"
+        code: "RU",
+        name: "Rusia",
+        currency: "RUB",
+        name_translations: {
+            en: "Russia"
         },
-        "cases": {
-            "su": "Rusia"
+        cases: {
+            su: "Rusia"
         }
     },
     {
-        "code": "FI",
-        "name": "Finlandia",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Finland"
+        code: "FI",
+        name: "Finlandia",
+        currency: "EUR",
+        name_translations: {
+            en: "Finland"
         },
-        "cases": {
-            "su": "Finlandia"
+        cases: {
+            su: "Finlandia"
         }
     },
     {
-        "code": "TN",
-        "name": "Túnez",
-        "currency": "TND",
-        "name_translations": {
-            "en": "Tunisia"
+        code: "TN",
+        name: "Túnez",
+        currency: "TND",
+        name_translations: {
+            en: "Tunisia"
         },
-        "cases": {
-            "su": "Túnez"
+        cases: {
+            su: "Túnez"
         }
     },
     {
-        "code": "SY",
-        "name": "Siria",
-        "currency": "SYP",
-        "name_translations": {
-            "en": "Syria"
+        code: "SY",
+        name: "Siria",
+        currency: "SYP",
+        name_translations: {
+            en: "Syria"
         },
-        "cases": {
-            "su": "Siria"
+        cases: {
+            su: "Siria"
         }
     },
     {
-        "code": "TZ",
-        "name": "Tanzania",
-        "currency": "TZS",
-        "name_translations": {
-            "en": "Tanzania"
+        code: "TZ",
+        name: "Tanzania",
+        currency: "TZS",
+        name_translations: {
+            en: "Tanzania"
         },
-        "cases": {
-            "su": "Tanzania"
+        cases: {
+            su: "Tanzania"
         }
     },
     {
-        "code": "FK",
-        "name": "Islas Malvinas",
-        "currency": "FKP",
-        "name_translations": {
-            "en": "Falkland Islands"
+        code: "FK",
+        name: "Islas Malvinas",
+        currency: "FKP",
+        name_translations: {
+            en: "Falkland Islands"
         },
-        "cases": {
-            "su": "Islas Malvinas"
+        cases: {
+            su: "Islas Malvinas"
         }
     },
     {
-        "code": "TK",
-        "name": "Tokelau",
-        "currency": "NZD",
-        "name_translations": {
-            "en": "Tokelau"
+        code: "TK",
+        name: "Tokelau",
+        currency: "NZD",
+        name_translations: {
+            en: "Tokelau"
         },
-        "cases": {
-            "su": "Tokelau"
+        cases: {
+            su: "Tokelau"
         }
     },
     {
-        "code": "SX",
-        "name": "Sint Maarten",
-        "currency": "ANG",
-        "name_translations": {
-            "en": "Sint Maarten"
+        code: "SX",
+        name: "Sint Maarten",
+        currency: "ANG",
+        name_translations: {
+            en: "Sint Maarten"
         },
-        "cases": {
-            "su": "Sint Maarten"
+        cases: {
+            su: "Sint Maarten"
         }
     },
     {
-        "code": "PE",
-        "name": "Perú",
-        "currency": "PEN",
-        "name_translations": {
-            "en": "Peru"
+        code: "PE",
+        name: "Perú",
+        currency: "PEN",
+        name_translations: {
+            en: "Peru"
         },
-        "cases": {
-            "su": "Perú"
+        cases: {
+            su: "Perú"
         }
     },
     {
-        "code": "TR",
-        "name": "Turquía",
-        "currency": "TRY",
-        "name_translations": {
-            "en": "Turkey"
+        code: "TR",
+        name: "Turquía",
+        currency: "TRY",
+        name_translations: {
+            en: "Turkey"
         },
-        "cases": {
-            "su": "Turquía"
+        cases: {
+            su: "Turquía"
         }
     },
     {
-        "code": "CG",
-        "name": "República del Congo",
-        "currency": "XAF",
-        "name_translations": {
-            "en": "Republic of the Congo"
+        code: "CG",
+        name: "República del Congo",
+        currency: "XAF",
+        name_translations: {
+            en: "Republic of the Congo"
         },
-        "cases": {
-            "su": "República del Congo"
+        cases: {
+            su: "República del Congo"
         }
     },
     {
-        "code": "CN",
-        "name": "China",
-        "currency": "CNY",
-        "name_translations": {
-            "en": "China"
+        code: "CN",
+        name: "China",
+        currency: "CNY",
+        name_translations: {
+            en: "China"
         },
-        "cases": {
-            "su": "China"
+        cases: {
+            su: "China"
         }
     },
     {
-        "code": "BI",
-        "name": "Burundi",
-        "currency": "BIF",
-        "name_translations": {
-            "en": "Burundi"
+        code: "BI",
+        name: "Burundi",
+        currency: "BIF",
+        name_translations: {
+            en: "Burundi"
         },
-        "cases": {
-            "su": "Burundi"
+        cases: {
+            su: "Burundi"
         }
     },
     {
-        "code": "RO",
-        "name": "Rumanía",
-        "currency": "RON",
-        "name_translations": {
-            "en": "Romania"
+        code: "RO",
+        name: "Rumanía",
+        currency: "RON",
+        name_translations: {
+            en: "Romania"
         },
-        "cases": {
-            "su": "Rumanía"
+        cases: {
+            su: "Rumanía"
         }
     },
     {
-        "code": "CL",
-        "name": "Chile",
-        "currency": "CLP",
-        "name_translations": {
-            "en": "Chile"
+        code: "CL",
+        name: "Chile",
+        currency: "CLP",
+        name_translations: {
+            en: "Chile"
         },
-        "cases": {
-            "su": "Chile"
+        cases: {
+            su: "Chile"
         }
     },
     {
-        "code": "ER",
-        "name": "Eritrea",
-        "currency": "ERN",
-        "name_translations": {
-            "en": "Eritrea"
+        code: "ER",
+        name: "Eritrea",
+        currency: "ERN",
+        name_translations: {
+            en: "Eritrea"
         },
-        "cases": {
-            "su": "Eritrea"
+        cases: {
+            su: "Eritrea"
         }
     },
     {
-        "code": "BD",
-        "name": "Bangladés",
-        "currency": "BDT",
-        "name_translations": {
-            "en": "Bangladesh"
+        code: "BD",
+        name: "Bangladés",
+        currency: "BDT",
+        name_translations: {
+            en: "Bangladesh"
         },
-        "cases": {
-            "su": "Bangladés"
+        cases: {
+            su: "Bangladés"
         }
     },
     {
-        "code": "LR",
-        "name": "Liberia",
-        "currency": "LRD",
-        "name_translations": {
-            "en": "Liberia"
+        code: "LR",
+        name: "Liberia",
+        currency: "LRD",
+        name_translations: {
+            en: "Liberia"
         },
-        "cases": {
-            "su": "Liberia"
+        cases: {
+            su: "Liberia"
         }
     },
     {
-        "code": "TJ",
-        "name": "Tayikistán",
-        "currency": "TJS",
-        "name_translations": {
-            "en": "Tajikistan"
+        code: "TJ",
+        name: "Tayikistán",
+        currency: "TJS",
+        name_translations: {
+            en: "Tajikistan"
         },
-        "cases": {
-            "su": "Tayikistán"
+        cases: {
+            su: "Tayikistán"
         }
     },
     {
-        "code": "DJ",
-        "name": "Yibuti",
-        "currency": "DJF",
-        "name_translations": {
-            "en": "Djibouti"
+        code: "DJ",
+        name: "Yibuti",
+        currency: "DJF",
+        name_translations: {
+            en: "Djibouti"
         },
-        "cases": {
-            "su": "Yibuti"
+        cases: {
+            su: "Yibuti"
         }
     },
     {
-        "code": "NR",
-        "name": "Nauru",
-        "currency": "AUD",
-        "name_translations": {
-            "en": "Nauru"
+        code: "NR",
+        name: "Nauru",
+        currency: "AUD",
+        name_translations: {
+            en: "Nauru"
         },
-        "cases": {
-            "su": "Nauru"
+        cases: {
+            su: "Nauru"
         }
     },
     {
-        "code": "MW",
-        "name": "Malaui",
-        "currency": "MWK",
-        "name_translations": {
-            "en": "Malawi"
+        code: "MW",
+        name: "Malaui",
+        currency: "MWK",
+        name_translations: {
+            en: "Malawi"
         },
-        "cases": {
-            "su": "Malaui"
+        cases: {
+            su: "Malaui"
         }
     },
     {
-        "code": "JM",
-        "name": "Jamaica",
-        "currency": "JMD",
-        "name_translations": {
-            "en": "Jamaica"
+        code: "JM",
+        name: "Jamaica",
+        currency: "JMD",
+        name_translations: {
+            en: "Jamaica"
         },
-        "cases": {
-            "su": "Jamaica"
+        cases: {
+            su: "Jamaica"
         }
     },
     {
-        "code": "DZ",
-        "name": "Argelia",
-        "currency": "DZD",
-        "name_translations": {
-            "en": "Algeria"
+        code: "DZ",
+        name: "Argelia",
+        currency: "DZD",
+        name_translations: {
+            en: "Algeria"
         },
-        "cases": {
-            "su": "Argelia"
+        cases: {
+            su: "Argelia"
         }
     },
     {
-        "code": "FJ",
-        "name": "Fiyi",
-        "currency": "FJD",
-        "name_translations": {
-            "en": "Fiji"
+        code: "FJ",
+        name: "Fiyi",
+        currency: "FJD",
+        name_translations: {
+            en: "Fiji"
         },
-        "cases": {
-            "su": "Fiyi"
+        cases: {
+            su: "Fiyi"
         }
     },
     {
-        "code": "BB",
-        "name": "Barbados",
-        "currency": "BBD",
-        "name_translations": {
-            "en": "Barbados"
+        code: "BB",
+        name: "Barbados",
+        currency: "BBD",
+        name_translations: {
+            en: "Barbados"
         },
-        "cases": {
-            "su": "Barbados"
+        cases: {
+            su: "Barbados"
         }
     },
     {
-        "code": "CH",
-        "name": "Suiza",
-        "currency": "CHF",
-        "name_translations": {
-            "en": "Switzerland"
+        code: "CH",
+        name: "Suiza",
+        currency: "CHF",
+        name_translations: {
+            en: "Switzerland"
         },
-        "cases": {
-            "su": "Suiza"
+        cases: {
+            su: "Suiza"
         }
     },
     {
-        "code": "AU",
-        "name": "Australia",
-        "currency": "AUD",
-        "name_translations": {
-            "en": "Australia"
+        code: "AU",
+        name: "Australia",
+        currency: "AUD",
+        name_translations: {
+            en: "Australia"
         },
-        "cases": {
-            "su": "Australia"
+        cases: {
+            su: "Australia"
         }
     },
     {
-        "code": "MD",
-        "name": "Moldavia",
-        "currency": "MDL",
-        "name_translations": {
-            "en": "Moldova"
+        code: "MD",
+        name: "Moldavia",
+        currency: "MDL",
+        name_translations: {
+            en: "Moldova"
         },
-        "cases": {
-            "su": "Moldavia"
+        cases: {
+            su: "Moldavia"
         }
     },
     {
-        "code": "PY",
-        "name": "Paraguay",
-        "currency": "PYG",
-        "name_translations": {
-            "en": "Paraguay"
+        code: "PY",
+        name: "Paraguay",
+        currency: "PYG",
+        name_translations: {
+            en: "Paraguay"
         },
-        "cases": {
-            "su": "Paraguay"
+        cases: {
+            su: "Paraguay"
         }
     },
     {
-        "code": "TM",
-        "name": "Turkmenistán",
-        "currency": "TMT",
-        "name_translations": {
-            "en": "Turkmenistan"
+        code: "TM",
+        name: "Turkmenistán",
+        currency: "TMT",
+        name_translations: {
+            en: "Turkmenistan"
         },
-        "cases": {
-            "su": "Turkmenistán"
+        cases: {
+            su: "Turkmenistán"
         }
     },
     {
-        "code": "GN",
-        "name": "Guinea",
-        "currency": "GNF",
-        "name_translations": {
-            "en": "Guinea"
+        code: "GN",
+        name: "Guinea",
+        currency: "GNF",
+        name_translations: {
+            en: "Guinea"
         },
-        "cases": {
-            "su": "Guinea"
+        cases: {
+            su: "Guinea"
         }
     },
     {
-        "code": "NE",
-        "name": "Níger",
-        "currency": "XOF",
-        "name_translations": {
-            "en": "Niger"
+        code: "NE",
+        name: "Níger",
+        currency: "XOF",
+        name_translations: {
+            en: "Niger"
         },
-        "cases": {
-            "su": "Níger"
+        cases: {
+            su: "Níger"
         }
     },
     {
-        "code": "AX",
-        "name": "Islas Åland",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Åland Islands"
+        code: "AX",
+        name: "Islas Åland",
+        currency: "EUR",
+        name_translations: {
+            en: "Åland Islands"
         },
-        "cases": {
-            "su": "Islas Åland"
+        cases: {
+            su: "Islas Åland"
         }
     },
     {
-        "code": "AI",
-        "name": "Anguila",
-        "currency": "XCD",
-        "name_translations": {
-            "en": "Anguilla"
+        code: "AI",
+        name: "Anguila",
+        currency: "XCD",
+        name_translations: {
+            en: "Anguilla"
         },
-        "cases": {
-            "su": "Anguila"
+        cases: {
+            su: "Anguila"
         }
     },
     {
-        "code": "MV",
-        "name": "Maldivas",
-        "currency": "MVR",
-        "name_translations": {
-            "en": "Maldives"
+        code: "MV",
+        name: "Maldivas",
+        currency: "MVR",
+        name_translations: {
+            en: "Maldives"
         },
-        "cases": {
-            "su": "Maldivas"
+        cases: {
+            su: "Maldivas"
         }
     },
     {
-        "code": "GY",
-        "name": "Guyana",
-        "currency": "GYD",
-        "name_translations": {
-            "en": "Guyana"
+        code: "GY",
+        name: "Guyana",
+        currency: "GYD",
+        name_translations: {
+            en: "Guyana"
         },
-        "cases": {
-            "su": "Guyana"
+        cases: {
+            su: "Guyana"
         }
     },
     {
-        "code": "JP",
-        "name": "Japón",
-        "currency": "JPY",
-        "name_translations": {
-            "en": "Japan"
+        code: "JP",
+        name: "Japón",
+        currency: "JPY",
+        name_translations: {
+            en: "Japan"
         },
-        "cases": {
-            "su": "Japón"
+        cases: {
+            su: "Japón"
         }
     },
     {
-        "code": "BN",
-        "name": "Brunéi",
-        "currency": "BND",
-        "name_translations": {
-            "en": "Brunei"
+        code: "BN",
+        name: "Brunéi",
+        currency: "BND",
+        name_translations: {
+            en: "Brunei"
         },
-        "cases": {
-            "su": "Brunéi"
+        cases: {
+            su: "Brunéi"
         }
     },
     {
-        "code": "NZ",
-        "name": "Nueva Zelanda",
-        "currency": "NZD",
-        "name_translations": {
-            "en": "New Zealand"
+        code: "NZ",
+        name: "Nueva Zelanda",
+        currency: "NZD",
+        name_translations: {
+            en: "New Zealand"
         },
-        "cases": {
-            "su": "Nueva Zelanda"
+        cases: {
+            su: "Nueva Zelanda"
         }
     },
     {
-        "code": "LU",
-        "name": "Luxemburgo",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Luxembourg"
+        code: "LU",
+        name: "Luxemburgo",
+        currency: "EUR",
+        name_translations: {
+            en: "Luxembourg"
         },
-        "cases": {
-            "su": "Luxemburgo"
+        cases: {
+            su: "Luxemburgo"
         }
     },
     {
-        "code": "AQ",
-        "name": "Antártida",
-        "currency": "",
-        "name_translations": {
-            "en": "Antarctica"
+        code: "AQ",
+        name: "Antártida",
+        currency: "",
+        name_translations: {
+            en: "Antarctica"
         },
-        "cases": {
-            "su": "Antártida"
+        cases: {
+            su: "Antártida"
         }
     },
     {
-        "code": "SC",
-        "name": "Seychelles",
-        "currency": "SCR",
-        "name_translations": {
-            "en": "Seychelles"
+        code: "SC",
+        name: "Seychelles",
+        currency: "SCR",
+        name_translations: {
+            en: "Seychelles"
         },
-        "cases": {
-            "su": "Seychelles"
+        cases: {
+            su: "Seychelles"
         }
     },
     {
-        "code": "OM",
-        "name": "Omán",
-        "currency": "OMR",
-        "name_translations": {
-            "en": "Oman"
+        code: "OM",
+        name: "Omán",
+        currency: "OMR",
+        name_translations: {
+            en: "Oman"
         },
-        "cases": {
-            "su": "Omán"
+        cases: {
+            su: "Omán"
         }
     },
     {
-        "code": "MK",
-        "name": "Macedonia del Norte",
-        "currency": "MKD",
-        "name_translations": {
-            "en": "North Macedonia"
+        code: "MK",
+        name: "Macedonia del Norte",
+        currency: "MKD",
+        name_translations: {
+            en: "North Macedonia"
         },
-        "cases": {
-            "su": "Macedonia del Norte"
+        cases: {
+            su: "Macedonia del Norte"
         }
     },
     {
-        "code": "CV",
-        "name": "Cabo Verde",
-        "currency": "CVE",
-        "name_translations": {
-            "en": "Cape Verde"
+        code: "CV",
+        name: "Cabo Verde",
+        currency: "CVE",
+        name_translations: {
+            en: "Cape Verde"
         },
-        "cases": {
-            "su": "Cabo Verde"
+        cases: {
+            su: "Cabo Verde"
         }
     },
     {
-        "code": "ET",
-        "name": "Etiopía",
-        "currency": "ETB",
-        "name_translations": {
-            "en": "Ethiopia"
+        code: "ET",
+        name: "Etiopía",
+        currency: "ETB",
+        name_translations: {
+            en: "Ethiopia"
         },
-        "cases": {
-            "su": "Etiopía"
+        cases: {
+            su: "Etiopía"
         }
     },
     {
-        "code": "GQ",
-        "name": "Guinea Ecuatorial",
-        "currency": "XAF",
-        "name_translations": {
-            "en": "Equatorial Guinea"
+        code: "GQ",
+        name: "Guinea Ecuatorial",
+        currency: "XAF",
+        name_translations: {
+            en: "Equatorial Guinea"
         },
-        "cases": {
-            "su": "Guinea Ecuatorial"
+        cases: {
+            su: "Guinea Ecuatorial"
         }
     },
     {
-        "code": "CW",
-        "name": "Curazao",
-        "currency": "ANG",
-        "name_translations": {
-            "en": "Curaçao"
+        code: "CW",
+        name: "Curazao",
+        currency: "ANG",
+        name_translations: {
+            en: "Curaçao"
         },
-        "cases": {
-            "su": "Curazao"
+        cases: {
+            su: "Curazao"
         }
     },
     {
-        "code": "GS",
-        "name": "Islas Georgia del Sur y Sandwich del Sur",
-        "currency": "GBP",
-        "name_translations": {
-            "en": "South Georgia and the South Sandwich Islands"
+        code: "GS",
+        name: "Islas Georgia del Sur y Sandwich del Sur",
+        currency: "GBP",
+        name_translations: {
+            en: "South Georgia and the South Sandwich Islands"
         },
-        "cases": {
-            "su": "Islas Georgia del Sur y Sandwich del Sur"
+        cases: {
+            su: "Islas Georgia del Sur y Sandwich del Sur"
         }
     },
     {
-        "code": "ML",
-        "name": "Mali",
-        "currency": "XOF",
-        "name_translations": {
-            "en": "Mali"
+        code: "ML",
+        name: "Mali",
+        currency: "XOF",
+        name_translations: {
+            en: "Mali"
         },
-        "cases": {
-            "su": "Mali"
+        cases: {
+            su: "Mali"
         }
     },
     {
-        "code": "PA",
-        "name": "Panamá",
-        "currency": "PAB",
-        "name_translations": {
-            "en": "Panama"
+        code: "PA",
+        name: "Panamá",
+        currency: "PAB",
+        name_translations: {
+            en: "Panama"
         },
-        "cases": {
-            "su": "Panamá"
+        cases: {
+            su: "Panamá"
         }
     },
     {
-        "code": "RS",
-        "name": "Serbia",
-        "currency": "RSD",
-        "name_translations": {
-            "en": "Serbia"
+        code: "RS",
+        name: "Serbia",
+        currency: "RSD",
+        name_translations: {
+            en: "Serbia"
         },
-        "cases": {
-            "su": "Serbia"
+        cases: {
+            su: "Serbia"
         }
     },
     {
-        "code": "HT",
-        "name": "Haití",
-        "currency": "HTG",
-        "name_translations": {
-            "en": "Haiti"
+        code: "HT",
+        name: "Haití",
+        currency: "HTG",
+        name_translations: {
+            en: "Haiti"
         },
-        "cases": {
-            "su": "Haití"
+        cases: {
+            su: "Haití"
         }
     },
     {
-        "code": "BF",
-        "name": "Burkina Faso",
-        "currency": "XOF",
-        "name_translations": {
-            "en": "Burkina Faso"
+        code: "BF",
+        name: "Burkina Faso",
+        currency: "XOF",
+        name_translations: {
+            en: "Burkina Faso"
         },
-        "cases": {
-            "su": "Burkina Faso"
+        cases: {
+            su: "Burkina Faso"
         }
     },
     {
-        "code": "SZ",
-        "name": "Suazilandia",
-        "currency": "SZL",
-        "name_translations": {
-            "en": "Eswatini"
+        code: "SZ",
+        name: "Suazilandia",
+        currency: "SZL",
+        name_translations: {
+            en: "Eswatini"
         },
-        "cases": {
-            "su": "Suazilandia"
+        cases: {
+            su: "Suazilandia"
         }
     },
     {
-        "code": "BA",
-        "name": "Bosnia y Herzegovina",
-        "currency": "BAM",
-        "name_translations": {
-            "en": "Bosnia and Herzegovina"
+        code: "BA",
+        name: "Bosnia y Herzegovina",
+        currency: "BAM",
+        name_translations: {
+            en: "Bosnia and Herzegovina"
         },
-        "cases": {
-            "su": "Bosnia y Herzegovina"
+        cases: {
+            su: "Bosnia y Herzegovina"
         }
     },
     {
-        "code": "TD",
-        "name": "Chad",
-        "currency": "XAF",
-        "name_translations": {
-            "en": "Chad"
+        code: "TD",
+        name: "Chad",
+        currency: "XAF",
+        name_translations: {
+            en: "Chad"
         },
-        "cases": {
-            "su": "Chad"
+        cases: {
+            su: "Chad"
         }
     },
     {
-        "code": "MR",
-        "name": "Mauritania",
-        "currency": "MRO",
-        "name_translations": {
-            "en": "Mauritania"
+        code: "MR",
+        name: "Mauritania",
+        currency: "MRO",
+        name_translations: {
+            en: "Mauritania"
         },
-        "cases": {
-            "su": "Mauritania"
+        cases: {
+            su: "Mauritania"
         }
     },
     {
-        "code": "SS",
-        "name": "Sudán del Sur",
-        "currency": "",
-        "name_translations": {
-            "en": "South Sudan"
+        code: "SS",
+        name: "Sudán del Sur",
+        currency: "",
+        name_translations: {
+            en: "South Sudan"
         },
-        "cases": {
-            "su": "Sudán del Sur"
+        cases: {
+            su: "Sudán del Sur"
         }
     },
     {
-        "code": "BY",
-        "name": "Bielorrusia",
-        "currency": "BYN",
-        "name_translations": {
-            "en": "Belarus"
+        code: "BY",
+        name: "Bielorrusia",
+        currency: "BYN",
+        name_translations: {
+            en: "Belarus"
         },
-        "cases": {
-            "su": "Bielorrusia"
+        cases: {
+            su: "Bielorrusia"
         }
     },
     {
-        "code": "MA",
-        "name": "Marruecos",
-        "currency": "MAD",
-        "name_translations": {
-            "en": "Morocco"
+        code: "MA",
+        name: "Marruecos",
+        currency: "MAD",
+        name_translations: {
+            en: "Morocco"
         },
-        "cases": {
-            "su": "Marruecos"
+        cases: {
+            su: "Marruecos"
         }
     },
     {
-        "code": "PR",
-        "name": "Puerto Rico",
-        "currency": "USD",
-        "name_translations": {
-            "en": "Puerto Rico"
+        code: "PR",
+        name: "Puerto Rico",
+        currency: "USD",
+        name_translations: {
+            en: "Puerto Rico"
         },
-        "cases": {
-            "su": "Puerto Rico"
+        cases: {
+            su: "Puerto Rico"
         }
     },
     {
-        "code": "CK",
-        "name": "Islas Cook",
-        "currency": "NZD",
-        "name_translations": {
-            "en": "Cook Islands"
+        code: "CK",
+        name: "Islas Cook",
+        currency: "NZD",
+        name_translations: {
+            en: "Cook Islands"
         },
-        "cases": {
-            "su": "Islas Cook"
+        cases: {
+            su: "Islas Cook"
         }
     },
     {
-        "code": "PM",
-        "name": "San Pedro y Miquelón",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Saint Pierre and Miquelon"
+        code: "PM",
+        name: "San Pedro y Miquelón",
+        currency: "EUR",
+        name_translations: {
+            en: "Saint Pierre and Miquelon"
         },
-        "cases": {
-            "su": "San Pedro y Miquelón"
+        cases: {
+            su: "San Pedro y Miquelón"
         }
     },
     {
-        "code": "MQ",
-        "name": "Martinica",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Martinique"
+        code: "MQ",
+        name: "Martinica",
+        currency: "EUR",
+        name_translations: {
+            en: "Martinique"
         },
-        "cases": {
-            "su": "Martinica"
+        cases: {
+            su: "Martinica"
         }
     },
     {
-        "code": "LB",
-        "name": "Líbano",
-        "currency": "LBP",
-        "name_translations": {
-            "en": "Lebanon"
+        code: "LB",
+        name: "Líbano",
+        currency: "LBP",
+        name_translations: {
+            en: "Lebanon"
         },
-        "cases": {
-            "su": "Líbano"
+        cases: {
+            su: "Líbano"
         }
     },
     {
-        "code": "BL",
-        "name": "San Bartolomé",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Saint Barthélemy"
+        code: "BL",
+        name: "San Bartolomé",
+        currency: "EUR",
+        name_translations: {
+            en: "Saint Barthélemy"
         },
-        "cases": {
-            "su": "San Bartolomé"
+        cases: {
+            su: "San Bartolomé"
         }
     },
     {
-        "code": "LT",
-        "name": "Lituania",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Lithuania"
+        code: "LT",
+        name: "Lituania",
+        currency: "EUR",
+        name_translations: {
+            en: "Lithuania"
         },
-        "cases": {
-            "su": "Lituania"
+        cases: {
+            su: "Lituania"
         }
     },
     {
-        "code": "BE",
-        "name": "Bélgica",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Belgium"
+        code: "BE",
+        name: "Bélgica",
+        currency: "EUR",
+        name_translations: {
+            en: "Belgium"
         },
-        "cases": {
-            "su": "Bélgica"
+        cases: {
+            su: "Bélgica"
         }
     },
     {
-        "code": "KH",
-        "name": "Camboya",
-        "currency": "KHR",
-        "name_translations": {
-            "en": "Cambodia"
+        code: "KH",
+        name: "Camboya",
+        currency: "KHR",
+        name_translations: {
+            en: "Cambodia"
         },
-        "cases": {
-            "su": "Camboya"
+        cases: {
+            su: "Camboya"
         }
     },
     {
-        "code": "BS",
-        "name": "Bahamas",
-        "currency": "BSD",
-        "name_translations": {
-            "en": "Bahamas"
+        code: "BS",
+        name: "Bahamas",
+        currency: "BSD",
+        name_translations: {
+            en: "Bahamas"
         },
-        "cases": {
-            "su": "Bahamas"
+        cases: {
+            su: "Bahamas"
         }
     },
     {
-        "code": "AT",
-        "name": "Austria",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Austria"
+        code: "AT",
+        name: "Austria",
+        currency: "EUR",
+        name_translations: {
+            en: "Austria"
         },
-        "cases": {
-            "su": "Austria"
+        cases: {
+            su: "Austria"
         }
     },
     {
-        "code": "SA",
-        "name": "Arabia Saudí",
-        "currency": "SAR",
-        "name_translations": {
-            "en": "Saudi Arabia"
+        code: "SA",
+        name: "Arabia Saudí",
+        currency: "SAR",
+        name_translations: {
+            en: "Saudi Arabia"
         },
-        "cases": {
-            "su": "Arabia Saudí"
+        cases: {
+            su: "Arabia Saudí"
         }
     },
     {
-        "code": "PT",
-        "name": "Portugal",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Portugal"
+        code: "PT",
+        name: "Portugal",
+        currency: "EUR",
+        name_translations: {
+            en: "Portugal"
         },
-        "cases": {
-            "su": "Portugal"
+        cases: {
+            su: "Portugal"
         }
     },
     {
-        "code": "MH",
-        "name": "Islas Marshall",
-        "currency": "USD",
-        "name_translations": {
-            "en": "Marshall Islands"
+        code: "MH",
+        name: "Islas Marshall",
+        currency: "USD",
+        name_translations: {
+            en: "Marshall Islands"
         },
-        "cases": {
-            "su": "Islas Marshall"
+        cases: {
+            su: "Islas Marshall"
         }
     },
     {
-        "code": "CZ",
-        "name": "República Checa",
-        "currency": "CZK",
-        "name_translations": {
-            "en": "Czech Republic"
+        code: "CZ",
+        name: "República Checa",
+        currency: "CZK",
+        name_translations: {
+            en: "Czech Republic"
         },
-        "cases": {
-            "su": "República Checa"
+        cases: {
+            su: "República Checa"
         }
     },
     {
-        "code": "WF",
-        "name": "Wallis y Futuna",
-        "currency": "XPF",
-        "name_translations": {
-            "en": "Wallis and Futuna"
+        code: "WF",
+        name: "Wallis y Futuna",
+        currency: "XPF",
+        name_translations: {
+            en: "Wallis and Futuna"
         },
-        "cases": {
-            "su": "Wallis y Futuna"
+        cases: {
+            su: "Wallis y Futuna"
         }
     },
     {
-        "code": "SI",
-        "name": "Eslovenia",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Slovenia"
+        code: "SI",
+        name: "Eslovenia",
+        currency: "EUR",
+        name_translations: {
+            en: "Slovenia"
         },
-        "cases": {
-            "su": "Eslovenia"
+        cases: {
+            su: "Eslovenia"
         }
     },
     {
-        "code": "NC",
-        "name": "Nueva Caledonia",
-        "currency": "XPF",
-        "name_translations": {
-            "en": "New Caledonia"
+        code: "NC",
+        name: "Nueva Caledonia",
+        currency: "XPF",
+        name_translations: {
+            en: "New Caledonia"
         },
-        "cases": {
-            "su": "Nueva Caledonia"
+        cases: {
+            su: "Nueva Caledonia"
         }
     },
     {
-        "code": "GR",
-        "name": "Grecia",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Greece"
+        code: "GR",
+        name: "Grecia",
+        currency: "EUR",
+        name_translations: {
+            en: "Greece"
         },
-        "cases": {
-            "su": "Grecia"
+        cases: {
+            su: "Grecia"
         }
     },
     {
-        "code": "LK",
-        "name": "Sri Lanka",
-        "currency": "LKR",
-        "name_translations": {
-            "en": "Sri Lanka"
+        code: "LK",
+        name: "Sri Lanka",
+        currency: "LKR",
+        name_translations: {
+            en: "Sri Lanka"
         },
-        "cases": {
-            "su": "Sri Lanka"
+        cases: {
+            su: "Sri Lanka"
         }
     },
     {
-        "code": "HM",
-        "name": "Islas Heard y McDonald",
-        "currency": "AUD",
-        "name_translations": {
-            "en": "Heard Island and McDonald Islands"
+        code: "HM",
+        name: "Islas Heard y McDonald",
+        currency: "AUD",
+        name_translations: {
+            en: "Heard Island and McDonald Islands"
         },
-        "cases": {
-            "su": "Islas Heard y McDonald"
+        cases: {
+            su: "Islas Heard y McDonald"
         }
     },
     {
-        "code": "UA",
-        "name": "Ucrania",
-        "currency": "UAH",
-        "name_translations": {
-            "en": "Ukraine"
+        code: "UA",
+        name: "Ucrania",
+        currency: "UAH",
+        name_translations: {
+            en: "Ukraine"
         },
-        "cases": {
-            "su": "Ucrania"
+        cases: {
+            su: "Ucrania"
         }
     },
     {
-        "code": "KI",
-        "name": "Kiribati",
-        "currency": "AUD",
-        "name_translations": {
-            "en": "Kiribati"
+        code: "KI",
+        name: "Kiribati",
+        currency: "AUD",
+        name_translations: {
+            en: "Kiribati"
         },
-        "cases": {
-            "su": "Kiribati"
+        cases: {
+            su: "Kiribati"
         }
     },
     {
-        "code": "PW",
-        "name": "Palau",
-        "currency": "USD",
-        "name_translations": {
-            "en": "Palau"
+        code: "PW",
+        name: "Palau",
+        currency: "USD",
+        name_translations: {
+            en: "Palau"
         },
-        "cases": {
-            "su": "Palau"
+        cases: {
+            su: "Palau"
         }
     },
     {
-        "code": "ZW",
-        "name": "Zimbabue",
-        "currency": "ZWD",
-        "name_translations": {
-            "en": "Zimbabwe"
+        code: "ZW",
+        name: "Zimbabue",
+        currency: "ZWD",
+        name_translations: {
+            en: "Zimbabwe"
         },
-        "cases": {
-            "su": "Zimbabue"
+        cases: {
+            su: "Zimbabue"
         }
     },
     {
-        "code": "KY",
-        "name": "Islas Caimán",
-        "currency": "KYD",
-        "name_translations": {
-            "en": "Cayman Islands"
+        code: "KY",
+        name: "Islas Caimán",
+        currency: "KYD",
+        name_translations: {
+            en: "Cayman Islands"
         },
-        "cases": {
-            "su": "Islas Caimán"
+        cases: {
+            su: "Islas Caimán"
         }
     },
     {
-        "code": "KE",
-        "name": "Kenia",
-        "currency": "KES",
-        "name_translations": {
-            "en": "Kenya"
+        code: "KE",
+        name: "Kenia",
+        currency: "KES",
+        name_translations: {
+            en: "Kenya"
         },
-        "cases": {
-            "su": "Kenia"
+        cases: {
+            su: "Kenia"
         }
     },
     {
-        "code": "SB",
-        "name": "Islas Salomón",
-        "currency": "SBD",
-        "name_translations": {
-            "en": "Solomon Islands"
+        code: "SB",
+        name: "Islas Salomón",
+        currency: "SBD",
+        name_translations: {
+            en: "Solomon Islands"
         },
-        "cases": {
-            "su": "Islas Salomón"
+        cases: {
+            su: "Islas Salomón"
         }
     },
     {
-        "code": "LY",
-        "name": "Libia",
-        "currency": "LYD",
-        "name_translations": {
-            "en": "Libya"
+        code: "LY",
+        name: "Libia",
+        currency: "LYD",
+        name_translations: {
+            en: "Libya"
         },
-        "cases": {
-            "su": "Libia"
+        cases: {
+            su: "Libia"
         }
     },
     {
-        "code": "IS",
-        "name": "Islandia",
-        "currency": "ISK",
-        "name_translations": {
-            "en": "Iceland"
+        code: "IS",
+        name: "Islandia",
+        currency: "ISK",
+        name_translations: {
+            en: "Iceland"
         },
-        "cases": {
-            "su": "Islandia"
+        cases: {
+            su: "Islandia"
         }
     },
     {
-        "code": "CF",
-        "name": "República Centroafricana",
-        "currency": "XAF",
-        "name_translations": {
-            "en": "Central African Republic"
+        code: "CF",
+        name: "República Centroafricana",
+        currency: "XAF",
+        name_translations: {
+            en: "Central African Republic"
         },
-        "cases": {
-            "su": "República Centroafricana"
+        cases: {
+            su: "República Centroafricana"
         }
     },
     {
-        "code": "KZ",
-        "name": "Kazajistán",
-        "currency": "KZT",
-        "name_translations": {
-            "en": "Kazakhstan"
+        code: "KZ",
+        name: "Kazajistán",
+        currency: "KZT",
+        name_translations: {
+            en: "Kazakhstan"
         },
-        "cases": {
-            "su": "Kazajistán"
+        cases: {
+            su: "Kazajistán"
         }
     },
     {
-        "code": "GM",
-        "name": "Gambia",
-        "currency": "GMD",
-        "name_translations": {
-            "en": "Gambia"
+        code: "GM",
+        name: "Gambia",
+        currency: "GMD",
+        name_translations: {
+            en: "Gambia"
         },
-        "cases": {
-            "su": "Gambia"
+        cases: {
+            su: "Gambia"
         }
     },
     {
-        "code": "SE",
-        "name": "Suecia",
-        "currency": "SEK",
-        "name_translations": {
-            "en": "Sweden"
+        code: "SE",
+        name: "Suecia",
+        currency: "SEK",
+        name_translations: {
+            en: "Sweden"
         },
-        "cases": {
-            "su": "Suecia"
+        cases: {
+            su: "Suecia"
         }
     },
     {
-        "code": "GB",
-        "name": "Reino Unido",
-        "currency": "GBP",
-        "name_translations": {
-            "en": "United Kingdom"
+        code: "GB",
+        name: "Reino Unido",
+        currency: "GBP",
+        name_translations: {
+            en: "United Kingdom"
         },
-        "cases": {
-            "su": "Reino Unido"
+        cases: {
+            su: "Reino Unido"
         }
     },
     {
-        "code": "HR",
-        "name": "Croacia",
-        "currency": "HRK",
-        "name_translations": {
-            "en": "Croatia"
+        code: "HR",
+        name: "Croacia",
+        currency: "HRK",
+        name_translations: {
+            en: "Croatia"
         },
-        "cases": {
-            "su": "Croacia"
+        cases: {
+            su: "Croacia"
         }
     },
     {
-        "code": "SJ",
-        "name": "Svalbard y Jan Mayen",
-        "currency": "NOK",
-        "name_translations": {
-            "en": "Svalbard and Jan Mayen"
+        code: "SJ",
+        name: "Svalbard y Jan Mayen",
+        currency: "NOK",
+        name_translations: {
+            en: "Svalbard and Jan Mayen"
         },
-        "cases": {
-            "su": "Svalbard y Jan Mayen"
+        cases: {
+            su: "Svalbard y Jan Mayen"
         }
     },
     {
-        "code": "GI",
-        "name": "Gibraltar",
-        "currency": "GIP",
-        "name_translations": {
-            "en": "Gibraltar"
+        code: "GI",
+        name: "Gibraltar",
+        currency: "GIP",
+        name_translations: {
+            en: "Gibraltar"
         },
-        "cases": {
-            "su": "Gibraltar"
+        cases: {
+            su: "Gibraltar"
         }
     },
     {
-        "code": "KX",
-        "name": "Crimea",
-        "currency": "",
-        "name_translations": {
-            "en": "Crimea"
+        code: "KX",
+        name: "Crimea",
+        currency: "",
+        name_translations: {
+            en: "Crimea"
         },
-        "cases": {
-            "su": "Crimea"
+        cases: {
+            su: "Crimea"
         }
     },
     {
-        "code": "GL",
-        "name": "Groenlandia",
-        "currency": "DKK",
-        "name_translations": {
-            "en": "Greenland"
+        code: "GL",
+        name: "Groenlandia",
+        currency: "DKK",
+        name_translations: {
+            en: "Greenland"
         },
-        "cases": {
-            "su": "Groenlandia"
+        cases: {
+            su: "Groenlandia"
         }
     },
     {
-        "code": "FR",
-        "name": "Francia",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "France"
+        code: "FR",
+        name: "Francia",
+        currency: "EUR",
+        name_translations: {
+            en: "France"
         },
-        "cases": {
-            "su": "Francia"
+        cases: {
+            su: "Francia"
         }
     },
     {
-        "code": "VE",
-        "name": "Venezuela",
-        "currency": "VEF",
-        "name_translations": {
-            "en": "Venezuela"
+        code: "VE",
+        name: "Venezuela",
+        currency: "VEF",
+        name_translations: {
+            en: "Venezuela"
         },
-        "cases": {
-            "su": "Venezuela"
+        cases: {
+            su: "Venezuela"
         }
     },
     {
-        "code": "MN",
-        "name": "Mongolia",
-        "currency": "MNT",
-        "name_translations": {
-            "en": "Mongolia"
+        code: "MN",
+        name: "Mongolia",
+        currency: "MNT",
+        name_translations: {
+            en: "Mongolia"
         },
-        "cases": {
-            "su": "Mongolia"
+        cases: {
+            su: "Mongolia"
         }
     },
     {
-        "code": "QA",
-        "name": "Catar",
-        "currency": "QAR",
-        "name_translations": {
-            "en": "Qatar"
+        code: "QA",
+        name: "Catar",
+        currency: "QAR",
+        name_translations: {
+            en: "Qatar"
         },
-        "cases": {
-            "su": "Catar"
+        cases: {
+            su: "Catar"
         }
     },
     {
-        "code": "ID",
-        "name": "Indonesia",
-        "currency": "IDR",
-        "name_translations": {
-            "en": "Indonesia"
+        code: "ID",
+        name: "Indonesia",
+        currency: "IDR",
+        name_translations: {
+            en: "Indonesia"
         },
-        "cases": {
-            "su": "Indonesia"
+        cases: {
+            su: "Indonesia"
         }
     },
     {
-        "code": "RW",
-        "name": "Ruanda",
-        "currency": "RWF",
-        "name_translations": {
-            "en": "Rwanda"
+        code: "RW",
+        name: "Ruanda",
+        currency: "RWF",
+        name_translations: {
+            en: "Rwanda"
         },
-        "cases": {
-            "su": "Ruanda"
+        cases: {
+            su: "Ruanda"
         }
     },
     {
-        "code": "IT",
-        "name": "",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Italy"
+        code: "IT",
+        name: "",
+        currency: "EUR",
+        name_translations: {
+            en: "Italy"
         },
-        "cases": null
+        cases: null
     },
     {
-        "code": "DO",
-        "name": "República Dominicana",
-        "currency": "DOP",
-        "name_translations": {
-            "en": "Dominican Republic"
+        code: "DO",
+        name: "República Dominicana",
+        currency: "DOP",
+        name_translations: {
+            en: "Dominican Republic"
         },
-        "cases": {
-            "su": "República Dominicana"
+        cases: {
+            su: "República Dominicana"
         }
     },
     {
-        "code": "LS",
-        "name": "Lesoto",
-        "currency": "LSL",
-        "name_translations": {
-            "en": "Lesotho"
+        code: "LS",
+        name: "Lesoto",
+        currency: "LSL",
+        name_translations: {
+            en: "Lesotho"
         },
-        "cases": {
-            "su": "Lesoto"
+        cases: {
+            su: "Lesoto"
         }
     },
     {
-        "code": "UY",
-        "name": "Uruguay",
-        "currency": "UYU",
-        "name_translations": {
-            "en": "Uruguay"
+        code: "UY",
+        name: "Uruguay",
+        currency: "UYU",
+        name_translations: {
+            en: "Uruguay"
         },
-        "cases": {
-            "su": "Uruguay"
+        cases: {
+            su: "Uruguay"
         }
     },
     {
-        "code": "FM",
-        "name": "Micronesia",
-        "currency": "USD",
-        "name_translations": {
-            "en": "Micronesia"
+        code: "FM",
+        name: "Micronesia",
+        currency: "USD",
+        name_translations: {
+            en: "Micronesia"
         },
-        "cases": {
-            "su": "Micronesia"
+        cases: {
+            su: "Micronesia"
         }
     },
     {
-        "code": "ZA",
-        "name": "Sudáfrica",
-        "currency": "ZAR",
-        "name_translations": {
-            "en": "South Africa"
+        code: "ZA",
+        name: "Sudáfrica",
+        currency: "ZAR",
+        name_translations: {
+            en: "South Africa"
         },
-        "cases": {
-            "su": "Sudáfrica"
+        cases: {
+            su: "Sudáfrica"
         }
     },
     {
-        "code": "AF",
-        "name": "Afganistán",
-        "currency": "AFN",
-        "name_translations": {
-            "en": "Afghanistan"
+        code: "AF",
+        name: "Afganistán",
+        currency: "AFN",
+        name_translations: {
+            en: "Afghanistan"
         },
-        "cases": {
-            "su": "Afganistán"
+        cases: {
+            su: "Afganistán"
         }
     },
     {
-        "code": "KN",
-        "name": "San Cristóbal y Nieves",
-        "currency": "XCD",
-        "name_translations": {
-            "en": "Saint Kitts and Nevis"
+        code: "KN",
+        name: "San Cristóbal y Nieves",
+        currency: "XCD",
+        name_translations: {
+            en: "Saint Kitts and Nevis"
         },
-        "cases": {
-            "su": "San Cristóbal y Nieves"
+        cases: {
+            su: "San Cristóbal y Nieves"
         }
     },
     {
-        "code": "NU",
-        "name": "Isla Niue",
-        "currency": "NZD",
-        "name_translations": {
-            "en": "Niue"
+        code: "NU",
+        name: "Isla Niue",
+        currency: "NZD",
+        name_translations: {
+            en: "Niue"
         },
-        "cases": {
-            "su": "Isla Niue"
+        cases: {
+            su: "Isla Niue"
         }
     },
     {
-        "code": "VN",
-        "name": "Vietnam",
-        "currency": "VND",
-        "name_translations": {
-            "en": "Vietnam"
+        code: "VN",
+        name: "Vietnam",
+        currency: "VND",
+        name_translations: {
+            en: "Vietnam"
         },
-        "cases": {
-            "su": "Vietnam"
+        cases: {
+            su: "Vietnam"
         }
     },
     {
-        "code": "MZ",
-        "name": "Mozambique",
-        "currency": "MZN",
-        "name_translations": {
-            "en": "Mozambique"
+        code: "MZ",
+        name: "Mozambique",
+        currency: "MZN",
+        name_translations: {
+            en: "Mozambique"
         },
-        "cases": {
-            "su": "Mozambique"
+        cases: {
+            su: "Mozambique"
         }
     },
     {
-        "code": "MS",
-        "name": "Montserrat",
-        "currency": "XCD",
-        "name_translations": {
-            "en": "Montserrat"
+        code: "MS",
+        name: "Montserrat",
+        currency: "XCD",
+        name_translations: {
+            en: "Montserrat"
         },
-        "cases": {
-            "su": "Montserrat"
+        cases: {
+            su: "Montserrat"
         }
     },
     {
-        "code": "PK",
-        "name": "Pakistán",
-        "currency": "PKR",
-        "name_translations": {
-            "en": "Pakistan"
+        code: "PK",
+        name: "Pakistán",
+        currency: "PKR",
+        name_translations: {
+            en: "Pakistan"
         },
-        "cases": {
-            "su": "Pakistán"
+        cases: {
+            su: "Pakistán"
         }
     },
     {
-        "code": "GD",
-        "name": "Granada",
-        "currency": "XCD",
-        "name_translations": {
-            "en": "Grenada"
+        code: "GD",
+        name: "Granada",
+        currency: "XCD",
+        name_translations: {
+            en: "Grenada"
         },
-        "cases": {
-            "su": "Granada"
+        cases: {
+            su: "Granada"
         }
     },
     {
-        "code": "GT",
-        "name": "Guatemala",
-        "currency": "GTQ",
-        "name_translations": {
-            "en": "Guatemala"
+        code: "GT",
+        name: "Guatemala",
+        currency: "GTQ",
+        name_translations: {
+            en: "Guatemala"
         },
-        "cases": {
-            "su": "Guatemala"
+        cases: {
+            su: "Guatemala"
         }
     },
     {
-        "code": "EH",
-        "name": "Sáhara Occidental",
-        "currency": "MAD",
-        "name_translations": {
-            "en": "Western Sahara"
+        code: "EH",
+        name: "Sáhara Occidental",
+        currency: "MAD",
+        name_translations: {
+            en: "Western Sahara"
         },
-        "cases": {
-            "su": "Sáhara Occidental"
+        cases: {
+            su: "Sáhara Occidental"
         }
     },
     {
-        "code": "SR",
-        "name": "Surinam",
-        "currency": "SRD",
-        "name_translations": {
-            "en": "Suriname"
+        code: "SR",
+        name: "Surinam",
+        currency: "SRD",
+        name_translations: {
+            en: "Suriname"
         },
-        "cases": {
-            "su": "Surinam"
+        cases: {
+            su: "Surinam"
         }
     },
     {
-        "code": "AE",
-        "name": "Emiratos Árabes Unidos",
-        "currency": "AED",
-        "name_translations": {
-            "en": "United Arab Emirates"
+        code: "AE",
+        name: "Emiratos Árabes Unidos",
+        currency: "AED",
+        name_translations: {
+            en: "United Arab Emirates"
         },
-        "cases": {
-            "su": "Emiratos Árabes Unidos"
+        cases: {
+            su: "Emiratos Árabes Unidos"
         }
     },
     {
-        "code": "MX",
-        "name": "México",
-        "currency": "MXN",
-        "name_translations": {
-            "en": "Mexico"
+        code: "MX",
+        name: "México",
+        currency: "MXN",
+        name_translations: {
+            en: "Mexico"
         },
-        "cases": {
-            "su": "México"
+        cases: {
+            su: "México"
         }
     },
     {
-        "code": "PG",
-        "name": "Papúa Nueva Guinea",
-        "currency": "PGK",
-        "name_translations": {
-            "en": "Papua New Guinea"
+        code: "PG",
+        name: "Papúa Nueva Guinea",
+        currency: "PGK",
+        name_translations: {
+            en: "Papua New Guinea"
         },
-        "cases": {
-            "su": "Papúa Nueva Guinea"
+        cases: {
+            su: "Papúa Nueva Guinea"
         }
     },
     {
-        "code": "CR",
-        "name": "Costa Rica",
-        "currency": "CRC",
-        "name_translations": {
-            "en": "Costa Rica"
+        code: "CR",
+        name: "Costa Rica",
+        currency: "CRC",
+        name_translations: {
+            en: "Costa Rica"
         },
-        "cases": {
-            "su": "Costa Rica"
+        cases: {
+            su: "Costa Rica"
         }
     },
     {
-        "code": "JO",
-        "name": "Jordania",
-        "currency": "JOD",
-        "name_translations": {
-            "en": "Jordan"
+        code: "JO",
+        name: "Jordania",
+        currency: "JOD",
+        name_translations: {
+            en: "Jordan"
         },
-        "cases": {
-            "su": "Jordania"
+        cases: {
+            su: "Jordania"
         }
     },
     {
-        "code": "MM",
-        "name": "Myanmar",
-        "currency": "MMK",
-        "name_translations": {
-            "en": "Myanmar"
+        code: "MM",
+        name: "Myanmar",
+        currency: "MMK",
+        name_translations: {
+            en: "Myanmar"
         },
-        "cases": {
-            "su": "Myanmar"
+        cases: {
+            su: "Myanmar"
         }
     },
     {
-        "code": "VA",
-        "name": "Ciudad del Vaticano",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Vatican City"
+        code: "VA",
+        name: "Ciudad del Vaticano",
+        currency: "EUR",
+        name_translations: {
+            en: "Vatican City"
         },
-        "cases": {
-            "su": "Ciudad del Vaticano"
+        cases: {
+            su: "Ciudad del Vaticano"
         }
     },
     {
-        "code": "HN",
-        "name": "Honduras",
-        "currency": "HNL",
-        "name_translations": {
-            "en": "Honduras"
+        code: "HN",
+        name: "Honduras",
+        currency: "HNL",
+        name_translations: {
+            en: "Honduras"
         },
-        "cases": {
-            "su": "Honduras"
+        cases: {
+            su: "Honduras"
         }
     },
     {
-        "code": "MF",
-        "name": "San Martín",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Saint Martin"
+        code: "MF",
+        name: "San Martín",
+        currency: "EUR",
+        name_translations: {
+            en: "Saint Martin"
         },
-        "cases": {
-            "su": "San Martín"
+        cases: {
+            su: "San Martín"
         }
     },
     {
-        "code": "GP",
-        "name": "Guadalupe",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Guadeloupe"
+        code: "GP",
+        name: "Guadalupe",
+        currency: "EUR",
+        name_translations: {
+            en: "Guadeloupe"
         },
-        "cases": {
-            "su": "Guadalupe"
+        cases: {
+            su: "Guadalupe"
         }
     },
     {
-        "code": "GF",
-        "name": "Guayana Francesa",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "French Guiana"
+        code: "GF",
+        name: "Guayana Francesa",
+        currency: "EUR",
+        name_translations: {
+            en: "French Guiana"
         },
-        "cases": {
-            "su": "Guayana Francesa"
+        cases: {
+            su: "Guayana Francesa"
         }
     },
     {
-        "code": "UZ",
-        "name": "Uzbekistán",
-        "currency": "UZS",
-        "name_translations": {
-            "en": "Uzbekistan"
+        code: "UZ",
+        name: "Uzbekistán",
+        currency: "UZS",
+        name_translations: {
+            en: "Uzbekistan"
         },
-        "cases": {
-            "su": "Uzbekistán"
+        cases: {
+            su: "Uzbekistán"
         }
     },
     {
-        "code": "XK",
-        "name": "Kosovo",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Kosovo"
+        code: "XK",
+        name: "Kosovo",
+        currency: "EUR",
+        name_translations: {
+            en: "Kosovo"
         },
-        "cases": {
-            "su": "Kosovo"
+        cases: {
+            su: "Kosovo"
         }
     },
     {
-        "code": "LA",
-        "name": "Laos",
-        "currency": "LAK",
-        "name_translations": {
-            "en": "Laos"
+        code: "LA",
+        name: "Laos",
+        currency: "LAK",
+        name_translations: {
+            en: "Laos"
         },
-        "cases": {
-            "su": "Laos"
+        cases: {
+            su: "Laos"
         }
     },
     {
-        "code": "SO",
-        "name": "Somalia",
-        "currency": "SOS",
-        "name_translations": {
-            "en": "Somalia"
+        code: "SO",
+        name: "Somalia",
+        currency: "SOS",
+        name_translations: {
+            en: "Somalia"
         },
-        "cases": {
-            "su": "Somalia"
+        cases: {
+            su: "Somalia"
         }
     },
     {
-        "code": "IR",
-        "name": "Irán",
-        "currency": "IRR",
-        "name_translations": {
-            "en": "Iran"
+        code: "IR",
+        name: "Irán",
+        currency: "IRR",
+        name_translations: {
+            en: "Iran"
         },
-        "cases": {
-            "su": "Irán"
+        cases: {
+            su: "Irán"
         }
     },
     {
-        "code": "GU",
-        "name": "Guam",
-        "currency": "USD",
-        "name_translations": {
-            "en": "Guam"
+        code: "GU",
+        name: "Guam",
+        currency: "USD",
+        name_translations: {
+            en: "Guam"
         },
-        "cases": {
-            "su": "Guam"
+        cases: {
+            su: "Guam"
         }
     },
     {
-        "code": "UM",
-        "name": "Islas menores alejadas de los Estados Unidos",
-        "currency": "USD",
-        "name_translations": {
-            "en": "United States Minor Outlying Islands"
+        code: "UM",
+        name: "Islas menores alejadas de los Estados Unidos",
+        currency: "USD",
+        name_translations: {
+            en: "United States Minor Outlying Islands"
         },
-        "cases": {
-            "su": "Islas menores alejadas de los Estados Unidos"
+        cases: {
+            su: "Islas menores alejadas de los Estados Unidos"
         }
     },
     {
-        "code": "VU",
-        "name": "Vanuatu",
-        "currency": "VUV",
-        "name_translations": {
-            "en": "Vanuatu"
+        code: "VU",
+        name: "Vanuatu",
+        currency: "VUV",
+        name_translations: {
+            en: "Vanuatu"
         },
-        "cases": {
-            "su": "Vanuatu"
+        cases: {
+            su: "Vanuatu"
         }
     },
     {
-        "code": "NG",
-        "name": "Nigeria",
-        "currency": "NGN",
-        "name_translations": {
-            "en": "Nigeria"
+        code: "NG",
+        name: "Nigeria",
+        currency: "NGN",
+        name_translations: {
+            en: "Nigeria"
         },
-        "cases": {
-            "su": "Nigeria"
+        cases: {
+            su: "Nigeria"
         }
     },
     {
-        "code": "DM",
-        "name": "Dominica",
-        "currency": "XCD",
-        "name_translations": {
-            "en": "Dominica"
+        code: "DM",
+        name: "Dominica",
+        currency: "XCD",
+        name_translations: {
+            en: "Dominica"
         },
-        "cases": {
-            "su": "Dominica"
+        cases: {
+            su: "Dominica"
         }
     },
     {
-        "code": "NL",
-        "name": "Países Bajos",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Netherlands"
+        code: "NL",
+        name: "Países Bajos",
+        currency: "EUR",
+        name_translations: {
+            en: "Netherlands"
         },
-        "cases": {
-            "su": "Países Bajos"
+        cases: {
+            su: "Países Bajos"
         }
     },
     {
-        "code": "HK",
-        "name": "Hong Kong",
-        "currency": "HKD",
-        "name_translations": {
-            "en": "Hong Kong"
+        code: "HK",
+        name: "Hong Kong",
+        currency: "HKD",
+        name_translations: {
+            en: "Hong Kong"
         },
-        "cases": {
-            "su": "Hong Kong"
+        cases: {
+            su: "Hong Kong"
         }
     },
     {
-        "code": "CO",
-        "name": "Colombia",
-        "currency": "COP",
-        "name_translations": {
-            "en": "Colombia"
+        code: "CO",
+        name: "Colombia",
+        currency: "COP",
+        name_translations: {
+            en: "Colombia"
         },
-        "cases": {
-            "su": "Colombia"
+        cases: {
+            su: "Colombia"
         }
     },
     {
-        "code": "BV",
-        "name": "Isla Bouvet",
-        "currency": "NOK",
-        "name_translations": {
-            "en": "Bouvet Island"
+        code: "BV",
+        name: "Isla Bouvet",
+        currency: "NOK",
+        name_translations: {
+            en: "Bouvet Island"
         },
-        "cases": {
-            "su": "Isla Bouvet"
+        cases: {
+            su: "Isla Bouvet"
         }
     },
     {
-        "code": "MT",
-        "name": "Malta",
-        "currency": "EUR",
-        "name_translations": {
-            "en": "Malta"
+        code: "MT",
+        name: "Malta",
+        currency: "EUR",
+        name_translations: {
+            en: "Malta"
         },
-        "cases": {
-            "su": "Malta"
+        cases: {
+            su: "Malta"
         }
     },
     {
-        "code": "CC",
-        "name": "Islas Cocos",
-        "currency": "AUD",
-        "name_translations": {
-            "en": "Cocos (Keeling) Islands"
+        code: "CC",
+        name: "Islas Cocos",
+        currency: "AUD",
+        name_translations: {
+            en: "Cocos (Keeling) Islands"
         },
-        "cases": {
-            "su": "Islas Cocos"
+        cases: {
+            su: "Islas Cocos"
         }
     },
     {
-        "code": "MY",
-        "name": "Malasia",
-        "currency": "MYR",
-        "name_translations": {
-            "en": "Malaysia"
+        code: "MY",
+        name: "Malasia",
+        currency: "MYR",
+        name_translations: {
+            en: "Malaysia"
         },
-        "cases": {
-            "su": "Malasia"
+        cases: {
+            su: "Malasia"
         }
     },
     {
-        "code": "IM",
-        "name": "Isla de Man",
-        "currency": "GBP",
-        "name_translations": {
-            "en": "Isle of Man"
+        code: "IM",
+        name: "Isla de Man",
+        currency: "GBP",
+        name_translations: {
+            en: "Isle of Man"
         },
-        "cases": {
-            "su": "Isla de Man"
+        cases: {
+            su: "Isla de Man"
         }
     }
 ]
