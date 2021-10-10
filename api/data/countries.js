@@ -4,7 +4,7 @@ const countries = [
         name: "",
         currency: "XAF",
         name_translations: {
-            en: "Gabon"
+            "en": "Gabon"
         },
         cases: null
     },
@@ -13,10 +13,10 @@ const countries = [
         name: "Azerbaiyán",
         currency: "AZN",
         name_translations: {
-            en: "Azerbaijan"
+            "en": "Azerbaijan"
         },
         cases: {
-            su: "Azerbaiyán"
+            "su": "Azerbaiyán"
         }
     },
     {
@@ -24,10 +24,10 @@ const countries = [
         name: "India",
         currency: "INR",
         name_translations: {
-            en: "India"
+            "en": "India"
         },
         cases: {
-            su: "India"
+            "su": "India"
         }
     },
     {
@@ -35,10 +35,10 @@ const countries = [
         name: "Kuwait",
         currency: "KWD",
         name_translations: {
-            en: "Kuwait"
+            "en": "Kuwait"
         },
         cases: {
-            su: "Kuwait"
+            "su": "Kuwait"
         }
     },
     {
@@ -46,10 +46,10 @@ const countries = [
         name: "Argentina",
         currency: "ARS",
         name_translations: {
-            en: "Argentina"
+            "en": "Argentina"
         },
         cases: {
-            su: "Argentina"
+            "su": "Argentina"
         }
     },
     {
@@ -57,10 +57,10 @@ const countries = [
         name: "Aruba",
         currency: "AWG",
         name_translations: {
-            en: "Aruba"
+            "en": "Aruba"
         },
         cases: {
-            su: "Aruba"
+            "su": "Aruba"
         }
     },
     {
@@ -68,10 +68,10 @@ const countries = [
         name: "Isla Christmas",
         currency: "AUD",
         name_translations: {
-            en: "Christmas Island"
+            "en": "Christmas Island"
         },
         cases: {
-            su: "Isla Christmas"
+            "su": "Isla Christmas"
         }
     },
     {
@@ -79,10 +79,10 @@ const countries = [
         name: "Comoras",
         currency: "KMF",
         name_translations: {
-            en: "Comoros"
+            "en": "Comoros"
         },
         cases: {
-            su: "Comoras"
+            "su": "Comoras"
         }
     },
     {
@@ -90,10 +90,10 @@ const countries = [
         name: "Sierra Leona",
         currency: "SLL",
         name_translations: {
-            en: "Sierra Leone"
+            "en": "Sierra Leone"
         },
         cases: {
-            su: "Sierra Leona"
+            "su": "Sierra Leona"
         }
     },
     {
@@ -101,10 +101,10 @@ const countries = [
         name: "Antigua y Barbuda",
         currency: "XCD",
         name_translations: {
-            en: "Antigua and Barbuda"
+            "en": "Antigua and Barbuda"
         },
         cases: {
-            su: "Antigua y Barbuda"
+            "su": "Antigua y Barbuda"
         }
     },
     {
@@ -112,10 +112,10 @@ const countries = [
         name: "Armenia",
         currency: "AMD",
         name_translations: {
-            en: "Armenia"
+            "en": "Armenia"
         },
         cases: {
-            su: "Armenia"
+            "su": "Armenia"
         }
     },
     {
@@ -123,10 +123,10 @@ const countries = [
         name: "Isla Norfolk",
         currency: "AUD",
         name_translations: {
-            en: "Norfolk Island"
+            "en": "Norfolk Island"
         },
         cases: {
-            su: "Isla Norfolk"
+            "su": "Isla Norfolk"
         }
     },
     {
@@ -134,10 +134,10 @@ const countries = [
         name: "Singapur",
         currency: "SGD",
         name_translations: {
-            en: "Singapore"
+            "en": "Singapore"
         },
         cases: {
-            su: "Singapur"
+            "su": "Singapur"
         }
     },
     {
@@ -145,10 +145,10 @@ const countries = [
         name: "San Vicente y las Granadinas",
         currency: "XCD",
         name_translations: {
-            en: "Saint Vincent and the Grenadines"
+            "en": "Saint Vincent and the Grenadines"
         },
         cases: {
-            su: "San Vicente y las Granadinas"
+            "su": "San Vicente y las Granadinas"
         }
     },
     {
@@ -156,10 +156,10 @@ const countries = [
         name: "Polinesia Francesa",
         currency: "XPF",
         name_translations: {
-            en: "French Polynesia"
+            "en": "French Polynesia"
         },
         cases: {
-            su: "Polinesia Francesa"
+            "su": "Polinesia Francesa"
         }
     },
     {
@@ -167,10 +167,10 @@ const countries = [
         name: "Dinamarca",
         currency: "DKK",
         name_translations: {
-            en: "Denmark"
+            "en": "Denmark"
         },
         cases: {
-            su: "Dinamarca"
+            "su": "Dinamarca"
         }
     },
     {
@@ -178,10 +178,10 @@ const countries = [
         name: "Namibia",
         currency: "NAD",
         name_translations: {
-            en: "Namibia"
+            "en": "Namibia"
         },
         cases: {
-            su: "Namibia"
+            "su": "Namibia"
         }
     },
     {
@@ -189,10 +189,10 @@ const countries = [
         name: "Egipto",
         currency: "EGP",
         name_translations: {
-            en: "Egypt"
+            "en": "Egypt"
         },
         cases: {
-            su: "Egipto"
+            "su": "Egipto"
         }
     },
     {
@@ -200,10 +200,10 @@ const countries = [
         name: "Camerún",
         currency: "XAF",
         name_translations: {
-            en: "Cameroon"
+            "en": "Cameroon"
         },
         cases: {
-            su: "Camerún"
+            "su": "Camerún"
         }
     },
     {
@@ -211,10 +211,10 @@ const countries = [
         name: "Guinea-Bisáu",
         currency: "XOF",
         name_translations: {
-            en: "Guinea-Bissau"
+            "en": "Guinea-Bissau"
         },
         cases: {
-            su: "Guinea-Bisáu"
+            "su": "Guinea-Bisáu"
         }
     },
     {
@@ -222,10 +222,10 @@ const countries = [
         name: "Santo Tomé y Príncipe",
         currency: "STD",
         name_translations: {
-            en: "São Tomé and Príncipe"
+            "en": "São Tomé and Príncipe"
         },
         cases: {
-            su: "Santo Tomé y Príncipe"
+            "su": "Santo Tomé y Príncipe"
         }
     },
     {
@@ -233,10 +233,10 @@ const countries = [
         name: "Angola",
         currency: "AOA",
         name_translations: {
-            en: "Angola"
+            "en": "Angola"
         },
         cases: {
-            su: "Angola"
+            "su": "Angola"
         }
     },
     {
@@ -244,10 +244,10 @@ const countries = [
         name: "Corea del Norte",
         currency: "KPW",
         name_translations: {
-            en: "North Korea"
+            "en": "North Korea"
         },
         cases: {
-            su: "Corea del Norte"
+            "su": "Corea del Norte"
         }
     },
     {
@@ -255,10 +255,10 @@ const countries = [
         name: "Tailandia",
         currency: "THB",
         name_translations: {
-            en: "Thailand"
+            "en": "Thailand"
         },
         cases: {
-            su: "Tailandia"
+            "su": "Tailandia"
         }
     },
     {
@@ -266,10 +266,10 @@ const countries = [
         name: "Mónaco",
         currency: "EUR",
         name_translations: {
-            en: "Monaco"
+            "en": "Monaco"
         },
         cases: {
-            su: "Mónaco"
+            "su": "Mónaco"
         }
     },
     {
@@ -277,10 +277,10 @@ const countries = [
         name: "Guernsey",
         currency: "GBP",
         name_translations: {
-            en: "Guernsey"
+            "en": "Guernsey"
         },
         cases: {
-            su: "Guernsey"
+            "su": "Guernsey"
         }
     },
     {
@@ -288,10 +288,10 @@ const countries = [
         name: "Botsuana",
         currency: "BWP",
         name_translations: {
-            en: "Botswana"
+            "en": "Botswana"
         },
         cases: {
-            su: "Botsuana"
+            "su": "Botsuana"
         }
     },
     {
@@ -299,10 +299,10 @@ const countries = [
         name: "EE. UU.",
         currency: "USD",
         name_translations: {
-            en: "United States"
+            "en": "United States"
         },
         cases: {
-            su: "EE. UU."
+            "su": "EE. UU."
         }
     },
     {
@@ -310,10 +310,10 @@ const countries = [
         name: "Territorio Británico del Océano Índico",
         currency: "USD",
         name_translations: {
-            en: "British Indian Ocean Territory"
+            "en": "British Indian Ocean Territory"
         },
         cases: {
-            su: "Territorio Británico del Océano Índico"
+            "su": "Territorio Británico del Océano Índico"
         }
     },
     {
@@ -321,10 +321,10 @@ const countries = [
         name: "Sudán",
         currency: "SDG",
         name_translations: {
-            en: "Sudan"
+            "en": "Sudan"
         },
         cases: {
-            su: "Sudán"
+            "su": "Sudán"
         }
     },
     {
@@ -332,10 +332,10 @@ const countries = [
         name: "Eslovaquia",
         currency: "EUR",
         name_translations: {
-            en: "Slovakia"
+            "en": "Slovakia"
         },
         cases: {
-            su: "Eslovaquia"
+            "su": "Eslovaquia"
         }
     },
     {
@@ -343,10 +343,10 @@ const countries = [
         name: "Israel",
         currency: "ILS",
         name_translations: {
-            en: "Israel"
+            "en": "Israel"
         },
         cases: {
-            su: "Israel"
+            "su": "Israel"
         }
     },
     {
@@ -354,10 +354,10 @@ const countries = [
         name: "Nicaragua",
         currency: "NIO",
         name_translations: {
-            en: "Nicaragua"
+            "en": "Nicaragua"
         },
         cases: {
-            su: "Nicaragua"
+            "su": "Nicaragua"
         }
     },
     {
@@ -365,10 +365,10 @@ const countries = [
         name: "España",
         currency: "EUR",
         name_translations: {
-            en: "Spain"
+            "en": "Spain"
         },
         cases: {
-            su: "España"
+            "su": "España"
         }
     },
     {
@@ -376,10 +376,10 @@ const countries = [
         name: "Baréin",
         currency: "BHD",
         name_translations: {
-            en: "Bahrain"
+            "en": "Bahrain"
         },
         cases: {
-            su: "Baréin"
+            "su": "Baréin"
         }
     },
     {
@@ -387,10 +387,10 @@ const countries = [
         name: "Alemania",
         currency: "EUR",
         name_translations: {
-            en: "Germany"
+            "en": "Germany"
         },
         cases: {
-            su: "Alemania"
+            "su": "Alemania"
         }
     },
     {
@@ -398,10 +398,10 @@ const countries = [
         name: "Islas Marianas del Norte",
         currency: "USD",
         name_translations: {
-            en: "Northern Mariana Islands"
+            "en": "Northern Mariana Islands"
         },
         cases: {
-            su: "Islas Marianas del Norte"
+            "su": "Islas Marianas del Norte"
         }
     },
     {
@@ -409,10 +409,10 @@ const countries = [
         name: "Hungría",
         currency: "HUF",
         name_translations: {
-            en: "Hungary"
+            "en": "Hungary"
         },
         cases: {
-            su: "Hungría"
+            "su": "Hungría"
         }
     },
     {
@@ -420,10 +420,10 @@ const countries = [
         name: "Georgia",
         currency: "GEL",
         name_translations: {
-            en: "Georgia"
+            "en": "Georgia"
         },
         cases: {
-            su: "Georgia"
+            "su": "Georgia"
         }
     },
     {
@@ -431,10 +431,10 @@ const countries = [
         name: "Noruega",
         currency: "NOK",
         name_translations: {
-            en: "Norway"
+            "en": "Norway"
         },
         cases: {
-            su: "Noruega"
+            "su": "Noruega"
         }
     },
     {
@@ -442,10 +442,10 @@ const countries = [
         name: "Caribe neerlandés",
         currency: "USD",
         name_translations: {
-            en: "Caribbean Netherlands"
+            "en": "Caribbean Netherlands"
         },
         cases: {
-            su: "Caribe neerlandés"
+            "su": "Caribe neerlandés"
         }
     },
     {
@@ -453,10 +453,10 @@ const countries = [
         name: "Islas Vírgenes Británicas",
         currency: "USD",
         name_translations: {
-            en: "British Virgin Islands"
+            "en": "British Virgin Islands"
         },
         cases: {
-            su: "Islas Vírgenes Británicas"
+            "su": "Islas Vírgenes Británicas"
         }
     },
     {
@@ -464,10 +464,10 @@ const countries = [
         name: "Palestina",
         currency: "ILS",
         name_translations: {
-            en: "Palestine"
+            "en": "Palestine"
         },
         cases: {
-            su: "Palestina"
+            "su": "Palestina"
         }
     },
     {
@@ -475,10 +475,10 @@ const countries = [
         name: "Brasil",
         currency: "BRL",
         name_translations: {
-            en: "Brazil"
+            "en": "Brazil"
         },
         cases: {
-            su: "Brasil"
+            "su": "Brasil"
         }
     },
     {
@@ -486,10 +486,10 @@ const countries = [
         name: "Reunión",
         currency: "EUR",
         name_translations: {
-            en: "Réunion"
+            "en": "Réunion"
         },
         cases: {
-            su: "Reunión"
+            "su": "Reunión"
         }
     },
     {
@@ -497,10 +497,10 @@ const countries = [
         name: "Uganda",
         currency: "UGX",
         name_translations: {
-            en: "Uganda"
+            "en": "Uganda"
         },
         cases: {
-            su: "Uganda"
+            "su": "Uganda"
         }
     },
     {
@@ -508,10 +508,10 @@ const countries = [
         name: "Mayotte",
         currency: "EUR",
         name_translations: {
-            en: "Mayotte"
+            "en": "Mayotte"
         },
         cases: {
-            su: "Mayotte"
+            "su": "Mayotte"
         }
     },
     {
@@ -519,10 +519,10 @@ const countries = [
         name: "Cuba",
         currency: "CUP",
         name_translations: {
-            en: "Cuba"
+            "en": "Cuba"
         },
         cases: {
-            su: "Cuba"
+            "su": "Cuba"
         }
     },
     {
@@ -530,10 +530,10 @@ const countries = [
         name: "Santa Lucía",
         currency: "XCD",
         name_translations: {
-            en: "Saint Lucia"
+            "en": "Saint Lucia"
         },
         cases: {
-            su: "Santa Lucía"
+            "su": "Santa Lucía"
         }
     },
     {
@@ -541,10 +541,10 @@ const countries = [
         name: "Jersey",
         currency: "GBP",
         name_translations: {
-            en: "Jersey"
+            "en": "Jersey"
         },
         cases: {
-            su: "Jersey"
+            "su": "Jersey"
         }
     },
     {
@@ -552,10 +552,10 @@ const countries = [
         name: "Santa Elena, Ascensión y Tristán de Acuña",
         currency: "SHP",
         name_translations: {
-            en: "Saint Helena, Ascension and Tristan da Cunha"
+            "en": "Saint Helena, Ascension and Tristan da Cunha"
         },
         cases: {
-            su: "Santa Elena, Ascensión y Tristán de Acuña"
+            "su": "Santa Elena, Ascensión y Tristán de Acuña"
         }
     },
     {
@@ -563,10 +563,10 @@ const countries = [
         name: "Albania",
         currency: "ALL",
         name_translations: {
-            en: "Albania"
+            "en": "Albania"
         },
         cases: {
-            su: "Albania"
+            "su": "Albania"
         }
     },
     {
@@ -574,10 +574,10 @@ const countries = [
         name: "Samoa",
         currency: "WST",
         name_translations: {
-            en: "Samoa"
+            "en": "Samoa"
         },
         cases: {
-            su: "Samoa"
+            "su": "Samoa"
         }
     },
     {
@@ -585,10 +585,10 @@ const countries = [
         name: "Iraq",
         currency: "IQD",
         name_translations: {
-            en: "Iraq"
+            "en": "Iraq"
         },
         cases: {
-            su: "Iraq"
+            "su": "Iraq"
         }
     },
     {
@@ -596,10 +596,10 @@ const countries = [
         name: "Bolivia",
         currency: "BOB",
         name_translations: {
-            en: "Bolivia"
+            "en": "Bolivia"
         },
         cases: {
-            su: "Bolivia"
+            "su": "Bolivia"
         }
     },
     {
@@ -607,10 +607,10 @@ const countries = [
         name: "Irlanda",
         currency: "EUR",
         name_translations: {
-            en: "Ireland"
+            "en": "Ireland"
         },
         cases: {
-            su: "Irlanda"
+            "su": "Irlanda"
         }
     },
     {
@@ -618,10 +618,10 @@ const countries = [
         name: "Belice",
         currency: "BZD",
         name_translations: {
-            en: "Belize"
+            "en": "Belize"
         },
         cases: {
-            su: "Belice"
+            "su": "Belice"
         }
     },
     {
@@ -629,10 +629,10 @@ const countries = [
         name: "Montenegro",
         currency: "EUR",
         name_translations: {
-            en: "Montenegro"
+            "en": "Montenegro"
         },
         cases: {
-            su: "Montenegro"
+            "su": "Montenegro"
         }
     },
     {
@@ -640,10 +640,10 @@ const countries = [
         name: "Bután",
         currency: "BTN",
         name_translations: {
-            en: "Bhutan"
+            "en": "Bhutan"
         },
         cases: {
-            su: "Bután"
+            "su": "Bután"
         }
     },
     {
@@ -651,10 +651,10 @@ const countries = [
         name: "Ecuador",
         currency: "USD",
         name_translations: {
-            en: "Ecuador"
+            "en": "Ecuador"
         },
         cases: {
-            su: "Ecuador"
+            "su": "Ecuador"
         }
     },
     {
@@ -662,10 +662,10 @@ const countries = [
         name: "Yemen",
         currency: "YER",
         name_translations: {
-            en: "Yemen"
+            "en": "Yemen"
         },
         cases: {
-            su: "Yemen"
+            "su": "Yemen"
         }
     },
     {
@@ -673,10 +673,10 @@ const countries = [
         name: "Kirguistán",
         currency: "KGS",
         name_translations: {
-            en: "Kyrgyzstan"
+            "en": "Kyrgyzstan"
         },
         cases: {
-            su: "Kirguistán"
+            "su": "Kirguistán"
         }
     },
     {
@@ -684,10 +684,10 @@ const countries = [
         name: "Islas Turcas y Caicos",
         currency: "USD",
         name_translations: {
-            en: "Turks and Caicos Islands"
+            "en": "Turks and Caicos Islands"
         },
         cases: {
-            su: "Islas Turcas y Caicos"
+            "su": "Islas Turcas y Caicos"
         }
     },
     {
@@ -695,10 +695,10 @@ const countries = [
         name: "Chipre",
         currency: "EUR",
         name_translations: {
-            en: "Cyprus"
+            "en": "Cyprus"
         },
         cases: {
-            su: "Chipre"
+            "su": "Chipre"
         }
     },
     {
@@ -706,10 +706,10 @@ const countries = [
         name: "Nepal",
         currency: "NPR",
         name_translations: {
-            en: "Nepal"
+            "en": "Nepal"
         },
         cases: {
-            su: "Nepal"
+            "su": "Nepal"
         }
     },
     {
@@ -717,10 +717,10 @@ const countries = [
         name: "Madagascar",
         currency: "MGA",
         name_translations: {
-            en: "Madagascar"
+            "en": "Madagascar"
         },
         cases: {
-            su: "Madagascar"
+            "su": "Madagascar"
         }
     },
     {
@@ -728,10 +728,10 @@ const countries = [
         name: "Taiwán",
         currency: "TWD",
         name_translations: {
-            en: "Taiwan"
+            "en": "Taiwan"
         },
         cases: {
-            su: "Taiwán"
+            "su": "Taiwán"
         }
     },
     {
@@ -739,10 +739,10 @@ const countries = [
         name: "Corea del Sur",
         currency: "KRW",
         name_translations: {
-            en: "South Korea"
+            "en": "South Korea"
         },
         cases: {
-            su: "Corea del Sur"
+            "su": "Corea del Sur"
         }
     },
     {
@@ -750,10 +750,10 @@ const countries = [
         name: "Andorra",
         currency: "EUR",
         name_translations: {
-            en: "Andorra"
+            "en": "Andorra"
         },
         cases: {
-            su: "Andorra"
+            "su": "Andorra"
         }
     },
     {
@@ -761,10 +761,10 @@ const countries = [
         name: "Ghana",
         currency: "GHS",
         name_translations: {
-            en: "Ghana"
+            "en": "Ghana"
         },
         cases: {
-            su: "Ghana"
+            "su": "Ghana"
         }
     },
     {
@@ -772,10 +772,10 @@ const countries = [
         name: "Islas Vírgenes de los Estados Unidos",
         currency: "USD",
         name_translations: {
-            en: "U.S. Virgin Islands"
+            "en": "U.S. Virgin Islands"
         },
         cases: {
-            su: "Islas Vírgenes de los Estados Unidos"
+            "su": "Islas Vírgenes de los Estados Unidos"
         }
     },
     {
@@ -783,10 +783,10 @@ const countries = [
         name: "Bermudas",
         currency: "BMD",
         name_translations: {
-            en: "Bermuda"
+            "en": "Bermuda"
         },
         cases: {
-            su: "Bermudas"
+            "su": "Bermudas"
         }
     },
     {
@@ -794,10 +794,10 @@ const countries = [
         name: "Canadá",
         currency: "CAD",
         name_translations: {
-            en: "Canada"
+            "en": "Canada"
         },
         cases: {
-            su: "Canadá"
+            "su": "Canadá"
         }
     },
     {
@@ -805,10 +805,10 @@ const countries = [
         name: "Mauricio",
         currency: "MUR",
         name_translations: {
-            en: "Mauritius"
+            "en": "Mauritius"
         },
         cases: {
-            su: "Mauricio"
+            "su": "Mauricio"
         }
     },
     {
@@ -816,10 +816,10 @@ const countries = [
         name: "Togo",
         currency: "XOF",
         name_translations: {
-            en: "Togo"
+            "en": "Togo"
         },
         cases: {
-            su: "Togo"
+            "su": "Togo"
         }
     },
     {
@@ -827,10 +827,10 @@ const countries = [
         name: "Filipinas",
         currency: "PHP",
         name_translations: {
-            en: "Philippines"
+            "en": "Philippines"
         },
         cases: {
-            su: "Filipinas"
+            "su": "Filipinas"
         }
     },
     {
@@ -838,10 +838,10 @@ const countries = [
         name: "Territorios Australes Franceses",
         currency: "EUR",
         name_translations: {
-            en: "French Southern Territories"
+            "en": "French Southern Territories"
         },
         cases: {
-            su: "Territorios Australes Franceses"
+            "su": "Territorios Australes Franceses"
         }
     },
     {
@@ -849,10 +849,10 @@ const countries = [
         name: "Tuvalu",
         currency: "AUD",
         name_translations: {
-            en: "Tuvalu"
+            "en": "Tuvalu"
         },
         cases: {
-            su: "Tuvalu"
+            "su": "Tuvalu"
         }
     },
     {
@@ -860,10 +860,10 @@ const countries = [
         name: "San Marino",
         currency: "EUR",
         name_translations: {
-            en: "San Marino"
+            "en": "San Marino"
         },
         cases: {
-            su: "San Marino"
+            "su": "San Marino"
         }
     },
     {
@@ -871,10 +871,10 @@ const countries = [
         name: "Letonia",
         currency: "EUR",
         name_translations: {
-            en: "Latvia"
+            "en": "Latvia"
         },
         cases: {
-            su: "Letonia"
+            "su": "Letonia"
         }
     },
     {
@@ -882,10 +882,10 @@ const countries = [
         name: "Costa de Marfil",
         currency: "XOF",
         name_translations: {
-            en: "Ivory Coast"
+            "en": "Ivory Coast"
         },
         cases: {
-            su: "Costa de Marfil"
+            "su": "Costa de Marfil"
         }
     },
     {
@@ -893,10 +893,10 @@ const countries = [
         name: "Liechtenstein",
         currency: "CHF",
         name_translations: {
-            en: "Liechtenstein"
+            "en": "Liechtenstein"
         },
         cases: {
-            su: "Liechtenstein"
+            "su": "Liechtenstein"
         }
     },
     {
@@ -904,10 +904,10 @@ const countries = [
         name: "Trinidad y Tobago",
         currency: "TTD",
         name_translations: {
-            en: "Trinidad and Tobago"
+            "en": "Trinidad and Tobago"
         },
         cases: {
-            su: "Trinidad y Tobago"
+            "su": "Trinidad y Tobago"
         }
     },
     {
@@ -915,10 +915,10 @@ const countries = [
         name: "Senegal",
         currency: "XOF",
         name_translations: {
-            en: "Senegal"
+            "en": "Senegal"
         },
         cases: {
-            su: "Senegal"
+            "su": "Senegal"
         }
     },
     {
@@ -926,10 +926,10 @@ const countries = [
         name: "Polonia",
         currency: "PLN",
         name_translations: {
-            en: "Poland"
+            "en": "Poland"
         },
         cases: {
-            su: "Polonia"
+            "su": "Polonia"
         }
     },
     {
@@ -937,10 +937,10 @@ const countries = [
         name: "Macao",
         currency: "MOP",
         name_translations: {
-            en: "Macau"
+            "en": "Macau"
         },
         cases: {
-            su: "Macao"
+            "su": "Macao"
         }
     },
     {
@@ -948,10 +948,10 @@ const countries = [
         name: "Tonga",
         currency: "TOP",
         name_translations: {
-            en: "Tonga"
+            "en": "Tonga"
         },
         cases: {
-            su: "Tonga"
+            "su": "Tonga"
         }
     },
     {
@@ -959,10 +959,10 @@ const countries = [
         name: "Samoa Americana",
         currency: "USD",
         name_translations: {
-            en: "American Samoa"
+            "en": "American Samoa"
         },
         cases: {
-            su: "Samoa Americana"
+            "su": "Samoa Americana"
         }
     },
     {
@@ -970,10 +970,10 @@ const countries = [
         name: "República Democrática del Congo",
         currency: "CDF",
         name_translations: {
-            en: "Democratic Republic of the Congo"
+            "en": "Democratic Republic of the Congo"
         },
         cases: {
-            su: "República Democrática del Congo"
+            "su": "República Democrática del Congo"
         }
     },
     {
@@ -981,10 +981,10 @@ const countries = [
         name: "Islas Pitcairn",
         currency: "NZD",
         name_translations: {
-            en: "Pitcairn Islands"
+            "en": "Pitcairn Islands"
         },
         cases: {
-            su: "Islas Pitcairn"
+            "su": "Islas Pitcairn"
         }
     },
     {
@@ -992,10 +992,10 @@ const countries = [
         name: "Timor Oriental",
         currency: "USD",
         name_translations: {
-            en: "East Timor"
+            "en": "East Timor"
         },
         cases: {
-            su: "Timor Oriental"
+            "su": "Timor Oriental"
         }
     },
     {
@@ -1003,10 +1003,10 @@ const countries = [
         name: "Benín",
         currency: "XOF",
         name_translations: {
-            en: "Benin"
+            "en": "Benin"
         },
         cases: {
-            su: "Benín"
+            "su": "Benín"
         }
     },
     {
@@ -1014,10 +1014,10 @@ const countries = [
         name: "Zambia",
         currency: "ZMK",
         name_translations: {
-            en: "Zambia"
+            "en": "Zambia"
         },
         cases: {
-            su: "Zambia"
+            "su": "Zambia"
         }
     },
     {
@@ -1025,10 +1025,10 @@ const countries = [
         name: "El Salvador",
         currency: "USD",
         name_translations: {
-            en: "El Salvador"
+            "en": "El Salvador"
         },
         cases: {
-            su: "El Salvador"
+            "su": "El Salvador"
         }
     },
     {
@@ -1036,10 +1036,10 @@ const countries = [
         name: "Islas Feroe",
         currency: "DKK",
         name_translations: {
-            en: "Faroe Islands"
+            "en": "Faroe Islands"
         },
         cases: {
-            su: "Islas Feroe"
+            "su": "Islas Feroe"
         }
     },
     {
@@ -1047,10 +1047,10 @@ const countries = [
         name: "Estonia",
         currency: "EUR",
         name_translations: {
-            en: "Estonia"
+            "en": "Estonia"
         },
         cases: {
-            su: "Estonia"
+            "su": "Estonia"
         }
     },
     {
@@ -1058,10 +1058,10 @@ const countries = [
         name: "Bulgaria",
         currency: "BGN",
         name_translations: {
-            en: "Bulgaria"
+            "en": "Bulgaria"
         },
         cases: {
-            su: "Bulgaria"
+            "su": "Bulgaria"
         }
     },
     {
@@ -1069,10 +1069,10 @@ const countries = [
         name: "Rusia",
         currency: "RUB",
         name_translations: {
-            en: "Russia"
+            "en": "Russia"
         },
         cases: {
-            su: "Rusia"
+            "su": "Rusia"
         }
     },
     {
@@ -1080,10 +1080,10 @@ const countries = [
         name: "Finlandia",
         currency: "EUR",
         name_translations: {
-            en: "Finland"
+            "en": "Finland"
         },
         cases: {
-            su: "Finlandia"
+            "su": "Finlandia"
         }
     },
     {
@@ -1091,10 +1091,10 @@ const countries = [
         name: "Túnez",
         currency: "TND",
         name_translations: {
-            en: "Tunisia"
+            "en": "Tunisia"
         },
         cases: {
-            su: "Túnez"
+            "su": "Túnez"
         }
     },
     {
@@ -1102,10 +1102,10 @@ const countries = [
         name: "Siria",
         currency: "SYP",
         name_translations: {
-            en: "Syria"
+            "en": "Syria"
         },
         cases: {
-            su: "Siria"
+            "su": "Siria"
         }
     },
     {
@@ -1113,10 +1113,10 @@ const countries = [
         name: "Tanzania",
         currency: "TZS",
         name_translations: {
-            en: "Tanzania"
+            "en": "Tanzania"
         },
         cases: {
-            su: "Tanzania"
+            "su": "Tanzania"
         }
     },
     {
@@ -1124,10 +1124,10 @@ const countries = [
         name: "Islas Malvinas",
         currency: "FKP",
         name_translations: {
-            en: "Falkland Islands"
+            "en": "Falkland Islands"
         },
         cases: {
-            su: "Islas Malvinas"
+            "su": "Islas Malvinas"
         }
     },
     {
@@ -1135,10 +1135,10 @@ const countries = [
         name: "Tokelau",
         currency: "NZD",
         name_translations: {
-            en: "Tokelau"
+            "en": "Tokelau"
         },
         cases: {
-            su: "Tokelau"
+            "su": "Tokelau"
         }
     },
     {
@@ -1146,10 +1146,10 @@ const countries = [
         name: "Sint Maarten",
         currency: "ANG",
         name_translations: {
-            en: "Sint Maarten"
+            "en": "Sint Maarten"
         },
         cases: {
-            su: "Sint Maarten"
+            "su": "Sint Maarten"
         }
     },
     {
@@ -1157,10 +1157,10 @@ const countries = [
         name: "Perú",
         currency: "PEN",
         name_translations: {
-            en: "Peru"
+            "en": "Peru"
         },
         cases: {
-            su: "Perú"
+            "su": "Perú"
         }
     },
     {
@@ -1168,10 +1168,10 @@ const countries = [
         name: "Turquía",
         currency: "TRY",
         name_translations: {
-            en: "Turkey"
+            "en": "Turkey"
         },
         cases: {
-            su: "Turquía"
+            "su": "Turquía"
         }
     },
     {
@@ -1179,10 +1179,10 @@ const countries = [
         name: "República del Congo",
         currency: "XAF",
         name_translations: {
-            en: "Republic of the Congo"
+            "en": "Republic of the Congo"
         },
         cases: {
-            su: "República del Congo"
+            "su": "República del Congo"
         }
     },
     {
@@ -1190,10 +1190,10 @@ const countries = [
         name: "China",
         currency: "CNY",
         name_translations: {
-            en: "China"
+            "en": "China"
         },
         cases: {
-            su: "China"
+            "su": "China"
         }
     },
     {
@@ -1201,10 +1201,10 @@ const countries = [
         name: "Burundi",
         currency: "BIF",
         name_translations: {
-            en: "Burundi"
+            "en": "Burundi"
         },
         cases: {
-            su: "Burundi"
+            "su": "Burundi"
         }
     },
     {
@@ -1212,10 +1212,10 @@ const countries = [
         name: "Rumanía",
         currency: "RON",
         name_translations: {
-            en: "Romania"
+            "en": "Romania"
         },
         cases: {
-            su: "Rumanía"
+            "su": "Rumanía"
         }
     },
     {
@@ -1223,10 +1223,10 @@ const countries = [
         name: "Chile",
         currency: "CLP",
         name_translations: {
-            en: "Chile"
+            "en": "Chile"
         },
         cases: {
-            su: "Chile"
+            "su": "Chile"
         }
     },
     {
@@ -1234,10 +1234,10 @@ const countries = [
         name: "Eritrea",
         currency: "ERN",
         name_translations: {
-            en: "Eritrea"
+            "en": "Eritrea"
         },
         cases: {
-            su: "Eritrea"
+            "su": "Eritrea"
         }
     },
     {
@@ -1245,10 +1245,10 @@ const countries = [
         name: "Bangladés",
         currency: "BDT",
         name_translations: {
-            en: "Bangladesh"
+            "en": "Bangladesh"
         },
         cases: {
-            su: "Bangladés"
+            "su": "Bangladés"
         }
     },
     {
@@ -1256,10 +1256,10 @@ const countries = [
         name: "Liberia",
         currency: "LRD",
         name_translations: {
-            en: "Liberia"
+            "en": "Liberia"
         },
         cases: {
-            su: "Liberia"
+            "su": "Liberia"
         }
     },
     {
@@ -1267,10 +1267,10 @@ const countries = [
         name: "Tayikistán",
         currency: "TJS",
         name_translations: {
-            en: "Tajikistan"
+            "en": "Tajikistan"
         },
         cases: {
-            su: "Tayikistán"
+            "su": "Tayikistán"
         }
     },
     {
@@ -1278,10 +1278,10 @@ const countries = [
         name: "Yibuti",
         currency: "DJF",
         name_translations: {
-            en: "Djibouti"
+            "en": "Djibouti"
         },
         cases: {
-            su: "Yibuti"
+            "su": "Yibuti"
         }
     },
     {
@@ -1289,10 +1289,10 @@ const countries = [
         name: "Nauru",
         currency: "AUD",
         name_translations: {
-            en: "Nauru"
+            "en": "Nauru"
         },
         cases: {
-            su: "Nauru"
+            "su": "Nauru"
         }
     },
     {
@@ -1300,10 +1300,10 @@ const countries = [
         name: "Malaui",
         currency: "MWK",
         name_translations: {
-            en: "Malawi"
+            "en": "Malawi"
         },
         cases: {
-            su: "Malaui"
+            "su": "Malaui"
         }
     },
     {
@@ -1311,10 +1311,10 @@ const countries = [
         name: "Jamaica",
         currency: "JMD",
         name_translations: {
-            en: "Jamaica"
+            "en": "Jamaica"
         },
         cases: {
-            su: "Jamaica"
+            "su": "Jamaica"
         }
     },
     {
@@ -1322,10 +1322,10 @@ const countries = [
         name: "Argelia",
         currency: "DZD",
         name_translations: {
-            en: "Algeria"
+            "en": "Algeria"
         },
         cases: {
-            su: "Argelia"
+            "su": "Argelia"
         }
     },
     {
@@ -1333,10 +1333,10 @@ const countries = [
         name: "Fiyi",
         currency: "FJD",
         name_translations: {
-            en: "Fiji"
+            "en": "Fiji"
         },
         cases: {
-            su: "Fiyi"
+            "su": "Fiyi"
         }
     },
     {
@@ -1344,10 +1344,10 @@ const countries = [
         name: "Barbados",
         currency: "BBD",
         name_translations: {
-            en: "Barbados"
+            "en": "Barbados"
         },
         cases: {
-            su: "Barbados"
+            "su": "Barbados"
         }
     },
     {
@@ -1355,10 +1355,10 @@ const countries = [
         name: "Suiza",
         currency: "CHF",
         name_translations: {
-            en: "Switzerland"
+            "en": "Switzerland"
         },
         cases: {
-            su: "Suiza"
+            "su": "Suiza"
         }
     },
     {
@@ -1366,10 +1366,10 @@ const countries = [
         name: "Australia",
         currency: "AUD",
         name_translations: {
-            en: "Australia"
+            "en": "Australia"
         },
         cases: {
-            su: "Australia"
+            "su": "Australia"
         }
     },
     {
@@ -1377,10 +1377,10 @@ const countries = [
         name: "Moldavia",
         currency: "MDL",
         name_translations: {
-            en: "Moldova"
+            "en": "Moldova"
         },
         cases: {
-            su: "Moldavia"
+            "su": "Moldavia"
         }
     },
     {
@@ -1388,10 +1388,10 @@ const countries = [
         name: "Paraguay",
         currency: "PYG",
         name_translations: {
-            en: "Paraguay"
+            "en": "Paraguay"
         },
         cases: {
-            su: "Paraguay"
+            "su": "Paraguay"
         }
     },
     {
@@ -1399,10 +1399,10 @@ const countries = [
         name: "Turkmenistán",
         currency: "TMT",
         name_translations: {
-            en: "Turkmenistan"
+            "en": "Turkmenistan"
         },
         cases: {
-            su: "Turkmenistán"
+            "su": "Turkmenistán"
         }
     },
     {
@@ -1410,10 +1410,10 @@ const countries = [
         name: "Guinea",
         currency: "GNF",
         name_translations: {
-            en: "Guinea"
+            "en": "Guinea"
         },
         cases: {
-            su: "Guinea"
+            "su": "Guinea"
         }
     },
     {
@@ -1421,10 +1421,10 @@ const countries = [
         name: "Níger",
         currency: "XOF",
         name_translations: {
-            en: "Niger"
+            "en": "Niger"
         },
         cases: {
-            su: "Níger"
+            "su": "Níger"
         }
     },
     {
@@ -1432,10 +1432,10 @@ const countries = [
         name: "Islas Åland",
         currency: "EUR",
         name_translations: {
-            en: "Åland Islands"
+            "en": "Åland Islands"
         },
         cases: {
-            su: "Islas Åland"
+            "su": "Islas Åland"
         }
     },
     {
@@ -1443,10 +1443,10 @@ const countries = [
         name: "Anguila",
         currency: "XCD",
         name_translations: {
-            en: "Anguilla"
+            "en": "Anguilla"
         },
         cases: {
-            su: "Anguila"
+            "su": "Anguila"
         }
     },
     {
@@ -1454,10 +1454,10 @@ const countries = [
         name: "Maldivas",
         currency: "MVR",
         name_translations: {
-            en: "Maldives"
+            "en": "Maldives"
         },
         cases: {
-            su: "Maldivas"
+            "su": "Maldivas"
         }
     },
     {
@@ -1465,10 +1465,10 @@ const countries = [
         name: "Guyana",
         currency: "GYD",
         name_translations: {
-            en: "Guyana"
+            "en": "Guyana"
         },
         cases: {
-            su: "Guyana"
+            "su": "Guyana"
         }
     },
     {
@@ -1476,10 +1476,10 @@ const countries = [
         name: "Japón",
         currency: "JPY",
         name_translations: {
-            en: "Japan"
+            "en": "Japan"
         },
         cases: {
-            su: "Japón"
+            "su": "Japón"
         }
     },
     {
@@ -1487,10 +1487,10 @@ const countries = [
         name: "Brunéi",
         currency: "BND",
         name_translations: {
-            en: "Brunei"
+            "en": "Brunei"
         },
         cases: {
-            su: "Brunéi"
+            "su": "Brunéi"
         }
     },
     {
@@ -1498,10 +1498,10 @@ const countries = [
         name: "Nueva Zelanda",
         currency: "NZD",
         name_translations: {
-            en: "New Zealand"
+            "en": "New Zealand"
         },
         cases: {
-            su: "Nueva Zelanda"
+            "su": "Nueva Zelanda"
         }
     },
     {
@@ -1509,10 +1509,10 @@ const countries = [
         name: "Luxemburgo",
         currency: "EUR",
         name_translations: {
-            en: "Luxembourg"
+            "en": "Luxembourg"
         },
         cases: {
-            su: "Luxemburgo"
+            "su": "Luxemburgo"
         }
     },
     {
@@ -1520,10 +1520,10 @@ const countries = [
         name: "Antártida",
         currency: "",
         name_translations: {
-            en: "Antarctica"
+            "en": "Antarctica"
         },
         cases: {
-            su: "Antártida"
+            "su": "Antártida"
         }
     },
     {
@@ -1531,10 +1531,10 @@ const countries = [
         name: "Seychelles",
         currency: "SCR",
         name_translations: {
-            en: "Seychelles"
+            "en": "Seychelles"
         },
         cases: {
-            su: "Seychelles"
+            "su": "Seychelles"
         }
     },
     {
@@ -1542,10 +1542,10 @@ const countries = [
         name: "Omán",
         currency: "OMR",
         name_translations: {
-            en: "Oman"
+            "en": "Oman"
         },
         cases: {
-            su: "Omán"
+            "su": "Omán"
         }
     },
     {
@@ -1553,10 +1553,10 @@ const countries = [
         name: "Macedonia del Norte",
         currency: "MKD",
         name_translations: {
-            en: "North Macedonia"
+            "en": "North Macedonia"
         },
         cases: {
-            su: "Macedonia del Norte"
+            "su": "Macedonia del Norte"
         }
     },
     {
@@ -1564,10 +1564,10 @@ const countries = [
         name: "Cabo Verde",
         currency: "CVE",
         name_translations: {
-            en: "Cape Verde"
+            "en": "Cape Verde"
         },
         cases: {
-            su: "Cabo Verde"
+            "su": "Cabo Verde"
         }
     },
     {
@@ -1575,10 +1575,10 @@ const countries = [
         name: "Etiopía",
         currency: "ETB",
         name_translations: {
-            en: "Ethiopia"
+            "en": "Ethiopia"
         },
         cases: {
-            su: "Etiopía"
+            "su": "Etiopía"
         }
     },
     {
@@ -1586,10 +1586,10 @@ const countries = [
         name: "Guinea Ecuatorial",
         currency: "XAF",
         name_translations: {
-            en: "Equatorial Guinea"
+            "en": "Equatorial Guinea"
         },
         cases: {
-            su: "Guinea Ecuatorial"
+            "su": "Guinea Ecuatorial"
         }
     },
     {
@@ -1597,10 +1597,10 @@ const countries = [
         name: "Curazao",
         currency: "ANG",
         name_translations: {
-            en: "Curaçao"
+            "en": "Curaçao"
         },
         cases: {
-            su: "Curazao"
+            "su": "Curazao"
         }
     },
     {
@@ -1608,10 +1608,10 @@ const countries = [
         name: "Islas Georgia del Sur y Sandwich del Sur",
         currency: "GBP",
         name_translations: {
-            en: "South Georgia and the South Sandwich Islands"
+            "en": "South Georgia and the South Sandwich Islands"
         },
         cases: {
-            su: "Islas Georgia del Sur y Sandwich del Sur"
+            "su": "Islas Georgia del Sur y Sandwich del Sur"
         }
     },
     {
@@ -1619,10 +1619,10 @@ const countries = [
         name: "Mali",
         currency: "XOF",
         name_translations: {
-            en: "Mali"
+            "en": "Mali"
         },
         cases: {
-            su: "Mali"
+            "su": "Mali"
         }
     },
     {
@@ -1630,10 +1630,10 @@ const countries = [
         name: "Panamá",
         currency: "PAB",
         name_translations: {
-            en: "Panama"
+            "en": "Panama"
         },
         cases: {
-            su: "Panamá"
+            "su": "Panamá"
         }
     },
     {
@@ -1641,10 +1641,10 @@ const countries = [
         name: "Serbia",
         currency: "RSD",
         name_translations: {
-            en: "Serbia"
+            "en": "Serbia"
         },
         cases: {
-            su: "Serbia"
+            "su": "Serbia"
         }
     },
     {
@@ -1652,10 +1652,10 @@ const countries = [
         name: "Haití",
         currency: "HTG",
         name_translations: {
-            en: "Haiti"
+            "en": "Haiti"
         },
         cases: {
-            su: "Haití"
+            "su": "Haití"
         }
     },
     {
@@ -1663,10 +1663,10 @@ const countries = [
         name: "Burkina Faso",
         currency: "XOF",
         name_translations: {
-            en: "Burkina Faso"
+            "en": "Burkina Faso"
         },
         cases: {
-            su: "Burkina Faso"
+            "su": "Burkina Faso"
         }
     },
     {
@@ -1674,10 +1674,10 @@ const countries = [
         name: "Suazilandia",
         currency: "SZL",
         name_translations: {
-            en: "Eswatini"
+            "en": "Eswatini"
         },
         cases: {
-            su: "Suazilandia"
+            "su": "Suazilandia"
         }
     },
     {
@@ -1685,10 +1685,10 @@ const countries = [
         name: "Bosnia y Herzegovina",
         currency: "BAM",
         name_translations: {
-            en: "Bosnia and Herzegovina"
+            "en": "Bosnia and Herzegovina"
         },
         cases: {
-            su: "Bosnia y Herzegovina"
+            "su": "Bosnia y Herzegovina"
         }
     },
     {
@@ -1696,10 +1696,10 @@ const countries = [
         name: "Chad",
         currency: "XAF",
         name_translations: {
-            en: "Chad"
+            "en": "Chad"
         },
         cases: {
-            su: "Chad"
+            "su": "Chad"
         }
     },
     {
@@ -1707,10 +1707,10 @@ const countries = [
         name: "Mauritania",
         currency: "MRO",
         name_translations: {
-            en: "Mauritania"
+            "en": "Mauritania"
         },
         cases: {
-            su: "Mauritania"
+            "su": "Mauritania"
         }
     },
     {
@@ -1718,10 +1718,10 @@ const countries = [
         name: "Sudán del Sur",
         currency: "",
         name_translations: {
-            en: "South Sudan"
+            "en": "South Sudan"
         },
         cases: {
-            su: "Sudán del Sur"
+            "su": "Sudán del Sur"
         }
     },
     {
@@ -1729,10 +1729,10 @@ const countries = [
         name: "Bielorrusia",
         currency: "BYN",
         name_translations: {
-            en: "Belarus"
+            "en": "Belarus"
         },
         cases: {
-            su: "Bielorrusia"
+            "su": "Bielorrusia"
         }
     },
     {
@@ -1740,10 +1740,10 @@ const countries = [
         name: "Marruecos",
         currency: "MAD",
         name_translations: {
-            en: "Morocco"
+            "en": "Morocco"
         },
         cases: {
-            su: "Marruecos"
+            "su": "Marruecos"
         }
     },
     {
@@ -1751,10 +1751,10 @@ const countries = [
         name: "Puerto Rico",
         currency: "USD",
         name_translations: {
-            en: "Puerto Rico"
+            "en": "Puerto Rico"
         },
         cases: {
-            su: "Puerto Rico"
+            "su": "Puerto Rico"
         }
     },
     {
@@ -1762,10 +1762,10 @@ const countries = [
         name: "Islas Cook",
         currency: "NZD",
         name_translations: {
-            en: "Cook Islands"
+            "en": "Cook Islands"
         },
         cases: {
-            su: "Islas Cook"
+            "su": "Islas Cook"
         }
     },
     {
@@ -1773,10 +1773,10 @@ const countries = [
         name: "San Pedro y Miquelón",
         currency: "EUR",
         name_translations: {
-            en: "Saint Pierre and Miquelon"
+            "en": "Saint Pierre and Miquelon"
         },
         cases: {
-            su: "San Pedro y Miquelón"
+            "su": "San Pedro y Miquelón"
         }
     },
     {
@@ -1784,10 +1784,10 @@ const countries = [
         name: "Martinica",
         currency: "EUR",
         name_translations: {
-            en: "Martinique"
+            "en": "Martinique"
         },
         cases: {
-            su: "Martinica"
+            "su": "Martinica"
         }
     },
     {
@@ -1795,10 +1795,10 @@ const countries = [
         name: "Líbano",
         currency: "LBP",
         name_translations: {
-            en: "Lebanon"
+            "en": "Lebanon"
         },
         cases: {
-            su: "Líbano"
+            "su": "Líbano"
         }
     },
     {
@@ -1806,10 +1806,10 @@ const countries = [
         name: "San Bartolomé",
         currency: "EUR",
         name_translations: {
-            en: "Saint Barthélemy"
+            "en": "Saint Barthélemy"
         },
         cases: {
-            su: "San Bartolomé"
+            "su": "San Bartolomé"
         }
     },
     {
@@ -1817,10 +1817,10 @@ const countries = [
         name: "Lituania",
         currency: "EUR",
         name_translations: {
-            en: "Lithuania"
+            "en": "Lithuania"
         },
         cases: {
-            su: "Lituania"
+            "su": "Lituania"
         }
     },
     {
@@ -1828,10 +1828,10 @@ const countries = [
         name: "Bélgica",
         currency: "EUR",
         name_translations: {
-            en: "Belgium"
+            "en": "Belgium"
         },
         cases: {
-            su: "Bélgica"
+            "su": "Bélgica"
         }
     },
     {
@@ -1839,10 +1839,10 @@ const countries = [
         name: "Camboya",
         currency: "KHR",
         name_translations: {
-            en: "Cambodia"
+            "en": "Cambodia"
         },
         cases: {
-            su: "Camboya"
+            "su": "Camboya"
         }
     },
     {
@@ -1850,10 +1850,10 @@ const countries = [
         name: "Bahamas",
         currency: "BSD",
         name_translations: {
-            en: "Bahamas"
+            "en": "Bahamas"
         },
         cases: {
-            su: "Bahamas"
+            "su": "Bahamas"
         }
     },
     {
@@ -1861,10 +1861,10 @@ const countries = [
         name: "Austria",
         currency: "EUR",
         name_translations: {
-            en: "Austria"
+            "en": "Austria"
         },
         cases: {
-            su: "Austria"
+            "su": "Austria"
         }
     },
     {
@@ -1872,10 +1872,10 @@ const countries = [
         name: "Arabia Saudí",
         currency: "SAR",
         name_translations: {
-            en: "Saudi Arabia"
+            "en": "Saudi Arabia"
         },
         cases: {
-            su: "Arabia Saudí"
+            "su": "Arabia Saudí"
         }
     },
     {
@@ -1883,10 +1883,10 @@ const countries = [
         name: "Portugal",
         currency: "EUR",
         name_translations: {
-            en: "Portugal"
+            "en": "Portugal"
         },
         cases: {
-            su: "Portugal"
+            "su": "Portugal"
         }
     },
     {
@@ -1894,10 +1894,10 @@ const countries = [
         name: "Islas Marshall",
         currency: "USD",
         name_translations: {
-            en: "Marshall Islands"
+            "en": "Marshall Islands"
         },
         cases: {
-            su: "Islas Marshall"
+            "su": "Islas Marshall"
         }
     },
     {
@@ -1905,10 +1905,10 @@ const countries = [
         name: "República Checa",
         currency: "CZK",
         name_translations: {
-            en: "Czech Republic"
+            "en": "Czech Republic"
         },
         cases: {
-            su: "República Checa"
+            "su": "República Checa"
         }
     },
     {
@@ -1916,10 +1916,10 @@ const countries = [
         name: "Wallis y Futuna",
         currency: "XPF",
         name_translations: {
-            en: "Wallis and Futuna"
+            "en": "Wallis and Futuna"
         },
         cases: {
-            su: "Wallis y Futuna"
+            "su": "Wallis y Futuna"
         }
     },
     {
@@ -1927,10 +1927,10 @@ const countries = [
         name: "Eslovenia",
         currency: "EUR",
         name_translations: {
-            en: "Slovenia"
+            "en": "Slovenia"
         },
         cases: {
-            su: "Eslovenia"
+            "su": "Eslovenia"
         }
     },
     {
@@ -1938,10 +1938,10 @@ const countries = [
         name: "Nueva Caledonia",
         currency: "XPF",
         name_translations: {
-            en: "New Caledonia"
+            "en": "New Caledonia"
         },
         cases: {
-            su: "Nueva Caledonia"
+            "su": "Nueva Caledonia"
         }
     },
     {
@@ -1949,10 +1949,10 @@ const countries = [
         name: "Grecia",
         currency: "EUR",
         name_translations: {
-            en: "Greece"
+            "en": "Greece"
         },
         cases: {
-            su: "Grecia"
+            "su": "Grecia"
         }
     },
     {
@@ -1960,10 +1960,10 @@ const countries = [
         name: "Sri Lanka",
         currency: "LKR",
         name_translations: {
-            en: "Sri Lanka"
+            "en": "Sri Lanka"
         },
         cases: {
-            su: "Sri Lanka"
+            "su": "Sri Lanka"
         }
     },
     {
@@ -1971,10 +1971,10 @@ const countries = [
         name: "Islas Heard y McDonald",
         currency: "AUD",
         name_translations: {
-            en: "Heard Island and McDonald Islands"
+            "en": "Heard Island and McDonald Islands"
         },
         cases: {
-            su: "Islas Heard y McDonald"
+            "su": "Islas Heard y McDonald"
         }
     },
     {
@@ -1982,10 +1982,10 @@ const countries = [
         name: "Ucrania",
         currency: "UAH",
         name_translations: {
-            en: "Ukraine"
+            "en": "Ukraine"
         },
         cases: {
-            su: "Ucrania"
+            "su": "Ucrania"
         }
     },
     {
@@ -1993,10 +1993,10 @@ const countries = [
         name: "Kiribati",
         currency: "AUD",
         name_translations: {
-            en: "Kiribati"
+            "en": "Kiribati"
         },
         cases: {
-            su: "Kiribati"
+            "su": "Kiribati"
         }
     },
     {
@@ -2004,10 +2004,10 @@ const countries = [
         name: "Palau",
         currency: "USD",
         name_translations: {
-            en: "Palau"
+            "en": "Palau"
         },
         cases: {
-            su: "Palau"
+            "su": "Palau"
         }
     },
     {
@@ -2015,10 +2015,10 @@ const countries = [
         name: "Zimbabue",
         currency: "ZWD",
         name_translations: {
-            en: "Zimbabwe"
+            "en": "Zimbabwe"
         },
         cases: {
-            su: "Zimbabue"
+            "su": "Zimbabue"
         }
     },
     {
@@ -2026,10 +2026,10 @@ const countries = [
         name: "Islas Caimán",
         currency: "KYD",
         name_translations: {
-            en: "Cayman Islands"
+            "en": "Cayman Islands"
         },
         cases: {
-            su: "Islas Caimán"
+            "su": "Islas Caimán"
         }
     },
     {
@@ -2037,10 +2037,10 @@ const countries = [
         name: "Kenia",
         currency: "KES",
         name_translations: {
-            en: "Kenya"
+            "en": "Kenya"
         },
         cases: {
-            su: "Kenia"
+            "su": "Kenia"
         }
     },
     {
@@ -2048,10 +2048,10 @@ const countries = [
         name: "Islas Salomón",
         currency: "SBD",
         name_translations: {
-            en: "Solomon Islands"
+            "en": "Solomon Islands"
         },
         cases: {
-            su: "Islas Salomón"
+            "su": "Islas Salomón"
         }
     },
     {
@@ -2059,10 +2059,10 @@ const countries = [
         name: "Libia",
         currency: "LYD",
         name_translations: {
-            en: "Libya"
+            "en": "Libya"
         },
         cases: {
-            su: "Libia"
+            "su": "Libia"
         }
     },
     {
@@ -2070,10 +2070,10 @@ const countries = [
         name: "Islandia",
         currency: "ISK",
         name_translations: {
-            en: "Iceland"
+            "en": "Iceland"
         },
         cases: {
-            su: "Islandia"
+            "su": "Islandia"
         }
     },
     {
@@ -2081,10 +2081,10 @@ const countries = [
         name: "República Centroafricana",
         currency: "XAF",
         name_translations: {
-            en: "Central African Republic"
+            "en": "Central African Republic"
         },
         cases: {
-            su: "República Centroafricana"
+            "su": "República Centroafricana"
         }
     },
     {
@@ -2092,10 +2092,10 @@ const countries = [
         name: "Kazajistán",
         currency: "KZT",
         name_translations: {
-            en: "Kazakhstan"
+            "en": "Kazakhstan"
         },
         cases: {
-            su: "Kazajistán"
+            "su": "Kazajistán"
         }
     },
     {
@@ -2103,10 +2103,10 @@ const countries = [
         name: "Gambia",
         currency: "GMD",
         name_translations: {
-            en: "Gambia"
+            "en": "Gambia"
         },
         cases: {
-            su: "Gambia"
+            "su": "Gambia"
         }
     },
     {
@@ -2114,10 +2114,10 @@ const countries = [
         name: "Suecia",
         currency: "SEK",
         name_translations: {
-            en: "Sweden"
+            "en": "Sweden"
         },
         cases: {
-            su: "Suecia"
+            "su": "Suecia"
         }
     },
     {
@@ -2125,10 +2125,10 @@ const countries = [
         name: "Reino Unido",
         currency: "GBP",
         name_translations: {
-            en: "United Kingdom"
+            "en": "United Kingdom"
         },
         cases: {
-            su: "Reino Unido"
+            "su": "Reino Unido"
         }
     },
     {
@@ -2136,10 +2136,10 @@ const countries = [
         name: "Croacia",
         currency: "HRK",
         name_translations: {
-            en: "Croatia"
+            "en": "Croatia"
         },
         cases: {
-            su: "Croacia"
+            "su": "Croacia"
         }
     },
     {
@@ -2147,10 +2147,10 @@ const countries = [
         name: "Svalbard y Jan Mayen",
         currency: "NOK",
         name_translations: {
-            en: "Svalbard and Jan Mayen"
+            "en": "Svalbard and Jan Mayen"
         },
         cases: {
-            su: "Svalbard y Jan Mayen"
+            "su": "Svalbard y Jan Mayen"
         }
     },
     {
@@ -2158,10 +2158,10 @@ const countries = [
         name: "Gibraltar",
         currency: "GIP",
         name_translations: {
-            en: "Gibraltar"
+            "en": "Gibraltar"
         },
         cases: {
-            su: "Gibraltar"
+            "su": "Gibraltar"
         }
     },
     {
@@ -2169,10 +2169,10 @@ const countries = [
         name: "Crimea",
         currency: "",
         name_translations: {
-            en: "Crimea"
+            "en": "Crimea"
         },
         cases: {
-            su: "Crimea"
+            "su": "Crimea"
         }
     },
     {
@@ -2180,10 +2180,10 @@ const countries = [
         name: "Groenlandia",
         currency: "DKK",
         name_translations: {
-            en: "Greenland"
+            "en": "Greenland"
         },
         cases: {
-            su: "Groenlandia"
+            "su": "Groenlandia"
         }
     },
     {
@@ -2191,10 +2191,10 @@ const countries = [
         name: "Francia",
         currency: "EUR",
         name_translations: {
-            en: "France"
+            "en": "France"
         },
         cases: {
-            su: "Francia"
+            "su": "Francia"
         }
     },
     {
@@ -2202,10 +2202,10 @@ const countries = [
         name: "Venezuela",
         currency: "VEF",
         name_translations: {
-            en: "Venezuela"
+            "en": "Venezuela"
         },
         cases: {
-            su: "Venezuela"
+            "su": "Venezuela"
         }
     },
     {
@@ -2213,10 +2213,10 @@ const countries = [
         name: "Mongolia",
         currency: "MNT",
         name_translations: {
-            en: "Mongolia"
+            "en": "Mongolia"
         },
         cases: {
-            su: "Mongolia"
+            "su": "Mongolia"
         }
     },
     {
@@ -2224,10 +2224,10 @@ const countries = [
         name: "Catar",
         currency: "QAR",
         name_translations: {
-            en: "Qatar"
+            "en": "Qatar"
         },
         cases: {
-            su: "Catar"
+            "su": "Catar"
         }
     },
     {
@@ -2235,10 +2235,10 @@ const countries = [
         name: "Indonesia",
         currency: "IDR",
         name_translations: {
-            en: "Indonesia"
+            "en": "Indonesia"
         },
         cases: {
-            su: "Indonesia"
+            "su": "Indonesia"
         }
     },
     {
@@ -2246,10 +2246,10 @@ const countries = [
         name: "Ruanda",
         currency: "RWF",
         name_translations: {
-            en: "Rwanda"
+            "en": "Rwanda"
         },
         cases: {
-            su: "Ruanda"
+            "su": "Ruanda"
         }
     },
     {
@@ -2257,7 +2257,7 @@ const countries = [
         name: "",
         currency: "EUR",
         name_translations: {
-            en: "Italy"
+            "en": "Italy"
         },
         cases: null
     },
@@ -2266,10 +2266,10 @@ const countries = [
         name: "República Dominicana",
         currency: "DOP",
         name_translations: {
-            en: "Dominican Republic"
+            "en": "Dominican Republic"
         },
         cases: {
-            su: "República Dominicana"
+            "su": "República Dominicana"
         }
     },
     {
@@ -2277,10 +2277,10 @@ const countries = [
         name: "Lesoto",
         currency: "LSL",
         name_translations: {
-            en: "Lesotho"
+            "en": "Lesotho"
         },
         cases: {
-            su: "Lesoto"
+            "su": "Lesoto"
         }
     },
     {
@@ -2288,10 +2288,10 @@ const countries = [
         name: "Uruguay",
         currency: "UYU",
         name_translations: {
-            en: "Uruguay"
+            "en": "Uruguay"
         },
         cases: {
-            su: "Uruguay"
+            "su": "Uruguay"
         }
     },
     {
@@ -2299,10 +2299,10 @@ const countries = [
         name: "Micronesia",
         currency: "USD",
         name_translations: {
-            en: "Micronesia"
+            "en": "Micronesia"
         },
         cases: {
-            su: "Micronesia"
+            "su": "Micronesia"
         }
     },
     {
@@ -2310,10 +2310,10 @@ const countries = [
         name: "Sudáfrica",
         currency: "ZAR",
         name_translations: {
-            en: "South Africa"
+            "en": "South Africa"
         },
         cases: {
-            su: "Sudáfrica"
+            "su": "Sudáfrica"
         }
     },
     {
@@ -2321,10 +2321,10 @@ const countries = [
         name: "Afganistán",
         currency: "AFN",
         name_translations: {
-            en: "Afghanistan"
+            "en": "Afghanistan"
         },
         cases: {
-            su: "Afganistán"
+            "su": "Afganistán"
         }
     },
     {
@@ -2332,10 +2332,10 @@ const countries = [
         name: "San Cristóbal y Nieves",
         currency: "XCD",
         name_translations: {
-            en: "Saint Kitts and Nevis"
+            "en": "Saint Kitts and Nevis"
         },
         cases: {
-            su: "San Cristóbal y Nieves"
+            "su": "San Cristóbal y Nieves"
         }
     },
     {
@@ -2343,10 +2343,10 @@ const countries = [
         name: "Isla Niue",
         currency: "NZD",
         name_translations: {
-            en: "Niue"
+            "en": "Niue"
         },
         cases: {
-            su: "Isla Niue"
+            "su": "Isla Niue"
         }
     },
     {
@@ -2354,10 +2354,10 @@ const countries = [
         name: "Vietnam",
         currency: "VND",
         name_translations: {
-            en: "Vietnam"
+            "en": "Vietnam"
         },
         cases: {
-            su: "Vietnam"
+            "su": "Vietnam"
         }
     },
     {
@@ -2365,10 +2365,10 @@ const countries = [
         name: "Mozambique",
         currency: "MZN",
         name_translations: {
-            en: "Mozambique"
+            "en": "Mozambique"
         },
         cases: {
-            su: "Mozambique"
+            "su": "Mozambique"
         }
     },
     {
@@ -2376,10 +2376,10 @@ const countries = [
         name: "Montserrat",
         currency: "XCD",
         name_translations: {
-            en: "Montserrat"
+            "en": "Montserrat"
         },
         cases: {
-            su: "Montserrat"
+            "su": "Montserrat"
         }
     },
     {
@@ -2387,10 +2387,10 @@ const countries = [
         name: "Pakistán",
         currency: "PKR",
         name_translations: {
-            en: "Pakistan"
+            "en": "Pakistan"
         },
         cases: {
-            su: "Pakistán"
+            "su": "Pakistán"
         }
     },
     {
@@ -2398,10 +2398,10 @@ const countries = [
         name: "Granada",
         currency: "XCD",
         name_translations: {
-            en: "Grenada"
+            "en": "Grenada"
         },
         cases: {
-            su: "Granada"
+            "su": "Granada"
         }
     },
     {
@@ -2409,10 +2409,10 @@ const countries = [
         name: "Guatemala",
         currency: "GTQ",
         name_translations: {
-            en: "Guatemala"
+            "en": "Guatemala"
         },
         cases: {
-            su: "Guatemala"
+            "su": "Guatemala"
         }
     },
     {
@@ -2420,10 +2420,10 @@ const countries = [
         name: "Sáhara Occidental",
         currency: "MAD",
         name_translations: {
-            en: "Western Sahara"
+            "en": "Western Sahara"
         },
         cases: {
-            su: "Sáhara Occidental"
+            "su": "Sáhara Occidental"
         }
     },
     {
@@ -2431,10 +2431,10 @@ const countries = [
         name: "Surinam",
         currency: "SRD",
         name_translations: {
-            en: "Suriname"
+            "en": "Suriname"
         },
         cases: {
-            su: "Surinam"
+            "su": "Surinam"
         }
     },
     {
@@ -2442,10 +2442,10 @@ const countries = [
         name: "Emiratos Árabes Unidos",
         currency: "AED",
         name_translations: {
-            en: "United Arab Emirates"
+            "en": "United Arab Emirates"
         },
         cases: {
-            su: "Emiratos Árabes Unidos"
+            "su": "Emiratos Árabes Unidos"
         }
     },
     {
@@ -2453,10 +2453,10 @@ const countries = [
         name: "México",
         currency: "MXN",
         name_translations: {
-            en: "Mexico"
+            "en": "Mexico"
         },
         cases: {
-            su: "México"
+            "su": "México"
         }
     },
     {
@@ -2464,10 +2464,10 @@ const countries = [
         name: "Papúa Nueva Guinea",
         currency: "PGK",
         name_translations: {
-            en: "Papua New Guinea"
+            "en": "Papua New Guinea"
         },
         cases: {
-            su: "Papúa Nueva Guinea"
+            "su": "Papúa Nueva Guinea"
         }
     },
     {
@@ -2475,10 +2475,10 @@ const countries = [
         name: "Costa Rica",
         currency: "CRC",
         name_translations: {
-            en: "Costa Rica"
+            "en": "Costa Rica"
         },
         cases: {
-            su: "Costa Rica"
+            "su": "Costa Rica"
         }
     },
     {
@@ -2486,10 +2486,10 @@ const countries = [
         name: "Jordania",
         currency: "JOD",
         name_translations: {
-            en: "Jordan"
+            "en": "Jordan"
         },
         cases: {
-            su: "Jordania"
+            "su": "Jordania"
         }
     },
     {
@@ -2497,10 +2497,10 @@ const countries = [
         name: "Myanmar",
         currency: "MMK",
         name_translations: {
-            en: "Myanmar"
+            "en": "Myanmar"
         },
         cases: {
-            su: "Myanmar"
+            "su": "Myanmar"
         }
     },
     {
@@ -2508,10 +2508,10 @@ const countries = [
         name: "Ciudad del Vaticano",
         currency: "EUR",
         name_translations: {
-            en: "Vatican City"
+            "en": "Vatican City"
         },
         cases: {
-            su: "Ciudad del Vaticano"
+            "su": "Ciudad del Vaticano"
         }
     },
     {
@@ -2519,10 +2519,10 @@ const countries = [
         name: "Honduras",
         currency: "HNL",
         name_translations: {
-            en: "Honduras"
+            "en": "Honduras"
         },
         cases: {
-            su: "Honduras"
+            "su": "Honduras"
         }
     },
     {
@@ -2530,10 +2530,10 @@ const countries = [
         name: "San Martín",
         currency: "EUR",
         name_translations: {
-            en: "Saint Martin"
+            "en": "Saint Martin"
         },
         cases: {
-            su: "San Martín"
+            "su": "San Martín"
         }
     },
     {
@@ -2541,10 +2541,10 @@ const countries = [
         name: "Guadalupe",
         currency: "EUR",
         name_translations: {
-            en: "Guadeloupe"
+            "en": "Guadeloupe"
         },
         cases: {
-            su: "Guadalupe"
+            "su": "Guadalupe"
         }
     },
     {
@@ -2552,10 +2552,10 @@ const countries = [
         name: "Guayana Francesa",
         currency: "EUR",
         name_translations: {
-            en: "French Guiana"
+            "en": "French Guiana"
         },
         cases: {
-            su: "Guayana Francesa"
+            "su": "Guayana Francesa"
         }
     },
     {
@@ -2563,10 +2563,10 @@ const countries = [
         name: "Uzbekistán",
         currency: "UZS",
         name_translations: {
-            en: "Uzbekistan"
+            "en": "Uzbekistan"
         },
         cases: {
-            su: "Uzbekistán"
+            "su": "Uzbekistán"
         }
     },
     {
@@ -2574,10 +2574,10 @@ const countries = [
         name: "Kosovo",
         currency: "EUR",
         name_translations: {
-            en: "Kosovo"
+            "en": "Kosovo"
         },
         cases: {
-            su: "Kosovo"
+            "su": "Kosovo"
         }
     },
     {
@@ -2585,10 +2585,10 @@ const countries = [
         name: "Laos",
         currency: "LAK",
         name_translations: {
-            en: "Laos"
+            "en": "Laos"
         },
         cases: {
-            su: "Laos"
+            "su": "Laos"
         }
     },
     {
@@ -2596,10 +2596,10 @@ const countries = [
         name: "Somalia",
         currency: "SOS",
         name_translations: {
-            en: "Somalia"
+            "en": "Somalia"
         },
         cases: {
-            su: "Somalia"
+            "su": "Somalia"
         }
     },
     {
@@ -2607,10 +2607,10 @@ const countries = [
         name: "Irán",
         currency: "IRR",
         name_translations: {
-            en: "Iran"
+            "en": "Iran"
         },
         cases: {
-            su: "Irán"
+            "su": "Irán"
         }
     },
     {
@@ -2618,10 +2618,10 @@ const countries = [
         name: "Guam",
         currency: "USD",
         name_translations: {
-            en: "Guam"
+            "en": "Guam"
         },
         cases: {
-            su: "Guam"
+            "su": "Guam"
         }
     },
     {
@@ -2629,10 +2629,10 @@ const countries = [
         name: "Islas menores alejadas de los Estados Unidos",
         currency: "USD",
         name_translations: {
-            en: "United States Minor Outlying Islands"
+            "en": "United States Minor Outlying Islands"
         },
         cases: {
-            su: "Islas menores alejadas de los Estados Unidos"
+            "su": "Islas menores alejadas de los Estados Unidos"
         }
     },
     {
@@ -2640,10 +2640,10 @@ const countries = [
         name: "Vanuatu",
         currency: "VUV",
         name_translations: {
-            en: "Vanuatu"
+            "en": "Vanuatu"
         },
         cases: {
-            su: "Vanuatu"
+            "su": "Vanuatu"
         }
     },
     {
@@ -2651,10 +2651,10 @@ const countries = [
         name: "Nigeria",
         currency: "NGN",
         name_translations: {
-            en: "Nigeria"
+            "en": "Nigeria"
         },
         cases: {
-            su: "Nigeria"
+            "su": "Nigeria"
         }
     },
     {
@@ -2662,10 +2662,10 @@ const countries = [
         name: "Dominica",
         currency: "XCD",
         name_translations: {
-            en: "Dominica"
+            "en": "Dominica"
         },
         cases: {
-            su: "Dominica"
+            "su": "Dominica"
         }
     },
     {
@@ -2673,10 +2673,10 @@ const countries = [
         name: "Países Bajos",
         currency: "EUR",
         name_translations: {
-            en: "Netherlands"
+            "en": "Netherlands"
         },
         cases: {
-            su: "Países Bajos"
+            "su": "Países Bajos"
         }
     },
     {
@@ -2684,10 +2684,10 @@ const countries = [
         name: "Hong Kong",
         currency: "HKD",
         name_translations: {
-            en: "Hong Kong"
+            "en": "Hong Kong"
         },
         cases: {
-            su: "Hong Kong"
+            "su": "Hong Kong"
         }
     },
     {
@@ -2695,10 +2695,10 @@ const countries = [
         name: "Colombia",
         currency: "COP",
         name_translations: {
-            en: "Colombia"
+            "en": "Colombia"
         },
         cases: {
-            su: "Colombia"
+            "su": "Colombia"
         }
     },
     {
@@ -2706,10 +2706,10 @@ const countries = [
         name: "Isla Bouvet",
         currency: "NOK",
         name_translations: {
-            en: "Bouvet Island"
+            "en": "Bouvet Island"
         },
         cases: {
-            su: "Isla Bouvet"
+            "su": "Isla Bouvet"
         }
     },
     {
@@ -2717,10 +2717,10 @@ const countries = [
         name: "Malta",
         currency: "EUR",
         name_translations: {
-            en: "Malta"
+            "en": "Malta"
         },
         cases: {
-            su: "Malta"
+            "su": "Malta"
         }
     },
     {
@@ -2728,10 +2728,10 @@ const countries = [
         name: "Islas Cocos",
         currency: "AUD",
         name_translations: {
-            en: "Cocos (Keeling) Islands"
+            "en": "Cocos (Keeling) Islands"
         },
         cases: {
-            su: "Islas Cocos"
+            "su": "Islas Cocos"
         }
     },
     {
@@ -2739,10 +2739,10 @@ const countries = [
         name: "Malasia",
         currency: "MYR",
         name_translations: {
-            en: "Malaysia"
+            "en": "Malaysia"
         },
         cases: {
-            su: "Malasia"
+            "su": "Malasia"
         }
     },
     {
@@ -2750,11 +2750,11 @@ const countries = [
         name: "Isla de Man",
         currency: "GBP",
         name_translations: {
-            en: "Isle of Man"
+            "en": "Isle of Man"
         },
         cases: {
-            su: "Isla de Man"
+            "su": "Isla de Man"
         }
     }
-]
+];
 export default countries;

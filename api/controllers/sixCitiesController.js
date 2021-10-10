@@ -7,7 +7,7 @@ const getSelectedCities = (req, res, next)=>{
 console.log('city origen');
 const origen = req.query.origen;  
 const destination = req.query.destination;
-
+console.log(`${origen}  ${destination}`)
 if (!origen || !destination){
   console.log('Error');
 } else {
