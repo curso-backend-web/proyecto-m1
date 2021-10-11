@@ -25,34 +25,7 @@ const signUpUser = (req, res, next) =>{
             };
             
             const findMe = checkUsers(user);
-            /*const choices = {
-                caseOne: (findMe),
-                caseTwo: (result == undefined),
-                caseThree : (result == null),
-                caseFour: (!findMe && (result != undefined) && (result != null))
-            };
-             const result = userModel.createUser(user);
-            switch (true) {
-                case choices.caseOne:
-                    next(res.send({message: 'User already in DDBB'}).status(400));
-                    next(HttpError(403,{message: 'User already in DDBB'}));
-                    break;
-                case choices.caseTwo:
-                    next(res.send({message: 'Failed register'}).status(400));
-                    next(HttpError(400,{message: 'Failed Register'}));
-                    break;
-                case choices.caseThree:
-                    next(res.send({message: 'Failed register'}).status(400));
-                    next(HttpError(400,{message: 'Failed Register'}));
-                    break;
-                case choices.caseOne:
-                    res.json(result).status(200);
-                    break;
             
-                default:
-                    next(error);
-                    break;
-            } */
             if (findMe){
                 next(res.send({message: 'User already in DDBB'}).status(400));
                 next(HttpError(403,{message: 'User already in DDBB'}));
