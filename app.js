@@ -4,6 +4,7 @@ import airportsRoute from './api/routes/airportsRoute.js';
 import citiesRoute from './api/routes/citiesRoute.js';
 import countriesRoute from './api/routes/countriesRoute.js';
 import sixCitiesRoute from './api/routes/sixCitiesRoute.js';
+import userRoutes from './api/routes/userRoutes.js';
 const app = express();
 
 // helper json
@@ -18,16 +19,17 @@ app.use('/api/cities', citiesRoute);
 // countries
 app.use('/api/countries', countriesRoute);
 
-// routes In&Out
+// routes ==> selected routes open to everyone
 app.use('/api/routes', sixCitiesRoute);
 
-// routes in params
-//app.use('/api/routes/?origin=:name&destination=:name', sixCitiesRoute);
+// users
+app.use('/api/user', userRoutes);
+
 // userPersonalRoutes
     // CRUD
 
 
-// users
+
 
 
 
