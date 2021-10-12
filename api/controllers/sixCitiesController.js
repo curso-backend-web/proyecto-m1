@@ -1,6 +1,7 @@
 import sixCitiesModels from "../models/sixCitiesModels.js";
 import HttpError from "http-errors";
 import userModel from "../models/userModel.js";
+import airlines from "../data/airlines.js";
 // need to match name airport with name city
 // Object?
 
@@ -27,25 +28,41 @@ const getSelectedCities = (req, res, next) => {
 const getUserCityList = (req, res, next) => {
   
   // if params
-  const origen = req.query.origen;
+  const origen      = req.query.origen;
   const destination = req.query.destination;
+  // const airline     = req.query.airline;
 
   // if body
-  /*const body = req.body; 
-  const origen = body.origen;
-const destination = body.destination; */
+  /*
+  const body = req.body; 
 
-  const cityRoutes = sixCitiesModels.getCityByName(origen || destination);
+  const origen      = body.origen;
+  const destination = body.destination;
+  const airline     = body.airline;
+   */
 
-  // checks
+  // checks with cities
   if (!origen && !destination) {
-    next(HttpError(400, { message:"No data introduced.Please introduce either origen or destination city"}));
 
-    res.send( "No data introduced.Please introduce either origen or destination city")
+    let showMessageOne = "No data introduced.Please introduce either origen or destination city or Airport code";
+
+    next(HttpError(400, { message: showMessageOne}));
+
+    res.send( showMessageOne)
        .status(400);
+
   } else {
-    (cityRoutes.length <= 0) ? next(HttpError(404, {message: `No routes available for this city at the moment.`}))
+
+    const cityRoutes = sixCitiesModels.getRouteByCityName(origen || destination);
+  
+    let showMessageTwo = `No routes available for this city at the moment.`;
+
+    (cityRoutes.length <= 0) ? next(HttpError(404, {message: showMessageTwo}))
                              : cityRoutes.map((el) => userModel.routes.push(el));
+
+    /* const routesByAirport = sixCitiesModels.getRouteByAirline(airline);
+    (routesByAirport.length <= 0) ? next(HttpError(404, {message: showMessageTwo}))
+                             : routesByAirport.map((el) => userModel.routes.push(el)); */
     
     // if requirements ask you to determinated a max length in the arr
     /* (cityRoutes.length <= 0) ? next(HttpError(404, {message: `No routes available for this city at the moment.`}))
@@ -53,9 +70,28 @@ const destination = body.destination; */
 
     console.log(userModel.routes);
     res.json(userModel.routes).status(200);
-  }
+  };
+
 };
+
+
+const deleteAllArrayUser = async (req, res, next) =>{
+
+  try {
+    const removeAll = sixCitiesModels.deleteAllArray();
+
+    res.json(removeAll).send('All routes have been removed').status(200);
+  
+    console.log(userModel.routes);
+  } catch (error) {
+    next(HttpError(400, {message: error.message}));
+  }
+  
+};
+
+
 export default {
   getSelectedCities,
   getUserCityList,
+  deleteAllArrayUser
 };

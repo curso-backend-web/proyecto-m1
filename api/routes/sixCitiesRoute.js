@@ -6,6 +6,9 @@ const router = Router();
 router.route('/').get(sixCitiesController.getSelectedCities);
 
 router.route('/user').all(authHandler.authUser)
-                     .get(sixCitiesController.getUserCityList);   
+                     .get(sixCitiesController.getUserCityList); 
+
+router.route('/remove').all(authHandler.authUser)
+                     .get(sixCitiesController.deleteAllArrayUser);   
 
 export default router;
