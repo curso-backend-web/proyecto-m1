@@ -28,6 +28,8 @@ app.use('/api/routes', sixCitiesRoute);
 // users
 app.use('/api/user', userRoutes);
 
+
+
 // userPersonalRoutes
     // CRUD
     

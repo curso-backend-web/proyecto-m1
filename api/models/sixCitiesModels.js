@@ -4,12 +4,18 @@ class RoutesModel {
 
     getSixRoutes(){
         return routes;
-    }
+    };
 
     getRouteSelected(origen, destination){
-        const myRoute = routes.filter((el) => (el.departure_airport_iata == origen) && (el.arrival_airport_iata == destination));
-            console.log(myRoute);
-            return myRoute;
+
+        return routes.filter((el) => (el.departure_airport_iata == origen) && (el.arrival_airport_iata == destination));
+                   
+    };
+
+    getCityByName(str){
+        
+        return routes.filter((el) => (el.departure_airport_iata == str) || (el.arrival_airport_iata == str));
+       
     }
 }
 export default new RoutesModel();
