@@ -43,9 +43,53 @@ const signUpUser = (req, res, next) =>{
 // POST login
 const loginUser = async (req, res, next) => {
 
+    try {
+        const body = req.body;
+        // no data no inside
+        if(!body.username || !body.password) {
+            next(HttpError(400, {message: "Error in the incoming data"}))
+        } else {
+            const user = ({username: body.username, password: body.password});
+            console.log(user);
+            const theUser = userModel.getOneUser(user);
+           console.log(theUser);
+          // conditionals
+          if(theUser === undefined) {
+
+              next(HttpError(400, {message: "Username or Password incorrect"}));
+              res.send("Username or Password incorrect").status(400);
+
+          } else {
+              // for later
+              /* const passWordCorrect = await bcrypt.compare(
+                  body.password,
+                  theUser.password
+              ); */
+                const passWordCorrect = checkUsers(theUser)
+        // if pass doesn't match
+        if(!passWordCorrect){
+
+            next(HttpError(404, {message: "Password Incorrect"}));
+            res.send("Password Incorrect").status(400);
+
+        } else {
+            let token = "miToken";
+            res
+             .json({ token: token })
+             .send(`${body.username} Welcome to your page`)
+             .status(200);
+        }
+          }
+        }
+
+        
+    } catch (error) {
+        next(error);
+        
+    }
 }
 // utility
-const checkUsers = (obj) => userModel.checkUserExits(obj);
+const checkUsers = (obj) => userModel.checkUserExist(obj);
 
 export default {
     signUpUser,
