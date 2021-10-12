@@ -69,5 +69,6 @@ export default {
 authUser,
 encryptPassword,
 generateToken,
-verifyToken
+verifyToken,
+getTokenFrom
 }

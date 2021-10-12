@@ -30,9 +30,9 @@ app.use('/api/user', userRoutes);
 
 // userPersonalRoutes
     // CRUD
-
+    
 // errors MUST be the last one
-app.use('*', errorRoute)
+app.use('*', errorRoute);
 app.use(usersErrorHandler);
 
 
