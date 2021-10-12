@@ -5,6 +5,9 @@ import citiesRoute from './api/routes/citiesRoute.js';
 import countriesRoute from './api/routes/countriesRoute.js';
 import sixCitiesRoute from './api/routes/sixCitiesRoute.js';
 import userRoutes from './api/routes/userRoutes.js';
+import errorRoute from './api/routes/errorRoute.js';
+import usersErrorHandler from './api/middlewares/errorHandler.js';
+
 const app = express();
 
 // helper json
@@ -28,7 +31,9 @@ app.use('/api/user', userRoutes);
 // userPersonalRoutes
     // CRUD
 
-
+// errors MUST be the last one
+app.use('*', errorRoute)
+app.use(usersErrorHandler);
 
 
 

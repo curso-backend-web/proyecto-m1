@@ -2,6 +2,7 @@ import userModel from "../models/userModel.js";
 import users from '../data/users.js';
 import  HttpError  from "http-errors";
 import bcrypt from 'bcrypt';
+import authHandler from "../middlewares/authHandler.js";
 
 
 //POST register
@@ -49,6 +50,7 @@ const loginUser = async (req, res, next) => {
         if(!body.username || !body.password) {
             next(HttpError(400, {message: "Error in the incoming data"}))
         } else {
+            
             const user = ({username: body.username, password: body.password});
             console.log(user);
             const theUser = userModel.getOneUser(user);
@@ -61,6 +63,8 @@ const loginUser = async (req, res, next) => {
 
           } else {
               // for later
+              // it will aks you for either hash method or insert only strings
+              // you need the hash method in the authHandler middleware
               /* const passWordCorrect = await bcrypt.compare(
                   body.password,
                   theUser.password
@@ -73,7 +77,8 @@ const loginUser = async (req, res, next) => {
             res.send("Password Incorrect").status(400);
 
         } else {
-            let token = "miToken";
+           // let token = "miToken";
+           const token = authHandler.generateToken(body.username, body.password);
             res
              .json({ token: token })
              .send(`${body.username} Welcome to your page`)
