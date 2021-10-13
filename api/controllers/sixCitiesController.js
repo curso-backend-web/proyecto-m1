@@ -1,8 +1,9 @@
 import sixCitiesModels from "../models/sixCitiesModels.js";
 import HttpError from "http-errors";
 import userModel from "../models/userModel.js";
+import routes from "../data/routes.js";
 
-// GET routes
+// GET 
 const getSelectedCities = (req, res, next) => {
 
   const origen      = req.query.origen;
@@ -20,7 +21,7 @@ const getSelectedCities = (req, res, next) => {
   }
 };
 
-// get one city only
+// GET
 const getUserCityList = (req, res, next) => {
   
   // if params
@@ -51,8 +52,8 @@ const getUserCityList = (req, res, next) => {
 
 };
 
-
-const deleteAllArrayUser = async (req, res, next) =>{
+// DELETE
+const deleteAllArrayUser =  (req, res, next) =>{
 
   try {
     const removeAll = sixCitiesModels.deleteAllArray();
@@ -64,7 +65,42 @@ const deleteAllArrayUser = async (req, res, next) =>{
   }
   
 };
+// DELETE
+const removeOneRoute = (req, res, next) => {
 
+  try {
+  const body = req.body;
+
+  const airline   = body.airline;
+  const departure = body.departure;
+  const arrival   = body.arrival;
+
+    if ((!airline) && (!departure) && (!arrival)) {
+
+      next(HttpError(400, {message: "Missing data from the route. Please, check airline, departure and arrival cities"}));
+    } else {
+   
+     const deleteRoute = sixCitiesModels.deleteOneRoute(airline, departure, arrival);
+   
+     if(deleteRoute == undefined) {
+   
+       next(HttpError(404, {message: 'Route no found in the DDBB'}));
+   
+     } else {
+   
+       res.json(routes).status(200);
+     };
+    };
+  } catch (error) {
+
+    next(HttpError(400, {message: error.message}));
+
+  }
+
+ 
+
+
+}
 const getAllRoutesUser = (req, res, next) =>{
 
   try {
@@ -79,5 +115,6 @@ export default {
   getSelectedCities,
   getUserCityList,
   deleteAllArrayUser,
+  removeOneRoute,
   getAllRoutesUser
 };

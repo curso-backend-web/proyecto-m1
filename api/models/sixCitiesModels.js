@@ -22,6 +22,12 @@ class RoutesModel {
         return routes.filter((el) => (el.airline_iata == str));
     };
 
+    deleteOneRoute(airline, origen, destination){
+        const findMyIndex = routes.findIndex((el) => (el.airline_iata === airline) && (el.departure_airport_iata === origen) && (el.arrival_airport_iata === destination));
+        let answerBack = [];
+        (findMyIndex < 0) ? answerBack = undefined : answerBack = routes.splice(findMyIndex, 1);
+        return answerBack;
+    };
     deleteAllArray(){
         let emptyArr = [];
         return emptyArr;

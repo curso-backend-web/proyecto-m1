@@ -27,6 +27,14 @@ class UsersTravellers {
         console.log(users);
         return users;
     }
+    deleteUser(name){
+       
+        const findMyIndex = users.findIndex((el) => el.username === name);
+        let eraseMe;
+        (findMyIndex < 0) ? eraseMe = name : eraseMe = users.splice(findMyIndex, 1);
+        return eraseMe;
+    
+    }
 }
 
 export default new UsersTravellers();
