@@ -33,12 +33,8 @@ app.use('/api/user', userRoutes);
 // api admin
 app.use('/api/admin', adminRoute);
 
-
 // errors MUST be the last one
 app.use('*', errorRoute);
 app.use(usersErrorHandler);
-
-
-
 
 export default app;

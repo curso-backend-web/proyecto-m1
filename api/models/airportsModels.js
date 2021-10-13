@@ -1,11 +1,10 @@
-import airports from '../data/airports.js';
+import airports from "../data/airports.js";
 
 class AirportsModel {
-
-    // get them all
-    getAllAirports(){
-        return airports;
-    }
+  // GET
+  getAllAirports() {
+    return airports;
+  }
 }
 
 export default new AirportsModel();
