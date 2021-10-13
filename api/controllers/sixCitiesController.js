@@ -2,12 +2,11 @@ import sixCitiesModels from "../models/sixCitiesModels.js";
 import HttpError from "http-errors";
 import userModel from "../models/userModel.js";
 
-// query const
-const origen      = req.query.origen;
-const destination = req.query.destination;
-
 // GET routes
 const getSelectedCities = (req, res, next) => {
+
+  const origen      = req.query.origen;
+  const destination = req.query.destination;
 
   if (!origen || !destination) {
 
@@ -23,6 +22,10 @@ const getSelectedCities = (req, res, next) => {
 
 // get one city only
 const getUserCityList = (req, res, next) => {
+  
+  // if params
+  const origen      = req.query.origen;
+  const destination = req.query.destination;
 
   // checks with cities
   if (!origen && !destination) {
