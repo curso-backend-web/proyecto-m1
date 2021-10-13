@@ -1,3 +1,33 @@
+
+GET https://app-rgm-api.herokuapp.com/api/airports
+
+
+####################
+GET https://app-rgm-api.herokuapp.com/api/routes?origen=MLN&destination=BCN
+
+
+###################
+GET https://app-rgm-api.herokuapp.com/api/airlines
+
+
+###################
+GET https://app-rgm-api.herokuapp.com/api/countries
+
+
+####################
+GET https://app-rgm-api.herokuapp.com/api/cities
+
+
+#################
+POST  https://app-rgm-api.herokuapp.com/api/user/signup
+Content-Type: application/json
+
+{
+    "username": "user2",
+    "password": 4567    
+}
+
+#####################
 POST https://app-rgm-api.herokuapp.com/api/user/login
 Content-Type: application/json
 
@@ -20,14 +50,6 @@ GET  https://app-rgm-api.herokuapp.com/api/routes/remove
 Authorization: bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOjEyMzQsImlhdCI6MTYzNDExNjk1NX0.zKO_MFnxyIM3gnwe4F7wl_RnT_a3PEfNf-jVbhxN_Gg"
 
 
-#################
-POST  https://app-rgm-api.herokuapp.com/api/user/signup
-Content-Type: application/json
-
-{
-    "username": "user2",
-    "password": 4567    
-}
 
 #################
 GET  https://app-rgm-api.herokuapp.com/api/admin/list
@@ -44,21 +66,3 @@ Authorization: bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFk
     "password": 4567    
 }
 
-#####################
-GET https://app-rgm-api.herokuapp.com/api/airports
-
-
-####################
-GET https://app-rgm-api.herokuapp.com/api/routes?origen=MLN&destination=BCN
-
-
-###################
-GET https://app-rgm-api.herokuapp.com/api/airlines
-
-
-###################
-GET https://app-rgm-api.herokuapp.com/api/countries
-
-
-####################
-GET https://app-rgm-api.herokuapp.com/api/cities
