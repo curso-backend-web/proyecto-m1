@@ -56,4 +56,5 @@ GET http://localhost:4000/api/cities
 ####################
 GET http://localhost:4000/api/countries
 
-
+####################
+GET https://app-lavioleta-api.herokuapp.com/api/countries
