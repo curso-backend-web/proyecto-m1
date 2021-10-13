@@ -30,5 +30,3 @@ class RoutesModel {
 
 }
 export default new RoutesModel();
-
-//const filterData = (array, filterValue) => array.filter(obj => (obj.boughtItems = obj.boughtItems.filter(o => o.currency === filterValue)).length)
