@@ -12,6 +12,6 @@ router.route('/list').all(authHandler.authUser)
                      .get(sixCitiesController.getAllRoutesUser); 
 
 router.route('/remove').all(authHandler.authUser)
-                     .get(sixCitiesController.deleteAllArrayUser);   
+                     .delete(sixCitiesController.deleteAllArrayUser);   
 
 export default router;

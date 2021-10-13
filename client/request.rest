@@ -7,7 +7,16 @@ Content-Type: application/json
 }
 
 #################
-GET  http://localhost:4000/api/admin/list
+GET  https://app-rgm-api.herokuapp.com/api/routes/user?origen=MLN&destination=BCN
+Authorization: bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOjEyMzQsImlhdCI6MTYzNDExNjk1NX0.zKO_MFnxyIM3gnwe4F7wl_RnT_a3PEfNf-jVbhxN_Gg"
+
+
+#################
+GET  https://app-rgm-api.herokuapp.com/api/routes/list
+Authorization: bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOjEyMzQsImlhdCI6MTYzNDExNjk1NX0.zKO_MFnxyIM3gnwe4F7wl_RnT_a3PEfNf-jVbhxN_Gg"
+
+#################
+GET  https://app-rgm-api.herokuapp.com/api/routes/remove
 Authorization: bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOjEyMzQsImlhdCI6MTYzNDExNjk1NX0.zKO_MFnxyIM3gnwe4F7wl_RnT_a3PEfNf-jVbhxN_Gg"
 
 
