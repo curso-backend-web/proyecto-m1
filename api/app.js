@@ -15,7 +15,8 @@ const app = express();
 app.use(express.json());
 
 // airlines
-app.use('/api/airlines', airlinesRoute)
+app.use('/api/airlines', airlinesRoute);
+
 // airports
 app.use('/api/airports', airportsRoute);
 // cities
@@ -33,9 +34,6 @@ app.use('/api/user', userRoutes);
 app.use('/api/admin', adminRoute);
 
 
-// userPersonalRoutes
-    // CRUD
-    
 // errors MUST be the last one
 app.use('*', errorRoute);
 app.use(usersErrorHandler);
