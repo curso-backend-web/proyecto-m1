@@ -1,4 +1,4 @@
-POST http://localhost:4000/api/user/login
+POST https://app-rgm-api.herokuapp.com/api/user/login
 Content-Type: application/json
 
 {
@@ -12,7 +12,7 @@ Authorization: bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFk
 
 
 #################
-POST  http://localhost:4000/api/user/signup
+POST  https://app-rgm-api.herokuapp.com/api/user/signup
 Content-Type: application/json
 
 {
@@ -42,19 +42,20 @@ Authorization: bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFk
 }
 
 #####################
-GET http://localhost:4000/api/airlines
-Content-Type: application/json
-
-####################
-GET http://localhost:4000/api/routes?origen=MLN&destination=BCN
-Content-Type: application/json
-
-####################
-GET http://localhost:4000/api/cities
+GET https://app-rgm-api.herokuapp.com/api/airports
 
 
 ####################
-GET http://localhost:4000/api/countries
+GET https://app-rgm-api.herokuapp.com/api/routes?origen=MLN&destination=BCN
+
+
+###################
+GET https://app-rgm-api.herokuapp.com/api/airlines
+
+
+###################
+GET https://app-rgm-api.herokuapp.com/api/countries
+
 
 ####################
 GET https://app-rgm-api.herokuapp.com/api/cities
