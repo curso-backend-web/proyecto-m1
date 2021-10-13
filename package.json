@@ -1,0 +1,29 @@
+{
+  "name": "proyecto-m1",
+  "version": "1.0.0",
+  "description": "El módulo 1 del curso de backend web consiste en utilizar un lenguaje de programación para crear el backend de una aplicación web.",
+  "main": "app.js",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node -r dotenv/config api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curso-backend-web/proyecto-m1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curso-backend-web/proyecto-m1/issues"
+  },
+  "homepage": "https://github.com/curso-backend-web/proyecto-m1#readme"
+}

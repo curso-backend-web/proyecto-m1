@@ -1,0 +1,76 @@
+GET https://api-movies-asl.herokuapp.com/api/airlines
+Content-Type: application/json
+
+################
+GET https://api-movies-asl.herokuapp.com/api/airports
+Content-Type: application/json
+
+################
+GET https://api-movies-asl.herokuapp.com/api/cities
+Content-Type: application/json
+
+################
+GET https://api-movies-asl.herokuapp.com/api/countries
+Content-Type: application/json
+
+################
+GET https://api-movies-asl.herokuapp.com/api/routes/?origin=BCN&destination=CMN
+Content-Type: application/json
+
+################
+POST https://api-movies-asl.herokuapp.com/api/users/register/
+Content-Type: application/json
+
+{
+
+    "username":"user1",
+    "password":"password1",
+    "role":"user",
+    "routes":[]
+}
+
+################
+POST https://api-movies-asl.herokuapp.com/api/users/login/
+Content-Type: application/json
+
+{
+
+    "username":"user1",
+    "password":"password1",
+    "role":"user",
+    "routes":[]
+}
+
+################
+POST https://api-movies-asl.herokuapp.com/api/users/savedroutes/?origin=BCN&destination=CMN
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWF0IjoxNjM0MTE2Mzc5fQ.Zuk3xnDPmhtigIEEr9bAOiRh1oGKGYtnVdSxDAA5JGE
+
+################
+GET https://api-movies-asl.herokuapp.com/api/users/savedroutes
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWF0IjoxNjM0MTE2Mzc5fQ.Zuk3xnDPmhtigIEEr9bAOiRh1oGKGYtnVdSxDAA5JGE
+
+################
+PUT https://api-movies-asl.herokuapp.com/api/users/savedroutes/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWF0IjoxNjM0MTE1MDUxfQ.OkYFTz4v1HUENHZvzAXtRS2Q4BH1NHW5EceEZWqVNZA
+
+################
+POST https://api-movies-asl.herokuapp.com/api/users/login/
+Content-Type: application/json
+
+{
+        "id": 1,
+        "username": "admin1",
+        "password": "passwordAdmin1",
+        "role": "admin",
+        "routes": []
+}
+
+#######################
+GET https://api-movies-asl.herokuapp.com/api/users/useradministration/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluMSIsImlhdCI6MTYzNDExNjY3MX0.cBkqkt7yk25xvv3LjwiD64yt32J6v874oe4gmfWRYOM
+
+#######################
+DELETE https://api-movies-asl.herokuapp.com/api/users/useradministration/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluMSIsImlhdCI6MTYzNDExNTIzNX0.yCfdRRdigSgSLJ0_1okOlHe44Ts_xVcjrfb5NUQk0Rk
+
+#######################
