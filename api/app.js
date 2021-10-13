@@ -1,13 +1,13 @@
 import express from 'express';
-import airlinesRoute from './api/routes/airlinesRoute.js';
-import airportsRoute from './api/routes/airportsRoute.js';
-import citiesRoute from './api/routes/citiesRoute.js';
-import countriesRoute from './api/routes/countriesRoute.js';
-import sixCitiesRoute from './api/routes/sixCitiesRoute.js';
-import userRoutes from './api/routes/userRoutes.js';
-import errorRoute from './api/routes/errorRoute.js';
-import usersErrorHandler from './api/middlewares/errorHandler.js';
-import adminRoute from './api/routes/adminRoute.js';
+import airlinesRoute from './routes/airlinesRoute.js';
+import airportsRoute from './routes/airportsRoute.js';
+import citiesRoute from './routes/citiesRoute.js';
+import countriesRoute from './routes/countriesRoute.js';
+import sixCitiesRoute from './routes/sixCitiesRoute.js';
+import userRoutes from './routes/userRoutes.js';
+import errorRoute from './routes/errorRoute.js';
+import usersErrorHandler from './middlewares/errorHandler.js';
+import adminRoute from './routes/adminRoute.js';
 
 const app = express();
 
