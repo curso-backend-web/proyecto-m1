@@ -11,18 +11,16 @@ const signUpUser = (req, res, next) =>{
     // don't invent the wheel
     // async for the bcrypt
     try {
-       // const body = req.body;
-       const username = req.query.username;
-       const password = req.query.password;
+        const body = req.body;
         // if neither username or password
-        if(!username || !password){
+        if(!body.username || !body.password){
             //  to deal with hhtp-errors later!
             next(res.send({message: 'Username or Password invalid!'}).status(401));
         } else {
             const user = {
                 userId: users.length + 1,
-                username: username,
-                password: password,
+                username: body.username,
+                password: body.password,
                 rol: "user",
                 routes: []
             };
@@ -47,16 +45,13 @@ const signUpUser = (req, res, next) =>{
 const loginUser = async (req, res, next) => {
 
     try {
-        // const body = req.body;
-        const username = req.query.username;
-        const password = req.query.password;
-
+        const body = req.body;
         // no data no inside
-        if(!username || !password) {
+        if(!body.username || !body.password) {
             next(HttpError(400, {message: "Error in the incoming data"}))
         } else {
             
-            const user = ({username: username, password: password});
+            const user = ({username: body.username, password: body.password});
             console.log(user);
             const theUser = userModel.getOneUser(user);
            console.log(theUser);
