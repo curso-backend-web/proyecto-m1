@@ -32,6 +32,24 @@ POST https://app-rgm-api.herokuapp.com/api/user/login
 Content-Type: application/json
 
 {
+    "username": "user2",
+    "password": 1234    
+}
+
+#####################
+POST https://app-rgm-api.herokuapp.com/api/user/login
+Content-Type: application/json
+
+{
+    "username": "user2",
+    "password": 4567    
+}
+
+#####################
+POST https://app-rgm-api.herokuapp.com/api/user/login
+Content-Type: application/json
+
+{
     "username": "admin",
     "password": 1234    
 }
