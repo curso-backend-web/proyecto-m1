@@ -32,15 +32,6 @@ const getUserCityList = (req, res, next) => {
   const destination = req.query.destination;
   // const airline     = req.query.airline;
 
-  // if body
-  /*
-  const body = req.body; 
-
-  const origen      = body.origen;
-  const destination = body.destination;
-  const airline     = body.airline;
-   */
-
   // checks with cities
   if (!origen && !destination) {
 
@@ -89,9 +80,19 @@ const deleteAllArrayUser = async (req, res, next) =>{
   
 };
 
+const getAllRoutesUser = (req, res, next) =>{
 
+  try {
+    (userModel.routes.length == 0) ? res.send(`You have no routes saved in your account`) :
+                                     res.json(userModel.routes).status(200);
+  } catch (error) {
+    next(HttpError(400, {message: error.message}));
+    
+  }
+}
 export default {
   getSelectedCities,
   getUserCityList,
-  deleteAllArrayUser
+  deleteAllArrayUser,
+  getAllRoutesUser
 };

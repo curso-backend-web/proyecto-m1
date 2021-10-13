@@ -1,5 +1,6 @@
 import routes from  '../data/routes.js';
 
+
 class RoutesModel {
 
     getSixRoutes(){
@@ -24,7 +25,9 @@ class RoutesModel {
     deleteAllArray(){
         let emptyArr = [];
         return emptyArr;
-    }
+    };
+
+
 }
 export default new RoutesModel();
 
