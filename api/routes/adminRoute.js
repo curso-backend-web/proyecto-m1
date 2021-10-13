@@ -13,6 +13,6 @@ router
   router
   .route("/remove")
   .all(authHandler.authUser)
-  .post(adminController.removeOne);
+  .delete(adminController.removeOne);
 
 export default router;
