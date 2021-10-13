@@ -3,7 +3,7 @@ import  HttpError  from 'http-errors';
 import bcrypt from 'bcrypt';
 
 // secret word before env
-const SECRET = 'robSecret';
+const SECRET = process.env.SECRET //'robSecret';
 
 const authUser = (req, res, next) => {
     // we get whole token
