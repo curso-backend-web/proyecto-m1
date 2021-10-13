@@ -7,6 +7,7 @@ import sixCitiesRoute from './api/routes/sixCitiesRoute.js';
 import userRoutes from './api/routes/userRoutes.js';
 import errorRoute from './api/routes/errorRoute.js';
 import usersErrorHandler from './api/middlewares/errorHandler.js';
+import adminRoute from './api/routes/adminRoute.js';
 
 const app = express();
 
@@ -28,6 +29,8 @@ app.use('/api/routes', sixCitiesRoute);
 // users
 app.use('/api/user', userRoutes);
 
+// api admin
+app.use('/api/admin', adminRoute);
 
 
 // userPersonalRoutes

@@ -1,0 +1,58 @@
+POST http://localhost:4000/api/user/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": 1234    
+}
+
+#################
+GET  http://localhost:4000/api/admin/list
+Authorization: bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOjEyMzQsImlhdCI6MTYzNDExNjk1NX0.zKO_MFnxyIM3gnwe4F7wl_RnT_a3PEfNf-jVbhxN_Gg"
+
+
+#################
+POST  http://localhost:4000/api/user/signup
+Content-Type: application/json
+
+{
+    "username": "user2",
+    "password": 4567    
+}
+
+#################
+POST  http://localhost:4000/api/user/login
+Content-Type: application/json
+
+{
+    "username": "user2",
+    "password": 4567    
+}
+
+
+################
+POST http://localhost:4000/api/admin/remove
+Content-Type: application/json
+Authorization: bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOjEyMzQsImlhdCI6MTYzNDExNjk1NX0.zKO_MFnxyIM3gnwe4F7wl_RnT_a3PEfNf-jVbhxN_Gg"
+
+{
+    "userId": 3,
+    "username": "user2",
+    "password": 4567    
+}
+
+#####################
+GET http://localhost:4000/api/airlines
+Content-Type: application/json
+
+####################
+GET http://localhost:4000/api/routes?origen=MLN&destination=BCN
+Content-Type: application/json
+
+####################
+GET http://localhost:4000/api/cities
+Content-Type: application/json
+
+####################
+GET http://localhost:4000/api/countries
+Content-Type: application/json
