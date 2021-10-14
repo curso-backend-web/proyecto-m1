@@ -1,0 +1,39 @@
+GET https://proyecto-m1-rj.herokuapp.com/api/trips/?origin=BCN&destin=CMN
+Content-Type: application/json
+
+#######
+
+GET https://proyecto-m1-rj.herokuapp.com/api/airports/
+Content-Type: application/json
+
+
+######
+POST https://proyecto-m1-rj.herokuapp.com/api/user/register
+Content-Type: application/json
+
+{
+    "username":"admin",
+    "password":"admin"
+    
+}
+
+######
+POST https://proyecto-m1-rj.herokuapp.com/api/user/login
+Content-Type: application/json
+
+{
+    "username":"admin",
+    "password":"admin"
+}
+
+#####
+
+GET http://proyecto-m1-rj.herokuapp.com/api/user/admin
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNjM0MTk3MjQ5fQ.BaVNgpqeULBtYYbAkMEEDTah_IjBxGseHtLFO6EEDHw
+
+
+#####
+
+POST https://proyecto-m1-rj.herokuapp.com/api/user/savedroutes/?origin=BCN&destination=CMN
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNjM0MTk2MTkxfQ.Aflh40CEPR8bTgXf8Oap318OZOMfIsn10kcdvedCBuI

@@ -1,0 +1,28 @@
+La API debe dar respuesta a una aplicación front-end de reserva
+de vuelos online, que tiene las siguientes funcionalidades:
+
+Escenario 1: Usuario no logado
+- Puede hacer consultas de rutas
+- Puede registrarse - Puede logarse
+
+Escenario 2: Usuario logado con el rol user
+- Puede hacer consultas de rutas
+- Puede guardar las rutas en su perfil de usuario
+- Puede consultar sus propias rutas - Puede borrar sus propias rutas
+
+Escenario 3: Usuario logado con el rol admin
+- Puede consultar los datos de todos los usuarios
+- Puede borrar los datos de un usuario
+
+El id puede será un número secuencial generado en el momento de registrar al usuario.
+No vendrá informado por el usuario.
+El rol se asigna automáticamente.
+El usuario administrador se escribe directamente en el fichero, no se dará de alta mediante endpoints
+
+Códigos:
+ZIA - Moscú
+NRT - Tokio
+JNB - Johannesburgo
+BCN - Barcelona
+MEL - Melbourne
+JFK - Nueva York
