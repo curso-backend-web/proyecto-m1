@@ -28,9 +28,6 @@ const getSelectedCities = async (req, res, next) => {
 // GET
 const getUserCityList = async (req, res, next) => {
   
-  // if params
-  /* const origen      = req.query.origen;
-  const destination = req.query.destination; */
   const {origen, destination} = req.query;
    try {
      // checks with cities
@@ -40,17 +37,17 @@ const getUserCityList = async (req, res, next) => {
     if (origen && destination) {
       const allData = await sixCitiesModels.getRouteSelected(origen, destination);
       allData.map((el) => userModel.routes.push(el));
-    }
+    };
   
     if(origen && !destination){
       const cityOrigen = await sixCitiesModels.getRouteByOrigenCityName(origen);
       cityOrigen.map((el) => userModel.routes.push(el));
-    }
+    };
     
     if(destination && !origen){
       const cityDestination = await sixCitiesModels.getRouteByDestinationCityName(destination);
       cityDestination.map((el) => userModel.routes.push(el));
-    }
+    };
     
 
     res.json(userModel.routes).status(200);
@@ -58,7 +55,7 @@ const getUserCityList = async (req, res, next) => {
   } catch (error) {
     
     next(HttpError(400, {message: error.message}));
-  }
+  };
 
  
 

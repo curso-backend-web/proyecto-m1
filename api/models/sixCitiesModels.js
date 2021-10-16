@@ -4,25 +4,21 @@ import routes from  '../data/routes.js';
 class RoutesModel {
 
     getSixRoutes(){
-        return routes;
+        return Promise.resolve(routes);
     };
 
     getRouteSelected(origen, destination){
-        const result = routes.filter((el) => (el.departure_airport_iata == origen) && (el.arrival_airport_iata == destination));   
-        return Promise.resolve(result)         
+        return Promise.resolve(routes.filter((el) => (el.departure_airport_iata == origen) && (el.arrival_airport_iata == destination)))         
     };
 
     getRouteByOrigenCityName(str){
-        const result = routes.filter((el) => (el.departure_airport_iata == str));
-        return Promise.resolve(result);
+        return Promise.resolve(routes.filter((el) => (el.departure_airport_iata == str)));
     };
     getRouteByDestinationCityName(str){
-        const result = routes.filter((el) => (el.arrival_airport_iata == str));
-        return Promise.resolve(result);
+        return Promise.resolve(routes.filter((el) => (el.arrival_airport_iata == str)));
     };
 
     getRouteByAirline(str){
-
         return Promise.resolve(routes.filter((el) => (el.airline_iata == str)));
     };
 
