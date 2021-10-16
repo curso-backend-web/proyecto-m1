@@ -18,7 +18,7 @@ const getSelectedCities = async (req, res, next) => {
                               : res.json(routeSelected).status(200);
     
   } catch (error) {
-    
+
     next(HttpError(400, {message: error.message}));
   }
  
@@ -32,32 +32,32 @@ const getUserCityList = async (req, res, next) => {
   /* const origen      = req.query.origen;
   const destination = req.query.destination; */
   const {origen, destination} = req.query;
-
-  // checks with cities
-  if (!origen && !destination) {
-
+  try {
+     // checks with cities
+  if (!origen && !destination) 
     next(HttpError(400, { message: "No data introduced.Please introduce either origen or destination city or Airport code"}));
 
-    res.send( showMessageOne)
-       .status(400);
+    const cityRoutes = await sixCitiesModels.getRouteByCityName(origen || destination);
 
-  } else {
-
-    const cityRoutes = sixCitiesModels.getRouteByCityName(origen || destination);
-
-    (cityRoutes.length <= 0) ? next(HttpError(404, {message: `No routes available for this city at the moment.`}))
+    (!cityRoutes.length) ? next(HttpError(404, {message: `No routes available for this city at the moment.`}))
                              : cityRoutes.map((el) => userModel.routes.push(el));
 
     res.json(userModel.routes).status(200);
-  };
+  
+  } catch (error) {
+    
+    next(HttpError(400, {message: error.message}));
+  }
+
+ 
 
 };
 
 // DELETE
-const deleteAllArrayUser =  (req, res, next) =>{
+const deleteAllArrayUser = async (req, res, next) =>{
 
   try {
-    const removeAll = sixCitiesModels.deleteAllArray();
+    const removeAll = await sixCitiesModels.deleteAllArray();
 
     res.json(removeAll).status(200);
  

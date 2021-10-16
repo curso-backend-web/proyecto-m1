@@ -30,7 +30,7 @@ class RoutesModel {
     };
     deleteAllArray(){
         let emptyArr = [];
-        return emptyArr;
+        return Promise.resolve(emptyArr);
     };
 
 
