@@ -36,11 +36,18 @@ const getUserCityList = async (req, res, next) => {
      // checks with cities
   if (!origen && !destination) 
     next(HttpError(400, { message: "No data introduced.Please introduce either origen or destination city or Airport code"}));
+  
+    if(origen)
+    const cityOrigen = await sixCitiesModels.getRouteByOrigenCityName(origen);
 
-    const cityRoutes = await sixCitiesModels.getRouteByCityName(origen || destination);
+    if(destination)
+    const cityDestination = await sixCitiesModels.getRouteByDestinationCityName(destination);
 
-    (!cityRoutes.length) ? next(HttpError(404, {message: `No routes available for this city at the moment.`}))
-                             : cityRoutes.map((el) => userModel.routes.push(el));
+    (!cityOrigen.length) ? next(HttpError(404, {message: `No origen routes available for this city at the moment.`})) 
+                         : cityOrigen.map((el) => userModel.routes.push(el));
+
+    (!cityDestination.length) ? next(HttpError(404, {message: `No destination routes available for this city at the moment.`}))
+                              : cityDestination.map((el) => userModel.routes.push(el));
 
     res.json(userModel.routes).status(200);
   
@@ -67,7 +74,7 @@ const deleteAllArrayUser = async (req, res, next) =>{
   
 };
 // DELETE
-const removeOneRoute = (req, res, next) => {
+const removeOneRoute = async (req, res, next) => {
 
   try {
   const body = req.body;
@@ -82,7 +89,7 @@ const removeOneRoute = (req, res, next) => {
     } else {
 
    
-     const deleteRoute = sixCitiesModels.deleteOneRoute(airline, departure, arrival);
+     const deleteRoute = await sixCitiesModels.deleteOneRoute(airline, departure, arrival);
    
      if(deleteRoute == undefined) {
    
