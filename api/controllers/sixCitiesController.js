@@ -39,19 +39,15 @@ const getUserCityList = async (req, res, next) => {
   
     if(origen){
       const cityOrigen = await sixCitiesModels.getRouteByOrigenCityName(origen);
+      (!cityOrigen.length) ? next(HttpError(404, {message: `No origen routes available for this city at the moment.`})) 
+      : cityOrigen.map((el) => userModel.routes.push(el));
     }
     
-
     if(destination){
       const cityDestination = await sixCitiesModels.getRouteByDestinationCityName(destination);
+      (!cityDestination.length) ? next(HttpError(404, {message: `No destination routes available for this city at the moment.`}))
+      : cityDestination.map((el) => userModel.routes.push(el));
     }
-    
-
-    (!cityOrigen.length) ? next(HttpError(404, {message: `No origen routes available for this city at the moment.`})) 
-                         : cityOrigen.map((el) => userModel.routes.push(el));
-
-    (!cityDestination.length) ? next(HttpError(404, {message: `No destination routes available for this city at the moment.`}))
-                              : cityDestination.map((el) => userModel.routes.push(el));
 
     res.json(userModel.routes).status(200);
   
