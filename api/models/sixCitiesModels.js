@@ -8,14 +8,13 @@ class RoutesModel {
     };
 
     getRouteSelected(origen, destination){
-
         const result = routes.filter((el) => (el.departure_airport_iata == origen) && (el.arrival_airport_iata == destination));   
-        return (result);         
+        return Promise.resolve(result)         
     };
 
     getRouteByCityName(str){
-
-        return routes.filter((el) => (el.departure_airport_iata == str) || (el.arrival_airport_iata == str));
+        const result = routes.filter((el) => (el.departure_airport_iata == str) || (el.arrival_airport_iata == str));
+        return Promise.resolve(result);
     ;}
 
     getRouteByAirline(str){
