@@ -6,9 +6,9 @@ import routes from "../data/routes.js";
 // GET 
 const getSelectedCities = async (req, res, next) => {
 
- /*  const origen      = req.query.origen;
-  const destination = req.query.destination; */
-  const {origen, destination} = req.query;
+  const origen      = req.query.origen;
+  const destination = req.query.destination;
+ // const {origen, destination} = req.query;
 
   if (!origen || !destination) 
     next(HttpError(400, { message: "Missing city of origin or destination" }));
