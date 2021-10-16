@@ -32,9 +32,9 @@ const getUserCityList = async (req, res, next) => {
   /* const origen      = req.query.origen;
   const destination = req.query.destination; */
   const {origen, destination} = req.query;
-  try {
+   try {
      // checks with cities
-    const infoRoutes = {
+    /*const infoRoutes = {
       case: !origen && !destination,
       caseOne: origen && destination,
       caseTwo : origen,
@@ -65,8 +65,8 @@ const getUserCityList = async (req, res, next) => {
       default:
         next(HttpError(400, { message: "Last case of switch"}));
         break;
-    }
-/* 
+    } */
+
 if (!origen && !destination) 
     next(HttpError(400, { message: "No data introduced.Please introduce either origen or destination city or Airport code"}));
 
@@ -83,7 +83,7 @@ if (!origen && !destination)
     if(destination){
       const cityDestination = await sixCitiesModels.getRouteByDestinationCityName(destination);
       cityDestination.map((el) => userModel.routes.push(el));
-    } */
+    }
     
 
     res.json(userModel.routes).status(200);
