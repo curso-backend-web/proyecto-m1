@@ -37,11 +37,15 @@ const getUserCityList = async (req, res, next) => {
   if (!origen && !destination) 
     next(HttpError(400, { message: "No data introduced.Please introduce either origen or destination city or Airport code"}));
   
-    if(origen)
-    const cityOrigen = await sixCitiesModels.getRouteByOrigenCityName(origen);
+    if(origen){
+      const cityOrigen = await sixCitiesModels.getRouteByOrigenCityName(origen);
+    }
+    
 
-    if(destination)
-    const cityDestination = await sixCitiesModels.getRouteByDestinationCityName(destination);
+    if(destination){
+      const cityDestination = await sixCitiesModels.getRouteByDestinationCityName(destination);
+    }
+    
 
     (!cityOrigen.length) ? next(HttpError(404, {message: `No origen routes available for this city at the moment.`})) 
                          : cityOrigen.map((el) => userModel.routes.push(el));
