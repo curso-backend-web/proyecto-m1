@@ -4,21 +4,20 @@ import userModel from "../models/userModel.js";
 import routes from "../data/routes.js";
 
 // GET 
-const getSelectedCities = (req, res, next) => {
+const getSelectedCities = async (req, res, next) => {
 
-  const origen      = req.query.origen;
-  const destination = req.query.destination;
+ /*  const origen      = req.query.origen;
+  const destination = req.query.destination; */
+  const {origen, destination} = req.query;
 
-  if (!origen || !destination) {
-
+  if (!origen || !destination) 
     next(HttpError(400, { message: "Missing city of origin or destination" }));
-    
-  } else {
+ 
+    const routeSelected = await sixCitiesModels.getRouteSelected(origen, destination);
 
-    const routeSelected = sixCitiesModels.getRouteSelected(origen, destination);
-
-    res.json(routeSelected).status(200);
-  }
+    (!routeSelected.length) ? next(HttpError(404, {message: "Route not found"})) 
+                            : res.json(routeSelected).status(200);
+  
 };
 
 // GET
@@ -79,6 +78,7 @@ const removeOneRoute = (req, res, next) => {
 
       next(HttpError(400, {message: "Missing data from the route. Please, check airline, departure and arrival cities"}));
     } else {
+
    
      const deleteRoute = sixCitiesModels.deleteOneRoute(airline, departure, arrival);
    
