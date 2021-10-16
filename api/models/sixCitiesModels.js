@@ -10,7 +10,7 @@ class RoutesModel {
     getRouteSelected(origen, destination){
 
         const result = routes.filter((el) => (el.departure_airport_iata == origen) && (el.arrival_airport_iata == destination));   
-        return Promise.resolve(result);         
+        return (result);         
     };
 
     getRouteByCityName(str){
