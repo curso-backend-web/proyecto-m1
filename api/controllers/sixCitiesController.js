@@ -34,40 +34,7 @@ const getUserCityList = async (req, res, next) => {
   const {origen, destination} = req.query;
    try {
      // checks with cities
-    /*const infoRoutes = {
-      case: !origen && !destination,
-      caseOne: origen && destination,
-      caseTwo : origen,
-      caseThree: destination
-    };
-
-    switch (true) {
-
-      case infoRoutes.case:
-        next(HttpError(400, { message: "No data introduced.Please introduce either origen or destination city or Airport code"}));
-        break;
-
-      case infoRoutes.caseOne:
-        const allData = await sixCitiesModels.getRouteSelected(origen, destination);
-        allData.map((el) => userModel.routes.push(el));
-        break;
-
-      case infoRoutes.caseTwo:
-        const cityOrigen = await sixCitiesModels.getRouteByOrigenCityName(origen);
-        cityOrigen.map((el) => userModel.routes.push(el));
-        break;
-
-      case infoRoutes.caseThree:
-        const cityDestination = await sixCitiesModels.getRouteByDestinationCityName(destination);
-        cityDestination.map((el) => userModel.routes.push(el));
-        break;
-    
-      default:
-        next(HttpError(400, { message: "Last case of switch"}));
-        break;
-    } */
-
-if (!origen && !destination) 
+    if (!origen && !destination) 
     next(HttpError(400, { message: "No data introduced.Please introduce either origen or destination city or Airport code"}));
 
     if (origen && destination) {
@@ -75,12 +42,12 @@ if (!origen && !destination)
       allData.map((el) => userModel.routes.push(el));
     }
   
-    if(origen){
+    if(origen && !destination){
       const cityOrigen = await sixCitiesModels.getRouteByOrigenCityName(origen);
       cityOrigen.map((el) => userModel.routes.push(el));
     }
     
-    if(destination){
+    if(destination && !origen){
       const cityDestination = await sixCitiesModels.getRouteByDestinationCityName(destination);
       cityDestination.map((el) => userModel.routes.push(el));
     }
